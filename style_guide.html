@@ -1,0 +1,283 @@
+<!doctype html>
+<!-- Most codes came from the lecture as well the lab of IAT 339 Summer 2018. As for how I figured out how to display the sample code, I found the short escape for '<' and '>' from this link on Stack Overflow: https://stackoverflow.com/questions/2820453/display-html-code-in-html-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <script src="nav-dropdown.js"></script>
+  <script src="side-nav.js"></script>
+  <title>
+    Style Guide of Aron's Portfolio
+  </title>
+</head>
+
+<body>
+  <!-- Hamburger Navigation -->
+  <nav id="myNav" class="overlay">
+    <div class="container">
+      <a id="closeNav" onclick="closeNav()">&times;</a>
+      <div class="overlay-content col-1of1">
+      <a href="index.html" class="overlay-nav-button col-1of1">Work</a>
+      <a href="about-me.html" class="overlay-nav-button col-1of1">About</a>
+      <a href="files/Aron-Resume-4.0.pdf" target="_blank" class="overlay-nav-button col-1of1">Resume</a>
+      <a href="mailto:aronc@sfu.ca" class="overlay-nav-button col-1of1">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Navigation -->
+  <a id="toggle" onclick="openNav()">	&#9776;</a>
+  <nav class="container nav-bar right">
+      <a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
+      <a href="index.html#project-list" class="nav-button">Work</a>
+      <a href="about-me.html" class="nav-button">About</a>
+      <a href="files/Aron-Resume-4.0.pdf" target="_blank" class="nav-button last-nav-button">Resume</a>
+  </nav>
+
+  <!-- back to top button -->
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Back to top &uarr;</button>
+
+    <section class="project-body" style="padding-bottom:0px"><h1 id="project-title">Style Guide</h1></section>
+
+    <div class="container element-list">
+      <div class="col-1of1 element-list-title" style="margin-bottom:10px;">ELEMENT LIST</div >
+      <a href="#navigation_button" class="style-guide-item">Navigation Button</a>
+      <a href="#intext_link" class="style-guide-item">In-text Link</a>
+      <a href="#submit_button" class="style-guide-item">Submit/Reset Button</a>
+      <div class="border-top col-1of1" style="margin: 5px 0"></div>
+      <a href="#text_input_field" class="style-guide-item">Text Input Field</a>
+      <a href="#headings" class="style-guide-item">Headings</a>
+      <a href="#paragraphs" class="style-guide-item">Paragraph</a>
+      <a href="#bulleted_lists" class="style-guide-item">Bulleted Lists</a>
+      <a href="#numbered_lists" class="style-guide-item">Numbered Lists</a>
+      <div class="border-top col-1of1" style="margin: 5px 0"></div>
+      <a href="#main_navigation" class="style-guide-item">Main Navigation</a>
+      <a href="#project_listing" class="style-guide-item">Project Listing</a>
+      <a href="#colour_swatches" class="style-guide-item" style="margin-bottom:15px;">Colour Swatches</a>
+    </div>
+
+    <!-- Default Button styling section -->
+    <section  id="navigation_button" class="project-body">
+
+      <h1><strong>NAVIGATION BUTTON</strong></h1>
+
+      <h2>CSS selector:</h2>
+      <p>.nav-button</p>
+
+      <h2>Sample code:</h2>
+      <code>&lt;a href="#" class="nav-button"&gt;Default Button&lt;/a&gt;</code>
+
+      <h2>Rendered element:</h2>
+      <div class="container">
+        <a class="nav-button" href="#">Default</a>
+      </div>
+
+    </section>
+
+    <section id="intext_link" class="project-body">
+      <h1><strong>IN-TEXT LINK</strong></h1>
+
+      <h2>CSS selector:</h2>
+      <p>.intext-link</p>
+
+      <h2>Sample code:</h2>
+      <code>&lt;a href="#" class="intext-link"&gt;In-text Link&lt;/a&gt;</code>
+
+      <h2>Rendered element:</h2>
+      <a class="intext-link" href="#">In-text Link</a>
+    </section>
+
+    <section id="submit_button" class="project-body">
+      <h1><strong>SUBMIT/RESET BUTTON</strong></h1>
+
+      <h2>CSS selector:</h2>
+      <p>.d-button</p>
+
+      <h2>Sample code:</h2>
+      <code>&lt;a class="d-button"&gt;DEFAULT BUTTON&lt;a&gt;</code>
+
+      <h2>Rendered element:</h2>
+      <a class="d-button">DEFAULT BUTTON</a>
+    </section>
+
+    <section id="text_input_field" class="project-body">
+      <h1><strong>TEXT INPUT FIELD</strong></h1>
+
+      <h2>CSS selector:</h2>
+      <p>.text-input</p>
+
+      <h2>Sample code:</h2>
+      <code>&lt;input type="text" value="type here" class="text-input"&gt;</code>
+
+      <h2>Rendered element:</h2>
+      <input type="text" class="d-text-input" placeholder="Type here">
+    </section>
+
+
+    <section  id="headings" class="project-body">
+      <h1><strong>HEADINGS</strong></h1>
+
+      <h2>CSS selector:</h2>
+      <p>#slogan, h1, h2, h3
+
+      <h2>Sample code:</h2>
+      <code>&lt;h1 id="slogan"&gt;Intro&lt;/h1&gt;</code><br>
+      <code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+      <code>&lt;h2&gt;Subheader&lt;/h2&gt;</code><br>
+      <code>&lt;h3&gt;Project Title&lt;/h3&gt;</code><br>
+
+      <h2>Rendered element:</h2>
+      <h1 id="slogan">Intro</h1>
+      <h1><strong>Header</strong></h1>
+      <h2>Subheader</h2>
+      <h3>Project Title<h3>
+        </section>
+
+      <section  id="paragraphs" class="project-body">
+      <h1><strong>PARAGRAPH</strong></h1>
+
+      <h2>CSS selector:</h2>
+      <p>p</p>
+
+      <h2>Sample code:</h2>
+      <code>&lt;p&gt;Paragraph is here!&lt;/p&gt;</code>
+
+      <h2>Rendered element:</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla eu pharetra cursus. Nunc sed varius enim. Mauris vitae ullamcorper orci.</p>
+    </section>
+
+    <section id="bulleted_lists" class="project-body">
+      <h1><strong>BULLETED LIST</strong></h1>
+
+      <h2>CSS selector:</h2>
+      <p>.bulleted-lists</p>
+
+      <h2>Sample code:</h2>
+      <code>&lt;ul class="bulleted-lists"&gt;&lt;item one&gt;&lt;item two&gt;&lt;item three&gt;&lt;/ul&gt;</code>
+
+      <h2>Rendered element:</h2>
+      <ul class="bulleted-lists">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+        <ul>
+    </section>
+
+    <section  id="numbered_lists" class="project-body">
+      <h1><strong>NUMBERED LIST</strong></h1>
+
+      <h2>CSS selector:</h2>
+      <p>.ordered-lists</p>
+
+      <h2>Sample code:</h2>
+      <code>&lt;ol class="ordered-lists"&gt;&lt;item one&gt;&lt;item two&gt;&lt;item three&gt;&lt;/ol&gt;</code>
+
+      <h2>Rendered element:</h2>
+      <ol class="ordered-lists">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+        <ol>
+    </section>
+
+    <section  id="main_navigation" class="project-body">
+      <h1><strong>MAIN NAVIGATION</strong></h1>
+
+      <h2>CSS selector:</h2>
+      <p>.nav-bar, .nav-buttone</p>
+
+      <h2>Sample code:</h2>
+      <code>&lt;nav class="container nav-bar right"&gt;
+            &lt;a href="index.html" class="logo"&gt;&lt;img src="images/logo.png" alt="logo" style="width:80px;"&gt;&lt;/a&gt;
+            &lt;a href="about-me.html" class="nav-button"&gt;About&lt;/a&gt;
+            &lt;a href="index.html" class="nav-button"&gt;Work&lt;/a&gt;
+            &lt;a href="files/Aron-Resume-4.0.pdf" target="_blank" class="nav-button last-nav-button"&gt;Resume&lt;/a&gt;
+        &lt;/nav&gt;</code>
+
+      <h2>Rendered element:</h2>
+
+      <!-- Main Navigation -->
+      <nav class="container nav-bar right">
+          <a href="about-me.html" class="nav-button">About</a>
+          <a href="index.html" class="nav-button">Work</a>
+          <a href="files/Aron-Resume-4.0.pdf" target="_blank" class="nav-button last-nav-button">Resume</a>
+      </nav>
+    </section>
+
+    <section  id="project_listing" class="project-body">
+      <h1><strong>PROJECT LISTING</strong></h1>
+      <h2>CSS selector:</h2>
+      <p>.project-list, .project-item, project-thumbnail, AND project-description</p>
+
+      <h2>Sample code:</h2>
+      <code>    &lt;div class="project-list"&gt;
+          &lt;div class="project-item"&gt;
+            &lt;a href="project-one.html"&gt;
+            &lt;div class="project-description col-1of2"&gt;
+              &lt;p class="tag"&gt;UX/UI/IxD&lt;/p&gt;
+              &lt;h3&gt;Google Postpartum Care&lt;/h3&gt;
+              &lt;p&gt;A mobile web platform that acts as a springboard for new, urban, low-income parents to access relevant information and services for postpartum care.&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="project-thumbnail col-1of2"&gt;
+              &lt;img src="images/PPD-Thumbnail.png" width="300px"&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;</code>
+
+      <h2>Rendered element:</h2>
+          <div class="project-list">
+            <div class="project-item">
+              <a href="project-one.html">
+              <div class="project-description col-1of2">
+                <p class="tag">UX/UI/IxD</p>
+                <h3>Google Postpartum Care</h3>
+                <p>A mobile web platform that acts as a springboard for new, urban, low-income parents to access relevant information and services for postpartum care.</p>
+              </div>
+              <div class="project-thumbnail col-1of2">
+                <img src="images/PPD-Thumbnail.png" width="300px">
+              </div>
+            </a>
+            </div>
+            <div class="project-item border-top">
+                <a href="project-two.html">
+              <div class="project-description col-1of2">
+                <p class="tag">UX/UI/IxD</p>
+                <h3>CCS Web Redesign & Integration</h3>
+                <p>A donation process for the Canadian Cancer Society that augments the credibility and transparency of their mission to support people living with cancer.</p>
+              </div>
+              <div class="project-thumbnail col-1of2">
+                <img src="images/CCS-Thumbnail.png" width="300px">
+              </div>
+            </a>
+            </div>
+          </div>
+
+    </section>
+
+    <section id="colour_swatches" class="project-body">
+      <h1><strong>COLOUR SWATCHES</strong></h1>
+      <div class="container">
+        <div class="white col-1of4">#FFFFFF</div>
+        <div class="black col-1of4">#000000</div>
+        <div class="lightgray col-1of4">#B9B9B9</div>
+        <div class="gray col-1of4">#898989</div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="container center">
+    <div class="footer-button single-item-button"><a href="mailto:aronc@sfu.ca">Contact - aronc@sfu.ca</a></div>
+    <div class="footer-button"><a href="style_guide.html">Style Guide</a></div>
+    <div class="footer-button"><a href="citation.html">Citation</a></div>
+    <div class="footer-button"><a href="https://github.com/aron27967460/portfolio.git">Git Repo</a></div>
+    <div class="footer-button single-item-button"><div>&copy; 2018 Aron Chen</div></div>
+  </footer>
+</body>
+
+</html>

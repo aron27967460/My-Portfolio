@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <script src="nav-dropdown.js"></script>
+  <script src="side-nav.js"></script>
+  <title>
+    Aron - UX/UI Designer
+  </title>
+</head>
+
+<body>
+  <!-- Hamburger Navigation -->
+  <nav id="myNav" class="overlay">
+    <div class="container">
+      <a id="closeNav" onclick="closeNav()">&times;</a>
+      <div class="overlay-content col-1of1">
+      <a href="index.html" class="overlay-nav-button col-1of1">Work</a>
+      <a href="about-me.html" class="overlay-nav-button col-1of1">About</a>
+      <a href="files/Aron-Resume-4.0.pdf" target="_blank" class="overlay-nav-button col-1of1">Resume</a>
+      <a href="mailto:aronc@sfu.ca" class="overlay-nav-button col-1of1">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Navigation -->
+  <a id="toggle" onclick="openNav()">	&#9776;</a>
+  <nav class="container nav-bar right">
+      <a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
+      <a href="index.html#project-list" class="nav-button">Work</a>
+      <a href="about-me.html" class="nav-button">About</a>
+      <a href="files/Aron-Resume-4.0.pdf" target="_blank" class="nav-button last-nav-button">Resume</a>
+  </nav>
+
+  <section class="container">
+    <h1 id="slogan">Hi, I'm Aron! A passionate UX Designer striving to create emotional design for the positive transformation of the society.</h1>
+  </section>
+  <section id="project-list" class="container">
+    <h1 id="project-list-title" class="col-1of1">PROJECT LIST</h1>
+      <div class="project-list">
+        <div class="project-item">
+          <a href="project-one.html">
+          <div class="project-description col-1of2">
+            <p class="tag">UX/UI/IxD</p>
+            <h3>Google Postpartum Care</h3>
+            <p>A mobile web platform that acts as a springboard for new, urban, low-income parents to access relevant information and services for postpartum care.</p>
+          </div>
+          <div class="project-thumbnail col-1of2">
+            <img src="images/PPD-Thumbnail.png" alt="image link to Google Postpartum Care" width="300px">
+          </div>
+        </a>
+        </div>
+        <div class="project-item border-top">
+            <a href="project-two.html">
+          <div class="project-description col-1of2">
+            <p class="tag">UX/UI/IxD</p>
+            <h3>CCS Web Redesign</h3>
+            <p>A donation process for the Canadian Cancer Society that augments the credibility and transparency of their mission to support people living with cancer.</p>
+          </div>
+          <div class="project-thumbnail col-1of2">
+            <img src="images/CCS-Thumbnail.png" alt="image link to Canadian Cancer Society's Web Redesign" width="310px">
+          </div>
+        </a>
+        </div>
+      </div>
+  </section>
+  <footer class="container center">
+    <div class="footer-button single-item-button" style="margin-left:0;"><a href="mailto:aronc@sfu.ca">Contact - aronc@sfu.ca</a></div>
+    <div class="footer-button"><a href="style_guide.html">Style Guide</a></div>
+    <div class="footer-button"><a href="citation.html">Citation</a></div>
+    <div class="footer-button"><a href="https://github.com/aron27967460/portfolio.git">Git Repo</a></div>
+    <div class="footer-button single-item-button"><div>&copy; 2018 Aron Chen</div></div>
+  </footer>
+</body>
+</html>

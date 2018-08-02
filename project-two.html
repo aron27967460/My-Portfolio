@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <script src="nav-dropdown.js"></script>
+  <script src="side-nav.js"></script>
+  <title>
+    Aron - UX/UI Designer
+  </title>
+</head>
+
+<body>
+  <!-- Hamburger Navigation -->
+  <nav id="myNav" class="overlay">
+    <div class="container">
+      <a id="closeNav" onclick="closeNav()">&times;</a>
+      <div class="overlay-content col-1of1">
+      <a href="index.html" class="overlay-nav-button col-1of1">Work</a>
+      <a href="about-me.html" class="overlay-nav-button col-1of1">About</a>
+      <a href="files/Aron-Resume-4.0.pdf" target="_blank" class="overlay-nav-button col-1of1">Resume</a>
+      <a href="mailto:aronc@sfu.ca" class="overlay-nav-button col-1of1">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Navigation -->
+  <a id="toggle" onclick="openNav()">	&#9776;</a>
+  <nav class="container nav-bar right">
+      <a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
+      <a href="index.html#project-list" class="nav-button">Work</a>
+      <a href="about-me.html" class="nav-button">About</a>
+      <a href="files/Aron-Resume-4.0.pdf" target="_blank" class="nav-button last-nav-button">Resume</a>
+  </nav>
+
+  <!-- side navigation -->
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Back to top &uarr;</button>
+  <a href="#project-overview" id="sidebar-1" class="sidebar">Project Overview</a>
+  <a href="#design-process" id="sidebar-2" class="sidebar">Design Process</a>
+  <a href="#execution" id="sidebar-3" class="sidebar">Execution</a>
+  <a href="#final-thought" id="sidebar-4" class="sidebar">Final Thought</a>
+
+  <section class="container project-body">
+    <h1 id="project-title">CCS Web Redesign</h1>
+  </section>
+
+  <section class="container project-body">
+    <h1 class="col-1of1" id="project-overview"><strong>PROJECT OVERVIEW</strong></h1>
+    <div class="col-1of1 container">
+      <div class="col-2of3">
+        <p>The CCS Web Redesign provides a donation process for the Canadian Cancer Society that augments the credibility and transparency of their mission to support people living with cancer. It is a warm-up exercise in preparation for the final 10-weeks project in IAT 499 Graduation Project.</p>
+        <h2 class="blue">CHALLENGE</h2>
+        <p>How might we appeal to the shifting demographics of donors through transparency and credibility, such that we improve Canadian Cancer Society’s revenue?</p>
+        <h2 class="blue">ROLE</h2>
+        <p>As the UI lead and Interaction designer, I was in charge of creating the majority of the user interfaces. This also enabled me to make critical design decisions regarding the user experience. I also contributed to some of the research that led to our final strategy and product.</p>
+      </div>
+      <div class="col-1of3 padding-left-flex">
+        <h2 class="blue">TEAM</h2>
+        <p>Gabriel Yeung, Venus Lau</p>
+        <h2 class="blue">TOOLS</h2>
+        <p>Adobe Illustrator, Adobe Photoshop, Sketch, Principle, Keynotes</p>
+        <h2 class="blue">TYPE</h2>
+        <p>Case Study</p>
+        <h2 class="blue">PROJECT LENGTH</h2>
+        <p>3 Weeks (Spring 2018)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container project-body">
+    <h1 class="col-1of1" id="design-process"><strong>DESIGN PROCESS</strong></h1>
+    <div class="col-1of1 container">
+      <h2 class="col-1of1 blue">CLIENT</h2>
+      <div class="col-3of4 padding-right-flex-30px">
+        <p>Canadian Cancer Society is a national, community-based organization of volunteers whose mission is the eradication of cancer and the enhancement of the quality of life of people living with such disease.</p>
+      </div>
+      <div class="col-1of4">
+        <img src="images/CCS/CCS-logo.png" alt="Canadian Cancer Society logo" width="100%" height="auto">
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2">
+      <h2 class="blue">PROBLEM</h2>
+      <p>In the last five year, CCS has been on a steady downfall regarding their annual revenue ($204.264M to $149.954M) along with annual giving ($44.156M to $38.428M). This is due to the inability to fulfill the need of a shifting demographic within the new group of potential donors, which results in a situation where <strong class="blue">60% of high priority research has yet to be funded (2016).</strong></p>
+    </div>
+    <div class="col-1of1 container" style="padding-top:20px">
+      <div class="col-2of3 quotes">
+        “The demographic that is moving into retirement has traditionally been the backbone of volunteering and giving... “
+      </div>
+      <div class="col-1of5 author">
+        Toronto Star Newspaper
+      </div>
+    </div>
+    <div class="col-1of1 container" style="padding-top:20px">
+        <div class="col-2of3 quotes">
+          “People don’t just write cheque in good faith.”
+        </div>
+        <div class="col-1of5 author">
+          Dr. Krishan Mehta, President of the Association of Fundraising Professionals, Greater Toronto
+        </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2">
+      <h2 class="blue">TARGET AUDIENCE</h2>
+      <p>Through extensive research, our team had dissected CCS’s customer segment into four main categories: the easy givers, the critical supporters, the enthusiasts, and lastly, the non-donors. Out of the four, we decided to focus our product on targeting towards the critical supporters since they represent the emerging demographic of donors and also accounts for easy givers and could potentially transition into enthusiasts over time. </p>
+    </div>
+    <div class="col-1of1 container">
+      <div class="col-1of2 top-margin-4">
+        <img src="images/CCS/audience-1.png" alt="image of target audience" width="95%" height="auto">
+      </div>
+      <div class="col-1of2 top-margin-4">
+        <img src="images/CCS/audience-2.png" alt="image of target audience 2" width="95%" height="auto">
+      </div>
+    </div>
+    <div class="col-1of1 container bottomnote">
+      Photos help to describe our target audience - Critical Supporters.
+    </div>
+
+    <div class="col-1of1 container top-margin-3">
+      <h2 class="blue">PROPOSED SOLUTION</h2>
+      <p>Through extensive secondary research, our team learned that it is essential to provide regular feedback and update for the donors who nowadays demand transparency and immediate benefit. However, it is often troublesome to give quick return due to the nature of cancer treatment and research which requires a lengthy time investment. So instead of showing results, our team wanted to set a clear donation expectation by telling the donors what exactly will they be investing, such that they could build trust through upfront explicit donation distribution.</p>
+      <div class="col-1of1 container top-margin-4">
+        <div class="col-2of3">
+          <img src="images/CCS/proposal.png" alt="CCS proposal image" width="100%" height="auto">
+        </div>
+        <div class="col-1of3">
+          <p class="sidenote-noborder">A new Canadian Cancer Soceity Web Redesign with explicit donation distribution.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-1of1 container top-margin-3">
+      <h2 class="blue">WEB FLOW</h2>
+      <p>By creating informational architecture and low fidelity user flow, it ensures the fluidity of our project as well as the visual hierarchy.</p>
+    </div>
+    <div class="col-1of1">
+      <h2 class="sub-header">Low Fidel Web Flow</h2>
+      <img src="images/CCS/web-flow.png" alt="low-fidel web flow" width="100%" height="auto">
+    </div>
+    <div class="col-1of1">
+      <h2 class="sub-header">High Fidel Web Flow</h2>
+      <img class="top-margin-4" src="images/CCS/high-fidel-web-flow.png" alt="high fidel web flow" width="100%" height="auto">
+    </div>
+  </section>
+
+  <section class="container project-body">
+    <h1 class="col-1of1" id="execution"><strong>EXECUTION</strong></h1>
+    <div class="col-1of1">
+      <h2 class="blue">INTERVENTION DELIVERABLES</h2>
+      <p>Due to the time constraint and the scope of the project, I decided to focus on creating the landing page, the actual process of donating, and the confirmation of donation. These components provide enough ground to innovate while avoiding the need to redesign and reorganize the original information architecture.</p>
+    </div>
+
+    <div class="col-1of1 top-margin-2">
+      <h2 class="blue">PRODUCT OVERVIEW</h2>
+      <p>I’ve divided the product into three distinct stages which are categorized as Explore, Engage and Invite. Each stage accommodates different features and functions to prompt the users to the next step.</p>
+      <img src="images/CCS/product-overview.png" alt="product overview" width="100%" height="auto">
+    </div>
+
+    <div class="col-1of1 container top-margin-1">
+      <div class="col-1of1 container">
+            <picture>
+              <source media="(min-width: 48em)" srcset="images/CCS/product-overview-1.png 1x">
+              <source srcset="images/CCS/product-overview-1-x2.png 2x">
+              <img src="images/CCS/product-overview-1.png" srcset="images/CCS/product-overview-1-x2.png 2x" alt="product overview - Explore" width="100%" height="auto">
+            </picture>
+      </div>
+        <h2 class="blue">LANDING</h2>
+        <p>The current CCS doesn’t necessarily have a designated landing page. Instead, it uses one of the sub-pages within their Get Involved segment as their landing page. It uses compelling visual and engaging words to emphasize with the visitors for them to donate to the cause. However, potential donors nowadays seek beyond good faith. They want to attain a clear picture of their investment.</p>
+        <p>I had integrated a segment providing an exact breakdown to demonstrate how donor’s donation is distributed. I used slide animation to further emphasize on the section. Although in reality, this is nearly impossible, I believe that people should have the right to know what they are investing.</p>
+        <div class="col-1of1 container top-margin-4">
+          <div class="col-2of3 desktop-gif">
+            <img src="images/CCS/ccs-landing.gif" alt="landing page preview" width="100%" height="auto">
+          </div>
+          <div class="col-1of3">
+            <p class="sidenote-noborder">Landing Page Preview</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-1">
+      <div class="col-1of1 container">
+            <picture>
+              <source media="(min-width: 48em)" srcset="images/CCS/product-overview-2.png 1x">
+              <source srcset="images/CCS/product-overview-2-x2.png 2x">
+              <img src="images/CCS/product-overview-2.png" srcset="images/CCS/product-overview-2-x2.png 2x" alt="product overview - Engage" width="100%" height="auto">
+            </picture>
+      </div>
+      <h2 class="blue">DONATION</h2>
+      <p>To further elevate the transparency aspect, I wanted to design a donation process that is not only efficient but also allows the donors to have an improved knowledge of precisely what they are giving to. That being said, I had made integration into the existing donation process, where donors have the freedom to select the type of cancer and its research they want to fund. This feature enabled a direct relationship between the donors and the high priority research giving the users a sense of need.</p>
+      <div class="col-1of1 container top-margin-4">
+          <div class="col-2of3 box-shadow">
+          <img src="images/CCS/donation.png" alt="donation interface preview" width="100%" height="auto">
+        </div>
+        <div class="col-1of3">
+          <p class="sidenote-noborder">Donation Page Preview</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2 border-top" style="padding-top:40px">
+      <div class="col-2of5 padding-right-flex-60px top-margin-4">
+        <h2 class="sub-header">Search Based on High Priority Research</h2>
+        <p>When the user attempts in searching for a specific type of cancer research, A modular popout would appear to support the massive capacity of cancer types. Also, I had incorporated indicators to showcase high prioritized cancer types along with its current funding progress.</p>
+      </div>
+      <div class="col-3of5 desktop-gif top-margin-4">
+        <img src="images/CCS/high-priority-search.gif" alt="high-priority search gif" height="auto">
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2 border-top" style="padding-top:50px">
+      <div class="col-2of5 padding-right-flex-60px top-margin-4">
+        <h2 class="sub-header">Search Based on Institutions</h2>
+        <p>Through our design sprint, we determined that by allowing the user to search base on nearby institutions, it enables the personal connection with the person, which could potentially affirm donor’s faith in donating since many people have strong affiliation towards certain health institutions.</p>
+      </div>
+      <div class="col-3of5 desktop-gif top-margin-4">
+        <img src="images/CCS/institution-search.gif" alt="institution search gif"height="auto">
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2 border-top" style="padding-top:50px">
+      <div class="col-2of5 padding-right-flex-60px top-margin-4">
+        <h2 class="sub-header">Donation Progress Bar</h2>
+        <p>I’d made progress navigation bar to enable the users from going back and forth to check and confirm their decision. Users can also change the gift amount at any time during the donation process.</p>
+      </div>
+      <div class="col-3of5 desktop-gif top-margin-4">
+        <img src="images/CCS/progress-bar.gif" alt="progress bar gif" height="auto">
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-1">
+      <div class="col-1of1 container">
+            <picture>
+              <source media="(min-width: 48em)" srcset="images/CCS/product-overview-3.png 1x">
+              <source srcset="images/CCS/product-overview-3-x2.png 2x">
+              <img src="images/CCS/product-overview-3.png" srcset="images/CCS/product-overview-3-x2.png 2x" alt="product overview - Engage" width="100%" height="auto">
+            </picture>
+      </div>
+      <h2 class="blue">CONFIRMATION PAGE</h2>
+      <p>Before proceeding to the confirmation page, I’d implemented a modular popout displaying the overall donation summary along with specific donation distribution. By providing how each cent is used, this then reaffirms on the user's decision of donation.</p>
+      <div class="col-1of1 container top-margin-4">
+          <div class="col-2of3 desktop-gif">
+          <img src="images/CCS/confirmation.gif" alt="confirmation page preview gif" width="100%" height="auto">
+        </div>
+        <div class="col-1of3">
+          <p class="sidenote-noborder">Confirmation Page Preview</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2 border-top" style="padding-top:50px;">
+      <div class="col-2of5 padding-right-flex-60px">
+        <h2 class="sub-header">Leveraging the Donors</h2>
+        <p>We believe that donors can be a source of appeal themselves. That being said, we wanted to further utilize this aspect by increasing the exposure of other peoples’ experience associated with cancer as well as increased exposure of each’s contribution in the fight against cancer.</p>
+      </div>
+      <div class="col-3of5 desktop-gif top-margin-4">
+        <img src="images/CCS/others.gif" alt="Leaveraging the donors gif" height="auto">
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2 border-top" style="padding-top:50px;">
+      <div class="col-2of5 padding-right-flex-60px">
+        <h2 class="sub-header">Spread the Word</h2>
+        <p>On the confirmation page, a CTA is being provided to allow the donors to share their experience with cancer and donation with the others through different social media platforms such as Twitter and Facebook.</p>
+      </div>
+      <div class="col-3of5 desktop-gif top-margin-4">
+        <img src="images/CCS/spread-the-word.gif" alt="spread the word gif" height="auto">
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2 border-top" style="padding-top:50px;">
+      <div class="col-2of5 padding-right-flex-60px">
+        <h2 class="sub-header">Start Your Own Fight</h2>
+        <p>I’d also added another CTA to enable enthusiastic individuals to begin their fundraising against cancer. This is done by adapting the fundraising feature of Facebook and integrated through a new window popout extension.</p>
+      </div>
+      <div class="col-3of5 desktop-gif top-margin-4">
+        <img src="images/CCS/start-your-fight.gif" alt="start your fight gif" height="auto">
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-1">
+      <div class="col-1of1 container">
+            <picture>
+              <source media="(min-width: 48em)" srcset="images/CCS/product-overview-1.png 1x">
+              <source srcset="images/CCS/product-overview-1-x2.png 2x">
+              <img src="images/CCS/product-overview-1.png" srcset="images/CCS/product-overview-1-x2.png 2x" alt="product overview - Explore" width="100%" height="auto">
+            </picture>
+      </div>
+        <h2 class="blue">OTHER ENTRY POINT - MICROSITE</h2>
+        <p>In addition to all the above features, our team also came up with a microsite that features some of the high priority cancer research which requires immediate funding from the people. The site acted as a way of attraction to allow the users to quickly empathize without having the need to elaborate information on the Canadian Cancer Society's main website.</p>
+        <div class="col-1of1 container top-margin-4">
+            <div class="col-2of3 desktop-gif">
+            <img src="images/CCS/microsite.gif" alt="microsite preview gif" width="100%" height="auto">
+          </div>
+          <div class="col-1of3">
+            <p class="sidenote-noborder">CCS Microsite Preview</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="container project-body">
+    <h1 class="col-1of1" id="final-thought"><strong>FINAL THOUGHT</strong></h1>
+    <p>Throughout this project, I was able to learn the importance of transparency and how it can significantly affect the business, both positively and negatively. Whether it’s the customers, the users, or the people, the issue with trust persistently exists for any audience group. That being said, while designing for our project’s interfaces and prototypes, I tried to approach the design with a strong emphasis on transparency building. I focused on making explicit donation distribution more apparent to the donors; allowing them to know the allocation of their investment. While giving absolute freedom and personal privacy, I also utilized other donor's information to provide relevancy and affirm users' donating decisions. In the end, this project taught me that the best business-to-customer relationship forms when the client manages to fulfill the users' needs by offering credibility, empathy, and passion to the people.</p>
+    <div class="col-1of1 container right-to-center top-margin-1">
+      <a href="project-one.html" class="d-button"><strong>NEXT PROJECT |</strong> Google Postpartum Care &rarr;</a>
+    </div>
+  </section>
+
+  <footer class="container center">
+    <div class="footer-button single-item-button"><a href="mailto:aronc@sfu.ca">Contact - aronc@sfu.ca</a></div>
+    <div class="footer-button"><a href="style_guide.html">Style Guide</a></div>
+    <div class="footer-button"><a href="citation.html">Citation</a></div>
+    <div class="footer-button"><a href="https://github.com/aron27967460/portfolio.git">Git Repo</a></div>
+    <div class="footer-button single-item-button"><div>&copy; 2018 Aron Chen</div></div>
+  </footer>
+</body>
+</html>
