@@ -624,8 +624,8 @@ footer{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
   line-height:1.4em;
-  letter-spacing: 0.15em;
   padding:5px 0px 0px 0px;
+  margin:0px 3px 0 5px;
   transition: background-size 1s;
 }
 
