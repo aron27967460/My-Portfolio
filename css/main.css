@@ -99,6 +99,17 @@ p{
   margin-top:0.5em;
 }
 
+/* paragraph for about-me page*/
+.about-p{
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:300;
+  line-height:1.7em;
+  letter-spacing: 1.2px;
+  font-size:1.2em;
+  margin-top:0.5em;
+  flex-basis:auto;
+}
+
 .quotes{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
@@ -371,15 +382,16 @@ iframe{
   font-weight:300;
   letter-spacing:1px;
   font-size:0.85em;
-  background: linear-gradient(to left, transparent, transparent, transparent, black, black, black, black);
-  background-size: 300%;
-  background-position: 100%;
-  transition: background-position 0.5s ;
+  background-image: linear-gradient(to right, black 0, black 100%);
+  background-position: 0em 0em;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ;
 }
 
 .nav-button:hover, .nav-button:focus{
   color: white;
-  background-position: 0;
+  background-size: 100% 100%;
 }
 
 #active{
@@ -436,14 +448,15 @@ iframe{
   letter-spacing:0.5px;
   padding:14px 0;
   text-align:center;
-  background: linear-gradient(to left, transparent, transparent, transparent, white, white, white, white);
-  background-size: 300%;
-  background-position: 100%;
+  background-image: linear-gradient(to right, white 0, white 100%);
+  background-position: 0em 0em;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
   transition:0.75s ;
 }
 
 .overlay-nav-button:hover{
-  background-position: 0;
+  background-size: 100% 100%;
   color: black;
 }
 
@@ -534,10 +547,11 @@ footer{
   letter-spacing:0.8px;
   border:1px solid black;
   font-weight:300;
-  background: linear-gradient(to left, transparent, transparent, transparent, black, black, black, black);
-  background-size: 300%;
-  background-position: 100%;
-  transition: background-position 0.5s ;
+  background-image: linear-gradient(to right, black 0, black 100%);
+  background-position: 0em 0em;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ;
 }
 
 .d-button strong{
@@ -548,7 +562,7 @@ footer{
 .d-button:hover{
   cursor:pointer;
   color:white;
-  background-position:0;
+  background-size:100% 100%;
 }
 
 /* back to top button */
@@ -560,9 +574,10 @@ footer{
   font-weight:500;
   font-size:0.9em;
   color:black;
-  background: linear-gradient(to left, white, white, white, black, black, black, black);
-  background-size: 300%;
-  background-position: 100%;
+  background-image: linear-gradient(to right, black 0, black 100%);
+  background-position: 0em 0em;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
   bottom:2%;
   left:4.5%;
   width:91%;
@@ -572,13 +587,13 @@ footer{
   border-style: none none solid none;
   border-color: black;
   box-shadow: 0px -1px 5px rgba(0,0,0,0.2);
-  transition: background-position 0.75s, opacity 0.5s;
+  transition: 0.5s;
 }
 
 #topBtn:hover{
   cursor:pointer;
   color:white;
-  background-position:0;
+  background-size:100% 100%;
 }
 
 #topBtn:focus, #topBtn:visited{
@@ -589,11 +604,30 @@ footer{
 
 /* In-text Link */
 .intext-link{
-  text-decoration:underline;
+  text-transform: uppercase;
+  font-size:1.05em;
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
+  background-position: 0.5em -0.5em;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  border-bottom:1px solid black;
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:600;
+  line-height:1.4em;
+  letter-spacing: 0.15em;
+  padding:5px 0px 0px 0px;
+  margin:0 2px 0 7px;
+  transition: background-size 1s;
 }
 
 .intext-link:hover{
-  opacity:0.2;
+  background-size: 95% 100%;
+  border-bottom:1px solid transparent;
+}
+
+@keyframes intext-link{
+  0%{background-size: 0% 100%;}
+  100%{background-size: 100% 100%;}
 }
 
 /* text-input field */
@@ -642,10 +676,11 @@ footer{
 
 .project-description{
   padding:0px 20px 10px 20px;
-  background: linear-gradient(270deg, transparent, transparent, black, black);
-  background-size: 300% 100%;
-  background-position: 0 0;
-  transition: background-position 0.75s;
+  background-image: linear-gradient(to right, black 0, black 100%);
+  background-position: 0em 0em;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
   color: white;
 }
 
@@ -653,7 +688,7 @@ footer{
 .project-thumbnail{
   border:1px solid #EBEBEB;
   padding: 15px 0 30px 0;
-  transition: opacity 0.5s,background-color 0.5s;
+  transition: opacity 0.5s, background-color 0.5s;
 }
 
 .project-item a:hover .project-thumbnail, .project-item a:focus .project-thumbnail{
@@ -670,15 +705,12 @@ footer{
 
   .project-description{
     padding:0px 20px 10px 20px;
-    background: linear-gradient(270deg, transparent, transparent, black, black);
-    background-size: 300% 100%;
-    background-position: 100% 0;
-    transition: background-position 0.75s;
+    background-size: 0% 100%;
     color:black;
   }
 
   .project-item a:hover .project-description, .project-item a:focus .project-description{
-    background-position: 0;
+    background-size: 100% 100%;
     color: white;
     opacity:1;
   }
@@ -699,11 +731,6 @@ footer{
 
   .project-description{
     padding:20px 20px 0px 20px;
-  }
-
-  .project-item a:hover .project-description, .project-item a:focus .project-description{
-    color: white;
-    background-position: 0;
   }
 
   .project-item a:hover .project-description{
