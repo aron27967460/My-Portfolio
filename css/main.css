@@ -42,6 +42,16 @@ h1::before {
   border-bottom: 0px solid transparent;
 }
 
+.about-title{
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:600;
+  font-size:1.5em;
+}
+
+.about-title::before{
+  border-bottom: 0px solid transparent;
+}
+
 h2{
   font-family:'FiraSans',Helvetica, sans-serif;
   font-weight:500;
@@ -616,7 +626,6 @@ footer{
   line-height:1.4em;
   letter-spacing: 0.15em;
   padding:5px 0px 0px 0px;
-  margin:0 2px 0 7px;
   transition: background-size 1s;
 }
 
