@@ -45,7 +45,9 @@ h1::before {
 .about-title{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
-  font-size:1.5em;
+  font-size:1.3em;
+  line-height:1em;
+  border-bottom: 2px solid black;
 }
 
 .about-title::before{
@@ -300,15 +302,15 @@ iframe{
   font-family:'FiraSans', sans-serif;
   font-weight:600;
   font-size:0.8em;
-  border:1px solid #ebebeb;
   letter-spacing:1px;
-  box-shadow:2px 2px 5px rgba(0,0,0,0.2);
+  box-shadow:0px 2px 5px rgba(0,0,0,0.2);
 }
 
 .element-list-title{
   background-color:black;
   padding:10px;
   color:white;
+  margin-bottom:10px;
 }
 
 .element-list a:hover{
@@ -346,16 +348,23 @@ iframe{
   height: 100px;
 }
 
-.lightgray{
+.gray-1{
   background-color:#B9B9B9;
   color:white;
   padding: 10px 0 0 10px;
   height: 100px;
 }
 
-.gray{
+.gray-2{
   background-color:#898989;
   color:white;
+  padding: 10px 0 0 10px;
+  height: 100px;
+}
+
+.gray-3{
+  background-color:#EBEBEB;
+  color:black;
   padding: 10px 0 0 10px;
   height: 100px;
 }
@@ -597,7 +606,7 @@ footer{
   border-style: none none solid none;
   border-color: black;
   box-shadow: 0px -1px 5px rgba(0,0,0,0.2);
-  transition: 0.5s;
+  transition: background-size 0.5s,opacity 0.5s;
 }
 
 #topBtn:hover{
@@ -607,13 +616,11 @@ footer{
 }
 
 #topBtn:focus, #topBtn:visited{
-  outline:none;
-  background-position:100%;
-  color:black;
+  outline: none;
 }
 
 /* In-text Link */
-.intext-link{
+.intext-link, .intext-link:visited, .intext-link:active{
   text-transform: uppercase;
   font-size:1.05em;
   background-image: linear-gradient(to right, yellow 0, yellow 100%);
@@ -629,7 +636,10 @@ footer{
   transition: background-size 1s;
 }
 
-.intext-link:hover{
+.intext-link:hover, .intext-link:focus{
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:600;
+  line-height:1.4em;
   background-size: 95% 100%;
   border-bottom:1px solid transparent;
 }
@@ -869,8 +879,7 @@ footer{
   }
 
   .element-list{
-    border:0px solid #ebebeb;
-    box-shadow:2px 2px 5px rgba(0,0,0,0);
+    box-shadow:0px 2px 5px rgba(0,0,0,0);
   }
 
   .element-list-title{
@@ -903,6 +912,14 @@ footer{
 
   #project-list-title{
     margin-bottom:2em;
+  }
+
+  .about-title{
+    font-family:'GaramondPremierProDisplay', serif;
+    font-weight:600;
+    font-size:1.5em;
+    line-height:1.2em;
+    border-bottom: 0px solid black;
   }
 }
 
