@@ -45,13 +45,26 @@ h1::before {
 .about-title{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
-  font-size:1.3em;
-  line-height:1em;
-  border-bottom: 2px solid black;
+  font-size:1.5em;
+  letter-spacing:1px;
+  color:white;
+  background-image:linear-gradient(to right,black 0, black 100%);
+  background-position: 0em 0em;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  padding:5px 0px 0px 8px;
+  transition:background-size 0.5s;
 }
 
 .about-title::before{
   border-bottom: 0px solid transparent;
+}
+
+.highlight{
+  background-image: linear-gradient(to right, yellow 0, yellow 100%);
+  background-position: 0.5em -0.5em;
+  background-size: 95% 100%;
+  background-repeat: no-repeat;
 }
 
 h2{
@@ -118,8 +131,9 @@ p{
   line-height:1.7em;
   letter-spacing: 1.2px;
   font-size:1.2em;
-  margin-top:0.5em;
+  margin-top:0.1em;
   flex-basis:auto;
+  padding:0px 5px;
 }
 
 .quotes{
@@ -474,7 +488,8 @@ iframe{
   transition:0.75s ;
 }
 
-.overlay-nav-button:hover{
+.overlay-nav-button:hover, .overlay-nav-button:focus{
+  font-weight: 400;
   background-size: 100% 100%;
   color: black;
 }
@@ -585,7 +600,7 @@ footer{
 }
 
 /* back to top button */
-#topBtn, #topBtn:active, #topBtn:visited, #topBtn:focus{
+#topBtn{
   position: fixed;
   padding:8px 0px;
   letter-spacing:0.8px;
@@ -616,6 +631,8 @@ footer{
 }
 
 #topBtn:focus{
+  color:black;
+  background-size: 0% 100%;
   outline: none;
 }
 
@@ -915,11 +932,15 @@ footer{
   }
 
   .about-title{
-    font-family:'GaramondPremierProDisplay', serif;
+    font-size:1.9em;
     font-weight:600;
-    font-size:1.5em;
-    line-height:1.2em;
-    border-bottom: 0px solid black;
+    background-size:0% 100%;
+    color:black;
+    padding:5px 0px 0px 8px;
+    line-height:1.7em;
+    letter-spacing:1px;
+    margin:0px 0;
+    line-height: 1.5em;
   }
 }
 
