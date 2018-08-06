@@ -13,7 +13,12 @@ section{
 
 .project-body{
   margin:0 2.5% 0 2.5%;
-  padding:80px 0;
+  padding:10px 0;
+}
+
+.project-title-body{
+  margin:0 2.5% 0 2.5%;
+  padding:10px 0;
 }
 
 .container{
@@ -98,7 +103,7 @@ section{
 }
 
 .top-margin-3{
-  margin-top:120px;
+  margin-top:30px;
 }
 
 .top-margin-4{
@@ -213,7 +218,7 @@ section{
   flex-basis:100%;
 }
 
-/*----- media query -----*/
+/*------------------------------------- MEDIA QUERY ----------------------------------------*/
 
 @media (min-width:42em){
 
@@ -249,6 +254,15 @@ section{
   .col-1of5{
     flex-basis:20%;
   }
+
+  .padding-left-flex{
+    padding-left:5%;
+  }
+
+  .project-title-body{
+      padding:5em 0;
+  }
+
 }
 
 @media (min-width:43.75em){
@@ -296,9 +310,6 @@ section{
     text-align:left;
   }
 
-  .padding-left-flex{
-    padding-left:5%;
-  }
 }
 
 @media (min-width:75em){
@@ -318,6 +329,18 @@ section{
 
   .project-body{
     margin:0 22.5% 0em 22.5%;
+  }
+
+  .project-title-body{
+    margin:0 22.5% 0em 22.5%;
+  }
+
+  .top-margin-2{
+    margin-top:60px;
+  }
+
+  .top-margin-3{
+    margin-top:120px;
   }
 }
 
