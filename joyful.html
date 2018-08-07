@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <script src="nav-dropdown.js"></script>
+  <script src="side-nav.js"></script>
+  <title>
+    Aron Chen - UX Designer
+  </title>
+</head>
+
+<body>
+  <!-- Hamburger Navigation -->
+  <nav id="myNav" class="overlay">
+    <div class="container">
+      <a id="closeNav" onclick="closeNav()">&times;</a>
+      <div class="overlay-content col-1of1">
+      <a href="index.html" class="overlay-nav-button col-1of1">Work</a>
+      <a href="about-me.html" class="overlay-nav-button col-1of1">About</a>
+      <a href="files/Aron-Resume-4.0.pdf" target="_blank" class="overlay-nav-button col-1of1">Resume</a>
+      <a href="mailto:aronc@sfu.ca" class="overlay-nav-button col-1of1">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Navigation -->
+  <a id="toggle" onclick="openNav()">	&#9776;</a>
+  <nav class="container nav-bar right">
+      <a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
+      <a href="index.html#project-list" class="nav-button">Work</a>
+      <a href="about-me.html" class="nav-button">About</a>
+      <a href="files/Aron-Resume-4.0.pdf" target="_blank" class="nav-button last-nav-button">Resume</a>
+  </nav>
+
+  <!-- side navigation -->
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Back to top &uarr;</button>
+  <a href="#project-overview" id="sidebar-1" class="sidebar">Project Overview</a>
+  <a href="#design-process" id="sidebar-2" class="sidebar">Design Process</a>
+  <a href="#execution" id="sidebar-3" class="sidebar">Execution</a>
+  <a href="#final-thought" id="sidebar-4" class="sidebar">Final Thought</a>
+
+  <!-- PROJECT TITLE -->
+  <section class="container project-title-body joyful-title-img">
+    <h1 id="project-title">Joyful Social Extension</h1>
+  </section>
+
+  <!-- PROJECT OVERVIEW -->
+  <section class="container project-body">
+    <h1 class="col-1of1" id="project-overview"><strong>PROJECT OVERVIEW</strong></h1>
+    <div class="col-1of1 container">
+      <div class="col-2of3">
+        <p>Joyful is a mobile application that aims to mend potential relationship gaps between the parent and their adult children. Our team developed Joyful throughout the course- IAT 334 Interface Design where students are responsible for coming up with a digital product with interfaces and prototypes upon their selected domain.</p>
+        <h2 class="yellow">CHALLENGE</h2>
+        <p>How might we convey sentimentality through the digital world?</p>
+        <h2 class="yellow">ROLE</h2>
+        <p>As the UI/Interaction designer of the team, I focused on producing the user interface for our intervention; applying pre-established visual guide and create a unified brand within the application. I also made a user flow and is a major player in ideation and feature implementation.</p>
+      </div>
+      <div class="col-1of3 padding-left-flex">
+        <h2 class="yellow">TEAM</h2>
+        <p>Linda Shu, Sanny Trinh</p>
+        <h2 class="yellow">TOOLS</h2>
+        <p>Keynote, Adobe Illustrator, Adobe After Effects, Adobe Photoshop, Adobe Premiere, Sketch, Principle</p>
+        <h2 class="yellow">TYPE</h2>
+        <p>Case Study</p>
+        <h2 class="yellow">PROJECT LENGTH</h2>
+        <p>6 weeks (Winter 2017)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESIGN PROCESS -->
+  <section class="container project-body top-margin-3">
+    <h1 class="col-1of1" id="design-process"><strong>DESIGN PROCESS</strong></h1>
+    <div class="col-1of1">
+        <h2 class="yellow">MOTIVATION</h2>
+        <p>At the beginning of this project, our team had decided that we would focus on creating an application that contributes to the overall happiness of a person’s life through rekindling human connection. And by establishing that, we could help improve each’s mental health and their well-being.
+        </p>
+    </div>
+
+    <div class="col-1of1 top-margin-4">
+        <h2 class="yellow">OPPORTUNITY</h2>
+        <p>During our research, we specifically studied the relationship between parents and their adult-children and how there appears to be a gap. According to Robert Neil Butler, as people [adult children] age they begin to look back on their lives as part of a naturally occurring mental process. They may reminisce and dwell on past unresolved conflicts. So to move forward from this distress and unhappiness, there needs to be some resolve. Therefore, whether it occurs through support and understanding or facing recent problems, we want to encourage our users to communicate with each other and urge them to reconnect and potentially overcome old issues.
+        </p>
+        <p>To summarize our research, Dr. Green states <strong class="yellow">“problems may arise between parents and adult children when they fail to communicate effectively. [. . .] The resulting communication gap often leads to friction.” </strong>Considering this information, we aim to create an application that reminds users to spend time with their loved ones and shows that they care.
+        </p>
+    </div>
+
+    <div class="col-1of1 container top-margin-2">
+        <h2 class="yellow">PROPOSED SOLUTION</h2>
+        <p>Digital technology has become a predominant mode of communication within families, and we thought that there is an opportunity to utilize this growing way of communication and design a mobile/tablet application that makes use of other social networking apps. Therefore, we proposed a mobile application that can deliver ‘letters’ which can be shared through these various social platforms and allow the users to express their personal feelings and thoughts.</p>
+    </div>
+    <div class="col-1of1 container top-margin-4">
+      <div class="col-2of3 text-center">
+          <img src="images/JOYFUL/proposed-solution.jpg" alt="proposed solution" style="width:100%;height:100%">
+        </div>
+      <div class="col-1of3"><p class="sidenote-noborder">Joyful Social Extension - Digital Letter</p></div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2">
+        <h2 class="yellow">TARGET AUDIENCE</h2>
+        <p>Initially, we had set our target audience to independent adult children from the age of 22 to 49. These individuals would often face conflict and struggle in balancing their life between work, family, friends and also their romantic relationship with their partner. However, after further consideration, the application became more narrowed and targeted towards younger generation who had just begun their career or had finally settled down with some decent establishment within their work field.</p>
+    </div>
+    <div class="col-1of1">
+        <img src="images/JOYFUL/persona.png" alt="persona photo" style="width:100%;height:100%">
+    </div>
+
+    <div class="col-1of1 container top-margin-1">
+        <h2 class="yellow">DEFINING THE BRAND</h2>
+        <p>We wanted our app to give out a warm, engaging, and positive feelings for the users. To achieve that, We had selected yellow with a relatively high saturation as our primary colour for the design, along with a dark grey as the secondary colour. Also, within my interface design, I also emphasized on using more rounded shapes to provide more friendly and cheerful experience.</p>
+    </div>
+    <div class="col-1of1">
+        <img src="images/JOYFUL/brand.png" alt="persona photo" style="width:100%;height:100%">
+    </div>
+
+    <div class="col-1of1 container top-margin-2">
+        <h2 class="yellow">JOURNEY FRAMEWORK</h2>
+        <p>I reiterated and made a journey framework to demonstrate the user experience of our users. This framework provided us with a brief context of how the intervention may be entered, used, and exit.</p>
+    </div>
+    <div class="col-1of1">
+          <img src="images/JOYFUL/journey.png" alt="journey framework" style="width:100%;height:100%">
+    </div>
+
+    <div class="col-1of1 container top-margin-3">
+        <h2 class="yellow">APP FLOW AND INFORMATION ARCHITECTURE</h2>
+        <p>Before the entering the UI design stage, I wanted to understand what are the essential feature and artboards that are required to showcase our product. So I had created an app flow with information architecture built to help me with the user flow and the high fidelity mockups later on.</p>
+    </div>
+    <div class="col-1of1">
+          <img src="images/JOYFUL/app-flow.png" alt="journey framework" style="width:100%;height:100%">
+    </div>
+
+    <div class="col-1of1 container top-margin-2">
+      <h2 class="yellow">USER FLOW</h2>
+      <p>I had mapped out a basic user-flow to simulate how each part of the application would look, and be used; this helped me in designing the interaction between each button and interface as it allowed to think of the transition from one screen to another.</p>
+    </div>
+    <div class="col-1of1 container">
+      <div class="col-1of2 top-margin-4">
+        <img src="images/JOYFUL/process-1.jpg" alt="process photo 1" style="width:95%;height:auto;">
+      </div>
+      <div class="col-1of2 top-margin-4">
+        <img src="images/JOYFUL/process-2.jpg" alt="process photo 2" style="width:95%;height:auto;">
+      </div>
+    </div>
+    <div class="col-1of1 container bottomnote">
+      Photos showcasing use flow mapping
+    </div>
+  </section>
+
+  <!-- EXECUTION -->
+  <section class="container project-body top-margin-3">
+    <h1 class="col-1of1" id="execution"><strong>EXECUTION</strong></h1>
+    <div class="col-1of1 container">
+    <h2 class="yellow">REGISTRATION AND ONBOARDING</h2>
+    <p>A short Introduction of the application was shown when the user first entered the app; this helped us in quickly defining the purpose of the application as well as setting the mood for the users. Afterward, we had also provided a streamlined process of registration enabling the users to access the main component quickly and to create their digital letters.</p>
+    <p>On the main page of Joyful, I put a strong emphasis on the letter forming button, providing a great sense of call-to-action, and also signifying the importance of this one feature. This also gave the users high learnability which helps to prevent cognitive overload from adapting to the app. Besides, I had also added an onboarding process to guide the users through the main page.</p>
+    <div class="col-1of1 container top-margin-4">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/registration.gif" alt="registration preview">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Confirmation Page Preview</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-1of1 container top-margin-3">
+    <h2 class="yellow col-1of1">CREATION</h2>
+    <div class="col-1of1">
+      <h2>Canvas</h2>
+      <p>For the letter design tools including background, text, emoji, audio recording, and adding new boardings, I decided to collect and pack them into one ‘Toolbox.’ By minimizing visual distraction, that way the users could solely focus on the design tools themselves instead of having to diffuse their attention with the navigation bar and the managing board button.</p>
+    </div>
+    <div class="col-1of1 container">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/canvas.gif" alt="creation - canvas preview">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Canvas Preview</p>
+      </div>
+    </div>
+
+    <div class="col-1of1 top-margin-2 border-top" style="padding-top:50px;">
+      <h2>Select Background</h2>
+      <p>We wanted to maximize the freedom for the users in customizing their letters. Therefore, I had reiterated the background feature and provided two options in creating backgrounds for each board of the letters. This includes choosing a colour or setting a photo as the backdrop. From the user experience perspective, I had minimized all the unnecessary visual elements and to increase the learnability of the design features.</p>
+    </div>
+    <div class="col-1of1 container top-margin-4">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/background.gif" alt="creation - seleccting background preview">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Background Select Feature</p>
+      </div>
+    </div>
+
+    <div class="col-1of1 top-margin-2 border-top" style="padding-top:50px;">
+      <h2>Texts and Emojis</h2>
+      <p>Base on the fonts the users have selected at the beginning of the session, users could add texts with customized colour, size and horizontal alignment. For adding emojis, users could choose the one expression that best represents how they feel from our pre-made library. I also designed it so the users can always delete unwanted text or emoji by dragging and dropping them into the recycling icon.</p>
+    </div>
+    <div class="col-1of1 container top-margin-4" style="padding-top:50px;">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/text.gif" alt="creation - creating text preview">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Text Feature</p>
+      </div>
+    </div>
+    <div class="col-1of1 container top-margin-2" style="padding-top:50px;">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/emoji.gif" alt="creation - creating emoji preview">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Emoji Feature</p>
+      </div>
+    </div>
+
+    <div class="col-1of1 top-margin-2 border-top" style="padding-top:50px;">
+      <h2>Audio Recording</h2>
+      <p>To strengthen the effectiveness of a letter, we also wanted to give users the ability to attach their voice recording to the letter. So people who may not be great at writing messages can speak about their feeling while showing photos of memory to their loved ones.p>
+      <div class="col-1of1 container" style="padding-top:20px">
+          <div class="col-2of3 quotes">
+            “With every photo there is a story, a moment, a memory. As time passes, however, the user’s ability to recall the details needed to evoke the moment the picture records fades. Adding sound to a photo can help keep the memories intact.”
+          </div>
+          <div class="col-1of5 author">
+            Amy Cowen
+          </div>
+      </div>
+    </div>
+    <div class="col-1of1 container top-margin-4">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/audio.gif" alt="creation - creating audio preview">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Audio Feature</p>
+      </div>
+    </div>
+
+    <div class="col-1of1 top-margin-2 border-top" style="padding-top:50px;">
+      <h2>Manage Boards</h2>
+      <p>Adding new boards to the letter allows a much more interactive way of reading; it helps the receivers to focus on reading through the messages and simulates a feeling of looking through an album.</p>
+      <p>The manage board icon is the only feature that's excluded from the toolbox. That's because its purpose is to allow board management rather than designing any visual components of the letter. Therefore, I’ve categorized the feature as a macro design tool and had placed the icon within the top left corner of the canvas across all the boards; providing consistent and quick access for the users to manage their boards.</p>
+    </div>
+    <div class="col-1of1 container top-margin-4">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/boards.gif" alt="creation - managing boards">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Board Managing Feature</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-1of1 container top-margin-3">
+    <h2 class="yellow col-1of1">SAVING AND SENDING</h2>
+    <p>After saving the letter, users could either send the message immediately or preserve it for later. By pulling up the letter list on the main page of Joyful, users could revisit the past letters they’ve made and could either preview, re-edit, or share the messages through other social networking applications.</p>
+    <div class="col-1of1 container top-margin-4">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/save.gif" alt="Saving messages for later">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Save for Later</p>
+      </div>
+    </div>
+    <div class="col-1of1 container top-margin-2">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/send.gif" alt="Sending message through other social application">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Send letters through different social applications</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-1of1 container top-margin-3">
+    <h2 class="yellow col-1of1">RECEIVING</h2>
+    <p>Once the recipient had received the letter, a modular popout window would appear when accessing the message; allowing the recipient read on any social application she/he uses. The audio play button is placed beneath the letter at all time so that the users can play or pause the sound at any given moment when reading through the message.</p>
+    <div class="col-1of1 container top-margin-4">
+        <div class="col-2of3 project-gif">
+        <img src="images/JOYFUL/receive.gif" alt="Receive letter through fb messenger">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">Receive letter through FB Messenger</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- FINAL THOUGHT -->
+  <section class="container project-body top-margin-3">
+    <h1 class="col-1of1" id="final-thought"><strong>FINAL THOUGHT</strong></h1>
+    <p>There is always the doubt of whether the digital letter would be able to convey sentimentality and I do agree that limitation does exist with these advanced technologies. However, I believe what indeed matter comes from the heart and the message, and form merely is just a medium to carry through that message. Our proposed intervention provides that medium and empowers them to express their thoughts and feelings by offering different forms catered to their personal preference.</p>
+    <p>This project was inspired to rekindle the relationship between the adult children and their parents, which is in fact very relatable to me. As I’ve grown up and become more ignorant towards my parents- who spent an insurmountable of time raising me, this project allowed me to further reflect on my behaviour and to improve upon this self-evaluation. Besides, I was able to redesign the interfaces after the submission of our project. This gave me a chance to explore more patterns and opportunities within one user flow. It also further allowed me to advance my interaction design skill.</p>
+    <div class="col-1of1 container right-to-center top-margin-1">
+      <a href="arocha.html" class="d-button"><strong>NEXT PROJECT |</strong> A Rocha Volunteer &rarr;</a>
+    </div>
+  </section>
+
+  <footer class="container center">
+    <div class="footer-button single-item-button"><a href="mailto:aronc@sfu.ca">Contact - aronc@sfu.ca</a></div>
+    <div class="footer-button"><a href="style_guide.html">Style Guide</a></div>
+    <div class="footer-button"><a href="citation.html">Citation</a></div>
+    <div class="footer-button"><a href="https://github.com/aron27967460/My-Portfolio.git">Git Repo</a></div>
+    <div class="footer-button single-item-button"><div>&copy; 2018 Aron Chen</div></div>
+  </footer>
+  </body>
+</html>
