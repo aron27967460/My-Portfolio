@@ -83,12 +83,13 @@ h2{
 h3{
   font-family:'FiraSans',Helvetica, sans-serif;
   font-weight:300;
-  font-size:1.5em;
+  font-size:1.3em;
   line-height:1.4em;
   letter-spacing:1px;
   margin-top:0.3em;
   margin-bottom:-0.1em;
 }
+
 
 /* slogan, used for index */
 #slogan{
@@ -231,6 +232,10 @@ p{
   text-align: center;
 }
 
+.text-center-flex{
+  text-align: left;
+}
+
 /* bulleted lists style */
 ul li{
   font-family:'GaramondPremierProDisplay', serif;
@@ -264,7 +269,6 @@ ol li{
   font-size:0.8em;
   letter-spacing: 1.6px;
   color:#B9B9B9;
-  margin:2.5em 0 0 0;
 }
 
 /*general img setting */
@@ -761,8 +765,12 @@ footer{
   border-top:1px solid #EBEBEB;
 }
 
+.border-right{
+  border-right:0px solid #EBEBEB;
+}
+
 .project-description{
-  padding:0px 20px 10px 20px;
+  padding:20px 30px 20px 30px;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
   background-size: 0% 100%;
@@ -771,11 +779,27 @@ footer{
   color: black;
 }
 
+#project-description-feature{
+  padding:20px 30px;
+}
+
+.mobile{
+  display:block;
+}
+
 
 .project-thumbnail{
   border:1px solid #EBEBEB;
-  padding: 15px 0 30px 0;
+  padding:15px;
   transition: opacity 0.5s, background-color 0.5s;
+}
+
+.project-thumbnail img{
+  width:90%;
+}
+
+#project-thumbnail-feature img{
+  width:90%;
 }
 
 .project-item a:hover .project-thumbnail, .project-item a:focus .project-thumbnail{
@@ -792,7 +816,7 @@ footer{
 @media (min-width:42em){
 
   .project-description{
-    padding:0px 20px 10px 20px;
+    padding:30px 0px 50px 0px;
     background-size: 0% 100%;
     color:black;
   }
@@ -805,10 +829,20 @@ footer{
 
   .project-thumbnail{
     border: 0px;
+    padding:40px 0px;
+  }
+
+  #project-thumbnail-feature{
+    border: 0px;
+    padding:50px 0px;
   }
 
   h2{
     font-size:0.8em;
+  }
+
+  .text-center-flex{
+    text-align: center;
   }
 
   .project-item{
@@ -817,8 +851,12 @@ footer{
     box-shadow: 2px 2px 10px rgba(0,0,0,0);
   }
 
-  .project-description{
-    padding:20px 20px 0px 20px;
+  #project-description-feature{
+    padding:110px 50px 110px 50px;
+  }
+
+  .mobile{
+    display:none;
   }
 
   .project-item a:hover .project-description{
@@ -860,7 +898,7 @@ footer{
   }
 
   #about-slogan{
-    font-size:4em;
+    font-size:3em;
     font-weight:600;
     letter-spacing:1.5px;
     width:100%;
@@ -890,8 +928,34 @@ footer{
     border-bottom: 1px solid #898989;
   }
 
+  h3{
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+    font-size:1.1em;
+    font-weight:300;
+  }
+
+  #h3-feature{
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+    font-size:1.8em;
+    font-weight:300;
+  }
+
+  #description-feature{
+    font-size:1em;
+  }
+
+  .project-thumbnail img{
+    width:200px;
+  }
+
   .project-img img{
     width:100%;
+  }
+
+  .border-right{
+    border-right:1px solid #EBEBEB;
   }
 
   .ppd-title-img{
@@ -932,12 +996,39 @@ footer{
   }
 
   .project-description{
-    padding:20px 30px 20px 60px;
+    padding:30px 50px 50px 50px;
+  }
+
+  #project-description-feature{
+    padding:110px 5% 110px 90px;
+  }
+
+  .project-description p{
+    font-size:0.9em;
+  }
+
+  #description-feature{
+    font-size:1.15em;
+  }
+
+  #project-thumbnail-feature img{
+    width:290px;
+  }
+
+  #h3-feature{
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+    font-size:2.2em;
+    font-weight:300;
   }
 
   .tag{
-    margin:3em 0 0 0;
     color:#898989;
+  }
+
+  #tag-feature{
+    margin:0em 0 3em 0;
+    letter-spacing: 4px;
   }
 
   .footer{
@@ -946,13 +1037,6 @@ footer{
 }
 
 @media (min-width:75em){
-
-  h3{
-    margin-top:0.3em;
-    margin-bottom:0.2em;
-    font-size:1.7em;
-    font-weight:300;
-  }
 
   .author{
     margin-left:5rem;
@@ -1017,15 +1101,15 @@ footer{
 
 
   .about-title{
-    font-size:1.9em;
+    font-size:1.7em;
     font-weight:600;
-    background-size:0% 100%;
-    color:black;
+    background-size:100% 100%;
+    color:white;
     padding:5px 0px 0px 8px;
     line-height:1.7em;
     letter-spacing:1px;
     margin:0px 0;
-    line-height: 1.5em;
+    line-height: 1.3em;
   }
 }
 

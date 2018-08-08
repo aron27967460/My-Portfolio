@@ -63,21 +63,15 @@ section{
 }
 
 /*transition flex item order*/
-.order-1{
+
+.order-2to1{
   order:1;
 }
 
-.order-2to3{
-  order:3;
-}
-
-.order-3to2{
+.order-1to2{
   order:2;
 }
 
-.order-4{
-  order:4;
-}
 
 /*for styleguide navigation*/
 .style-guide-item{
@@ -232,12 +226,12 @@ section{
     margin-top:60px;
   }
 
-  .order-2to3{
+  .order-2to1{
     order:2;
   }
 
-  .order-3to2{
-    order:3;
+  .order-1to2{
+    order:1;
   }
 
   .single-item-button{
@@ -301,10 +295,6 @@ section{
   .nav-button{
     display:flex;
   }
-  section{
-    margin:0 12% 5em 12%;
-    padding:5% 0;
-  }
 
   .right-to-center{
     align-items: flex-end;
@@ -322,6 +312,11 @@ section{
     top: 35%;
     z-index:1;
     width:200px;
+  }
+
+  section{
+    margin:0 12% 5em 12%;
+    padding:5% 0;
   }
 
   .style-guide-item{
