@@ -226,25 +226,9 @@ section{
     margin-top:60px;
   }
 
-  .order-2to1{
-    order:2;
-  }
-
-  .order-1to2{
-    order:1;
-  }
-
   .single-item-button{
     flex-basis:auto;
     margin:0 15px;
-  }
-
-  .col-1of3{
-    flex-basis:33%;
-  }
-
-  .col-2of3{
-    flex-basis:66%;
   }
 
   .col-1of5{
@@ -262,6 +246,13 @@ section{
 }
 
 @media (min-width:43.75em){
+  .col-1of3{
+    flex-basis:33%;
+  }
+
+  .col-2of3{
+    flex-basis:66%;
+  }
 
   .padding-left-flex-30px{
     padding-left:1rem;
@@ -282,10 +273,20 @@ section{
   .padding-right-flex-60px{
     padding-right:60px;
   }
+
+  .order-2to1{
+    order:2;
+  }
+
+  .order-1to2{
+    order:1;
+  }
+
 }
 
 
 @media (min-width:64.06em){
+
   #toggle{
     visibility:hidden;
   }
