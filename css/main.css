@@ -312,19 +312,23 @@ ol li{
 }
 /*individual title background image*/
 .ppd-title-img{
-  background: url("../images/PPD/PPD-title-image-x2.png") no-repeat 40% 35% fixed;
+  background: url("../images/PPD/PPD-title-image-x2.png") no-repeat center;
+  background-size:contain;
 }
 
 .ccs-title-img{
-  background: url("../images/CCS/CCS-title-image-x2.png") no-repeat -30% 30% fixed;
+  background: url("../images/CCS/CCS-title-image-x2.png") no-repeat 180px center;
+  background-size:contain;
 }
 
 .joyful-title-img{
-  background: url("../images/JOYFUL/JOYFUL-title-image-x2.png") no-repeat 50% 20% fixed;
+  background: url("../images/JOYFUL/JOYFUL-title-image-x2.png") no-repeat center;
+  background-size:contain;
 }
 
 .arocha-title-img{
-  background: url("../images/AROCHA/AROCHA-title-image-x2.png") no-repeat -30% 30% fixed;
+  background: url("../images/AROCHA/AROCHA-title-image-x2.png") no-repeat 180px center;
+  background-size:contain;
 }
 
 /* resizable video from vimeo */
@@ -874,19 +878,23 @@ footer{
   }
 
   .ppd-title-img{
-    background: url("../images/PPD/PPD-title-image.png") no-repeat center fixed;
+    background: url("../images/PPD/PPD-title-image.png") no-repeat center;
+    background-size: contain;
   }
 
   .ccs-title-img{
-    background: url("../images/CCS/CCS-title-image.png") no-repeat center fixed;
+    background: url("../images/CCS/CCS-title-image.png") no-repeat center;
+    background-size: contain;
   }
 
   .joyful-title-img{
-    background: url("../images/JOYFUL/JOYFUL-title-image.png") no-repeat center fixed;
+    background: url("../images/JOYFUL/JOYFUL-title-image.png") no-repeat center;
+    background-size: contain;
   }
 
   .arocha-title-img{
-    background: url("../images/AROCHA/AROCHA-title-image.png") no-repeat center fixed;
+    background: url("../images/AROCHA/AROCHA-title-image.png") no-repeat center;
+    background-size: contain;
   }
 }
 
