@@ -125,7 +125,7 @@ h3{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
   line-height:1.2em;
-  font-size:3.3em;
+  font-size:2.2em;
   letter-spacing:1.3px;
   border-bottom:0px solid transparent;
 }
@@ -759,7 +759,6 @@ footer{
 .project-item{
   padding: 0 0;
   margin-top: 2.5em;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
 
 .project-item:first-child{
@@ -778,10 +777,10 @@ footer{
   padding:20px 30px 20px 30px;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
-  background-size: 0% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   transition: background-size 0.5s;
-  color: black;
+  color: white;
 }
 
 .mobile{
@@ -818,65 +817,9 @@ footer{
 
 /* ------------------------------------- Media Query ----------------------------------------- */
 @media (min-width:42em){
-  .project-list{
-    border-color:#EBEBEB #EBEBEB #EBEBEB #EBEBEB;
-  }
-
-  .project-description{
-    padding:30px 0px 50px 0px;
-    background-size: 0% 100%;
-    color:black;
-  }
-
-  .project-item a:hover .project-description, .project-item a:focus .project-description{
-    background-size: 100% 100%;
-    color: white;
-    opacity:1;
-  }
-
-  .project-thumbnail{
-    border: 0px;
-    padding:40px 0px;
-  }
-
-  #project-thumbnail-feature{
-    border: 0px;
-    padding:50px 0px;
-  }
 
   h2{
     font-size:0.8em;
-  }
-
-  .text-center-flex{
-    text-align: center;
-  }
-
-  .project-item{
-    margin-top:0;
-    padding:0px 0;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0);
-  }
-
-  .project-item:first-child{
-    margin-top: 0em;
-  }
-
-
-  #project-description-feature{
-    padding:110px 50px 110px 50px;
-  }
-
-  .mobile{
-    display:none;
-  }
-
-  .project-item a:hover .project-description{
-    box-shadow: 0px 0px 0px transparent;
-  }
-
-  .project-item a:hover .project-thumbnail img, .project-item a:focus .project-thumbnail img{
-    transform:scale(1.25,1.25);
   }
 
   .author{
@@ -930,36 +873,6 @@ footer{
     border-bottom: 1px solid #898989;
   }
 
-  h3{
-    margin-top:0.3em;
-    margin-bottom:0.3em;
-    font-size:1.1em;
-    font-weight:300;
-  }
-
-  #h3-feature{
-    margin-top:0.3em;
-    margin-bottom:0.3em;
-    font-size:1.8em;
-    font-weight:300;
-  }
-
-  #description-feature{
-    font-size:1em;
-  }
-
-  .project-thumbnail img{
-    width:200px;
-  }
-
-  .project-img img{
-    width:100%;
-  }
-
-  .border-right{
-    border-right:1px solid #EBEBEB;
-  }
-
   .ppd-title-img{
     background: url("../images/PPD/PPD-title-image.png") no-repeat center fixed;
   }
@@ -974,6 +887,93 @@ footer{
 
   .arocha-title-img{
     background: url("../images/AROCHA/AROCHA-title-image.png") no-repeat center fixed;
+  }
+}
+
+@media (min-width:43.75em){
+  .project-list{
+    border-color:#EBEBEB #EBEBEB #EBEBEB #EBEBEB;
+  }
+
+  .border-right{
+    border-right:1px solid #EBEBEB;
+  }
+
+  .project-description{
+    padding:30px 0px 50px 0px;
+    background-size: 0% 100%;
+    color:black;
+  }
+
+  .project-item a:hover .project-description, .project-item a:focus .project-description{
+    background-size: 100% 100%;
+    color: white;
+    opacity:1;
+  }
+
+  .project-thumbnail{
+    border: 0px;
+    padding:40px 0px;
+  }
+
+  .text-center-flex{
+    text-align: center;
+  }
+
+  .project-item{
+    margin-top:0;
+    padding:0px 0;
+  }
+
+  .project-item:first-child{
+    margin-top: 0em;
+  }
+
+  .mobile{
+    display:none;
+  }
+
+  .project-item a:hover .project-description{
+    box-shadow: 0px 0px 0px transparent;
+  }
+
+  .project-item a:hover .project-thumbnail img, .project-item a:focus .project-thumbnail img{
+    transform:scale(1.25,1.25);
+  }
+
+  #h3-feature{
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+    font-size:1.8em;
+    font-weight:300;
+  }
+
+  #description-feature{
+    font-size:1em;
+  }
+
+  #project-description-feature{
+    padding:110px 50px 110px 50px;
+  }
+
+  #project-thumbnail-feature{
+    border: 0px;
+    padding:50px 0px;
+  }
+
+  h3{
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+    font-size:1.1em;
+    font-weight:300;
+  }
+
+  .project-thumbnail img{
+    width:200px;
+  }
+
+  .project-img img{
+    width:100%;
   }
 }
 
@@ -1045,6 +1045,11 @@ footer{
     line-height: 1.3em;
     background-position: -0.5em 0.80em;
   }
+
+  #about-slogan{
+    font-size:3.0em;
+  }
+
 }
 
 @media (min-width:75em){
