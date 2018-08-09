@@ -367,7 +367,7 @@ iframe{
   font-weight:600;
   font-size:0.8em;
   letter-spacing:1px;
-  box-shadow:0px 2px 5px rgba(0,0,0,0.2);
+  border:1px solid #EBEBEB;
 }
 
 .element-list-title{
@@ -711,7 +711,7 @@ footer{
   text-decoration: underline;
   margin:0px 2px;
   font-family:'GaramondPremierProDisplay', serif;
-  font-weight:400;
+  font-weight:600;
   line-height:1.4em;
   transition: background-size 1s;
 }
@@ -969,6 +969,12 @@ footer{
     padding:50px 0px;
   }
 
+  #project-thumbnail-feature img{
+    width:200px;
+    border: 0px;
+    padding:50px 0px;
+  }
+
   h3{
     margin-top:0.3em;
     margin-bottom:0.3em;
@@ -977,7 +983,7 @@ footer{
   }
 
   .project-thumbnail img{
-    width:200px;
+    width:190px;
   }
 
   .project-img img{
@@ -1088,7 +1094,7 @@ footer{
   }
 
   .element-list{
-    box-shadow:0px 2px 5px rgba(0,0,0,0);
+    border:1px solid transparent;
   }
 
   .element-list-title{
