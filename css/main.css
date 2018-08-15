@@ -44,8 +44,17 @@ h1::before {
   border-bottom: 0px solid transparent;
 }
 
-#about-slogan::before{
+.about-slogan::before{
   border-bottom: 0px solid transparent;
+}
+/* about slogan*/
+.about-slogan{
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:600;
+  font-size:1.6em;
+  line-height:1.5em;
+  letter-spacing:0px;
+  word-spacing:0px;
 }
 
 /* about page header*/
@@ -472,7 +481,7 @@ iframe{
   font-weight:300;
   margin-left:25px;
   border-bottom:0.5px solid black;
-  padding: 5px 0 5px 0.1%;
+  padding: 5px 0 5px 4px;
   font-weight:300;
   letter-spacing:1px;
   font-size:0.85em;
@@ -560,8 +569,9 @@ iframe{
 }
 
 #toggle{
-  font-size: 1.4em;
+  font-size: 1.5em;
   color:black;
+  text-shadow:0px 0px 2px white;
 }
 
 #toggle:hover{
@@ -1005,6 +1015,13 @@ footer{
     font-size:2.5em;
   }
 
+  .about-slogan{
+    font-size:2.5em;
+    line-height:1.9em;
+    letter-spacing:0px;
+    word-spacing:0px;
+  }
+
   .border-top{
     border-top:1px solid #EBEBEB;
   }
@@ -1056,16 +1073,10 @@ footer{
     font-size:1.7em;
     font-weight:600;
     padding:5px 0px 5px 0px;
-    line-height:1.7em;
     letter-spacing:1px;
     line-height: 1.3em;
     background-position: -0.5em 0.80em;
   }
-
-  #about-slogan{
-    font-size:3.0em;
-  }
-
 }
 
 @media (min-width:75em){

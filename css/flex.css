@@ -50,6 +50,12 @@ section{
   text-align:center;
 }
 
+.left-to-center{
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+
 #align-self-left{
   align-self: flex-start;
 }
@@ -191,6 +197,11 @@ section{
   flex-grow:1;
 }
 
+.col-1of3-about{
+  flex-basis:100%;
+  flex-grow:1;
+}
+
 .col-3of4{
   flex-basis:100%;
 }
@@ -305,6 +316,16 @@ section{
     text-align:left;
   }
 
+  .left-to-center{
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align:left;
+  }
+
+  .col-1of3-about{
+    flex-basis:33%;
+    flex-grow:1;
+  }
 }
 
 @media (min-width:75em){
