@@ -136,6 +136,14 @@ section{
   padding-right:0px;
 }
 
+.padding-left-flex-about{
+  padding-left:0rem;
+}
+
+.padding-right-flex-about{
+  padding-right:0rem;
+}
+
 
 
 /*------- navigation ------ */
@@ -325,6 +333,14 @@ section{
   .col-1of3-about{
     flex-basis:33%;
     flex-grow:1;
+  }
+
+  .padding-left-flex-about{
+    padding-left:1rem;
+  }
+
+  .padding-right-flex-about{
+    padding-right:1rem;
   }
 }
 
