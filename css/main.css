@@ -51,7 +51,7 @@ h1::before {
 .about-slogan{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
-  font-size:1.6em;
+  font-size:1.5em;
   line-height:1.5em;
   letter-spacing:0px;
   word-spacing:0px;
@@ -61,11 +61,11 @@ h1::before {
 .about-title{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
-  font-size:1.5em;
+  font-size:1.3em;
   letter-spacing:1px;
   color:black;
   margin-bottom:20px;
-  border-bottom:6px solid black;
+  border-bottom:3px solid black;
 }
 
 .about-title::before{
@@ -153,9 +153,9 @@ p{
 .about-p{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:300;
-  line-height:1.7em;
-  letter-spacing: 1.2px;
-  font-size:1.2em;
+  line-height:1.5em;
+  letter-spacing: 1px;
+  font-size:1.05em;
   margin-top:0.1em;
 }
 
@@ -907,6 +907,17 @@ footer{
     background: url("../images/AROCHA/AROCHA-title-image.png") no-repeat center;
     background-size: contain;
   }
+
+  .about-slogan{
+    font-size:2em;
+    line-height:1.9em;
+  }
+
+  .about-p{
+    line-height:1.7em;
+    letter-spacing: 1.2px;
+    font-size:1.2em;
+  }
 }
 
 @media (min-width:43.75em){
@@ -1074,6 +1085,7 @@ footer{
     padding:5px 0px 5px 0px;
     letter-spacing:1px;
     line-height: 1.3em;
+    border-bottom:6px solid black;
     background-position: -0.5em 0.80em;
   }
 }
