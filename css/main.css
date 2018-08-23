@@ -818,6 +818,10 @@ footer{
   transition:0.5s;
 }
 
+.project-item a{
+  box-shadow:1px 1px 5px rgba(0,0,0,0.4);
+}
+
 .project-item a:hover .project-thumbnail img, .project-item a:focus .project-thumbnail img{
   transform:scale(1.1,1.1);
 }
@@ -939,6 +943,10 @@ footer{
     background-size: 100% 100%;
     color: white;
     opacity:1;
+  }
+
+  .project-item a{
+    box-shadow:1px 1px 5px rgba(0,0,0,0);
   }
 
   .project-thumbnail{
