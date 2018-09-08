@@ -10,7 +10,7 @@
 
   section{
     margin:0 2% 2em 2%;
-    padding:0 0;
+    padding:3em 0 0 0;
   }
 
   .project-body{
@@ -356,7 +356,7 @@
 
     section{
       margin:0 12% 5em 12%;
-      padding:5% 0;
+      padding:3% 0;
     }
 
     .style-guide-item{

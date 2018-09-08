@@ -94,3 +94,11 @@
 	src: url('../fonts/Garamond-Premier-Pro-Mediem-Caption.otf');
 	src: url('../fonts/Garamond-Premier-Pro-Mediem-Caption.otf')format('opentype')
 }
+
+@font-face{
+	font-family: 'GaramondPremierProDisplay';
+	font-weight: 800;
+	font-style:normal;
+	src: url('../fonts/Garamond-Premier-Pro-Bold-Caption.otf');
+	src: url('../fonts/Garamond-Premier-Pro-Bold-Caption.otf')format('opentype')
+}

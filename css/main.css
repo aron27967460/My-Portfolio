@@ -105,9 +105,9 @@ h3{
 #slogan{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
-  line-height:1.3em;
+  line-height:1.4em;
   font-size:1.8em;
-  letter-spacing:1.3px;
+  letter-spacing:0px;
   border-bottom:1px solid transparent;
 }
 
@@ -501,7 +501,6 @@ iframe{
   color: white;
   background-size: 100% 100%;
 }
-
 
 /* Hamburger Menu Styling */
 .overlay {
@@ -922,6 +921,11 @@ footer{
     letter-spacing: 1.2px;
     font-size:1.2em;
   }
+
+  #slogan{
+    line-height:1.2em;
+    font-size:3em;
+  }
 }
 
 @media (min-width:43.75em){
@@ -1029,8 +1033,8 @@ footer{
   }
 
   #slogan{
-    line-height:1.6em;
-    font-size:2.5em;
+    line-height:1.4em;
+    font-size:3.3em;
   }
 
   .about-slogan{
@@ -1165,7 +1169,7 @@ footer{
 /* This media query setting is for high resolution screen*/
 @media (min-width:110em){
   #slogan{
-    font-size:3.3em;
+    font-size:4.2em;
   }
   h1{
     font-size:1.8em;
@@ -1174,7 +1178,7 @@ footer{
     font-size:1em;
   }
   h3{
-    font-size:2.3em;
+    font-size:2.1em;
   }
   p{
     font-size:1.3em;
