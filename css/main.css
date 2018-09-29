@@ -91,8 +91,9 @@ h2{
 
 /* h3 style */
 h3{
-  font-family:'FiraSans',Helvetica, sans-serif;
-  font-weight:300;
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:500;
+  font-style:italic;
   font-size:1.3em;
   line-height:1.4em;
   letter-spacing:1px;
@@ -105,7 +106,7 @@ h3{
 #slogan{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
-  line-height:1.4em;
+  line-height:1.2em;
   font-size:1.8em;
   letter-spacing:0px;
   border-bottom:1px solid transparent;
@@ -113,12 +114,12 @@ h3{
 
 /* logo img size */
 #logo img{
-  width:80px;
+  width:60px;
 }
 
 /*work statement*/
 .work{
-  font-size: 1.2em;
+  font-size: 1.0em;
 }
 
 /* project title used for project pages */
@@ -150,7 +151,7 @@ p{
   font-weight:200;
   line-height:1.4em;
   letter-spacing: 1.2px;
-  font-size:1.05em;
+  font-size:1.0em;
   margin-top:0.5em;
 }
 
@@ -482,14 +483,14 @@ iframe{
 
 /* navigation button style */
 .nav-button{
-  font-family:'FiraSans',Helvetica, sans-serif;
+  font-family:'GaramondPremierProDisplay', serif;
   font-weight:300;
   margin-left:25px;
   border-bottom:0.5px solid black;
   padding: 5px 0 5px 4px;
   font-weight:300;
   letter-spacing:1px;
-  font-size:0.85em;
+  font-size:1.1em;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
   background-size: 0% 100%;
@@ -716,7 +717,7 @@ footer{
 
 /* In-text Link */
 .intext-link, .intext-link:visited, .intext-link:active{
-  font-size:1.05em;
+  font-size:1.0em;
   background-image: linear-gradient(to right, #fcf113 0, #fcf113 100%);
   background-position: 0em 0.5em;
   background-size: 0% 50%;
@@ -725,14 +726,13 @@ footer{
   margin:0px 2px;
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
-  line-height:1.4em;
   transition: background-size 1s;
 }
 
 .intext-link:hover, .intext-link:focus{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
-  line-height:1.4em;
+  line-height:1em;
   background-size: 100% 80%;
   text-decoration: none;
   border-bottom:1px solid transparent;
@@ -790,14 +790,18 @@ footer{
   border-right:0px solid #EBEBEB;
 }
 
+.project-border-top{
+  border-top:0px solid #EBEBEB;
+}
+
 .project-description{
-  padding:20px 30px 20px 30px;
+  padding:40px 0px 0px 0px;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
-  background-size: 100% 100%;
+  background-size: 0% 100%;
   background-repeat: no-repeat;
   transition: background-size 0.5s;
-  color: white;
+  color: black;
 }
 
 .mobile{
@@ -805,7 +809,7 @@ footer{
 }
 
 #project-description-feature{
-  padding:20px 30px; /*for feature project description*/
+  padding:20px 0px 0px 0px; /*for feature project description*/
 }
 
 #project-thumbnail-feature img{
@@ -823,7 +827,7 @@ footer{
 }
 
 .project-item a{
-  box-shadow:1px 1px 5px rgba(0,0,0,0.4);
+  box-shadow:1px 1px 5px rgba(0,0,0,0);
 }
 
 .project-item a:hover .project-thumbnail img, .project-item a:focus .project-thumbnail img{
@@ -831,8 +835,6 @@ footer{
 }
 
 .project-item a:hover .project-description, .project-item a:focus .project-description{
-  background-size:100% 100%;
-  color:white;
 }
 
 
@@ -933,7 +935,7 @@ footer{
   }
 
   .work{
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 }
 
@@ -1043,11 +1045,11 @@ footer{
 
   #slogan{
     line-height:1.5em;
-    font-size:3.5em;
+    font-size:3em;
   }
 
   .work{
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 
   .about-slogan{
