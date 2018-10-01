@@ -631,22 +631,25 @@ iframe{
 
 /* ------ footer bar ------- */
 footer{
-  margin:50px 0;
+  margin:100px 0px 70px 0;
 }
 
 .footer-button{
   margin:0 15px;
-  flex-basis:auto;
-  text-align:center;
-  color:#898989;
-  font-family:'FiraSans',Helvetica, sans-serif;
-  font-weight:300;
-  font-size:0.9em;
+  text-align:left;
+  color:black;
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:200;
+  font-style:italic;
+  letter-spacing:1px;
+  font-size:1.1em;
 }
 
 .footer-button a{
-  font-weight:300;
-  color:#898989;
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:200;
+  font-style:italic;
+  color:black;
 }
 
 .footer-button a:hover, .footer-button a:focus{
