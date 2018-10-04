@@ -150,7 +150,10 @@
   #logo{
     position:absolute;
     top:30px;
-    left:20px;
+    /*left:20px;
+    top: 50%;*/
+    left: 50%;
+    margin-left: -30px;
   }
 
   #toggle{
@@ -266,6 +269,9 @@
       flex-basis:auto;
     }
 
+    #logo{
+      left:90px;
+    }
   }
 
   @media (min-width:43.75em){
