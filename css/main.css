@@ -283,6 +283,8 @@ ol li{
   font-size:0.8em;
   letter-spacing: 1.6px;
   color:#B9B9B9;
+  border-top:1px solid #EBEBEB;
+  padding-top:30px;
 }
 
 /*general img setting */
@@ -469,8 +471,8 @@ iframe{
 
 /* navigation bar */
 .nav-bar{
-  margin-top:45px;
-  margin-bottom:4.5em;
+  margin-top:55px;
+  margin-bottom:4em;
 }
 
 #logo{
@@ -484,13 +486,12 @@ iframe{
 /* navigation button style */
 .nav-button{
   font-family:'GaramondPremierProDisplay', serif;
-  font-weight:300;
-  margin-left:25px;
+  font-weight:400;
+  margin-left:40px;
   border-bottom:0.5px solid black;
-  padding: 5px 0 0px 4px;
-  font-weight:300;
+  padding: 5px 0 0px 5px;
   letter-spacing:1px;
-  font-size:1.1em;
+  font-size:1.05em;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
   background-size: 0% 100%;
@@ -500,7 +501,7 @@ iframe{
 
 .nav-button:hover, .nav-button:focus{
   font-family:'GaramondPremierProDisplay', serif;
-  font-weight:300;
+  font-weight:400;
   color: white;
   background-size: 100% 100%;
 }
@@ -631,17 +632,19 @@ iframe{
 
 /* ------ footer bar ------- */
 footer{
-  margin:100px 0px 70px 0;
+  margin:50px 0px 70px 0;
+  border-top:1px solid #EBEBEB;
+  padding-top:25px;
 }
 
 .footer-button{
-  margin:0 15px;
+  margin:15px 25px 15px 5px;
   text-align:left;
   color:black;
   font-family:'GaramondPremierProDisplay', serif;
-  font-weight:200;
+  font-weight:400;
   letter-spacing:1px;
-  font-size:1em;
+  font-size:1.05em;
 }
 
 .footer-button a{
@@ -943,6 +946,16 @@ footer{
 
   .project-border-top{
     border-top:1px solid #EBEBEB;
+  }
+
+  .tag{
+    border-top:2px solid transparent;
+    padding-top:0px;
+  }
+
+  footer{
+    border-top:1px solid transparent;
+    padding-top:0px;
   }
 }
 

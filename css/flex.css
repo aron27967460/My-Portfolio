@@ -155,20 +155,18 @@
 
   #toggle{
     position:fixed;
-    top:25px;
+    top:45px;
     right:4.4%;
     visibility:visible;
   }
 
   .nav-button{
-    flex-basis:6%;
+    flex-basis:100px;
     display:none;
   }
 
-  /* ---- footer ---- */
-  .single-item-button{
+  .footer-button{
     flex-basis:100%;
-    margin:20px 15px;
   }
 
 
@@ -262,6 +260,10 @@
 
     .project-title-body{
         padding:5em 0;
+    }
+
+    .footer-button{
+      flex-basis:auto;
     }
 
   }
