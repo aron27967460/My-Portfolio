@@ -50,11 +50,11 @@ h1::before {
 /* about slogan*/
 .about-slogan{
   font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
-  font-size:1.25em;
+  font-weight:300;
+  font-size:1.1em;
   line-height:1.4em;
-  letter-spacing:0px;
-  word-spacing:0px;
+  letter-spacing:1px;
+  word-spacing:2px;
 }
 
 /* about page header*/
@@ -127,6 +127,12 @@ h3{
   transform: scale(1.1,1.1);
 }
 
+.logo-block{
+  margin:50px 0;
+  padding-top:20px;
+  border-top:1px solid #EAEAEA;
+}
+
 /*work statement*/
 .work{
   font-size: 1.0em;
@@ -150,7 +156,7 @@ h3{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
   line-height:1.2em;
-  font-size:2.2em;
+  font-size:2.5em;
   letter-spacing:1.3px;
   border-bottom:0px solid transparent;
 }
@@ -936,7 +942,7 @@ footer{
   }
 
   .about-slogan{
-    font-size:1.5em;
+    font-size:1.2em;
     line-height:1.5em;
   }
 
@@ -1084,10 +1090,10 @@ footer{
   }
 
   .about-slogan{
-    font-size:2.3em;
-    line-height:1.7em;
-    letter-spacing:0px;
-    word-spacing:0px;
+    font-size:1.4em;
+    line-height:1.4em;
+    letter-spacing:1px;
+    word-spacing:2px;
   }
 
   .border-top{
@@ -1198,6 +1204,12 @@ footer{
     padding-left:0px;
     margin-top:0px;
   }
+
+  .logo-block{
+    margin:0px 0;
+    padding-top:0px;
+    border-top:0px;
+  } 
 
   .desktop-img img{
     width:95%;
