@@ -549,7 +549,8 @@ iframe{
   flex-wrap:wrap;
   position:absolute;
   width:100%;
-  top:25%;
+  top: 50%;
+  transform: translate(0, -50%);
   left:0;
 }
 
