@@ -171,6 +171,11 @@
   .footer-button{
     flex-basis:100%;
   }
+  /* ----- space block -----*/
+
+  .space-block{
+    margin-bottom:3em;
+  }
 
 
   /* ----- project list ----- */
@@ -409,5 +414,9 @@
   @media (min-width:110em){
     .element-list{
       width:200px;
+    }
+
+    .space-block{
+      margin-bottom:7em;
     }
   }

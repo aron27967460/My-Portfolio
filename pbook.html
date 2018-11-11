@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <script src="nav-dropdown.js"></script>
+  <script src="side-nav.js"></script>
+  <title>
+    Aron Chen - UX Designer
+  </title>
+</head>
+
+<body>
+  <!-- Hamburger Navigation -->
+  <nav id="myNav" class="overlay">
+    <div class="container">
+      <a id="closeNav" onclick="closeNav()">&times;</a>
+      <div class="overlay-content col-1of1">
+      <a href="index.html" class="overlay-nav-button col-1of1">Work</a>
+      <a href="about-me.html" class="overlay-nav-button col-1of1">About</a>
+      <a href="files/Resume.pdf" target="_blank" class="overlay-nav-button col-1of1">Resume</a>
+      <a href="mailto:aronc@sfu.ca" class="overlay-nav-button col-1of1">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Navigation -->
+  <a id="toggle" onclick="openNav()">	&#9776;</a>
+  <nav class="container nav-bar right">
+      <a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
+      <a href="index.html#project-list" class="nav-button">Work</a>
+      <a href="about-me.html" class="nav-button">About</a>
+      <a href="files/Resume.pdf" target="_blank" class="nav-button last-nav-button">Resume</a>
+  </nav>
+
+  <!-- side navigation -->
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Back to top &uarr;</button>
+  <a href="#project-overview" id="sidebar-1" class="sidebar">Project Overview</a>
+  <a href="#design-process" id="sidebar-2" class="sidebar">Design Process</a>
+  <a href="#execution" id="sidebar-3" class="sidebar">Execution</a>
+  <a href="#final-thought" id="sidebar-4" class="sidebar">Final Thought</a>
+
+  <!-- PROJECT TITLE -->
+  <section class="container project-title-body">
+    <h1 id="project-title">Pinterest Book</h1>
+  </section>
+
+  <!-- PROJECT OVERVIEW -->
+  <section class="container project-body">
+    <h1 class="col-1of1" id="project-overview"><strong>PROJECT OVERVIEW</strong></h1>
+    <div class="col-1of1 container">
+      <div class="col-2of3">
+        <p>Book It is an implementation of a booking feature on Pinterest, which allows consumers who seek for an immersive traveling experience to directly book beds through the Pinterest platform. It is a UX focused project which the team and I had devloped during the last project of IAT 438 Interactive Objects and Environments, where students are responsible in finding their own client and create a digital solution in improving its business.</p>
+        <h2 class="red">CHALLENGE</h2>
+        <p>How might we improve the public perception on hostels while establishing Generator as the premium hostel brand across the globe?</p>
+        <h2 class="red">ROLE</h2>
+        <p>As the UX Strategy of the team. I emphasized on providing users the most desirable experience. By utilizing both cognitive and emotional empathy to understand users’ needs, I formed guidelines and made the general plan for our UI and visual design leads in designing our final product. I also played a major role in UX research, as well as content management. </p>
+      </div>
+      <div class="col-1of3 padding-left-flex">
+        <h2 class="red">TEAM</h2>
+        <p>Anya Valueva, Derek Tam, Jimmy Hsu, Zhanna Krupinina, Tavan Sohi</p>
+        <h2 class="red">TOOLS</h2>
+        <p>Adobe Illustrator, Adobe Photoshop, Sketch, Flinto, Keynote</p>
+        <h2 class="red">TYPE</h2>
+        <p>Case Study</p>
+        <h2 class="red">PROJECT LENGTH</h2>
+        <p>4 weeks (Fall 2016)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESIGN PROCESS -->
+  <section class="container project-body top-margin-3">
+    <h1 class="col-1of1" id="design-process"><strong>DESIGN PROCESS</strong></h1>
+    <div class="col-1of1 container">
+      <h2 class="col-1of1 red">CLIENT</h2>
+      <div class="col-3of4 padding-right-flex-30px">
+        <p>Generator Hostel is a European based hostel chain that creates high-end experience by incorporating local culture into each of its locations. It customizes experiences from the design perspective in terms of interior design, food, music, and events.</p>
+      </div>
+      <div class="col-1of4">
+        <img src="images/PBOOK/generator.png" alt="Generator logo" style="width:100%;height:auto;">
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-4">
+        <h2 class="red">BUSINESS OPPORTUNITY</h2>
+        <p>With Generator’s global expansion into the North America, there is the concern in which the American audience may not be able to embrace the idea of hostel since there are different ways of living within different regions. In addition, some statistics have shown that the hostel industry within the U.S. is still relatively underdeveloped compared to the rest of the world which shows a gap between the traditional American hostels and the traveling experience that is desired by the travelers nowadays.</p>
+    </div>
+    <div class="col-1of1 container top-margin-4">
+      <div class="col-2of3">
+        <p class="quotes">".... different companies, different markets and different generations have different perspectives on what a hostel is. … [And] one of our ambitions is to help the American consumer [to] understand it today." </p>
+      </div>
+      <div class="col-1of3">
+        <p class="author">Fredrik Korallus, CEO Generator Hostels, 2016.</p>
+      </div>
+    </div>
+    <div class="col-1of1">
+      <img src="images/PBOOK/opportunity.png" alt="business opportunity" style="width:100%;height:100%">
+    </div>
+    <div class="col-1of1 bottomnote">
+      “According to Hostel World (2016), [American hostels] account for only three percent of properties [internationally] and 10 percent of global hostel revenue. [This statistics] shows American’s reluctance to use hostels while in the United States due to a lack of cultural acceptance.” -Aaron Chaffee (2016), Vice President of Hostel Development at Hostelling International USA
+    </div>
+
+    <div class="col-1of1 container top-margin-3">
+        <h2 class="red">PROPOSED SOLUTION</h2>
+        <p>Once an opportunity was identified, we began to research and ideate for a solution and ways to connect Generator with its target audience. Then, we were inspired by the CSO of Generator Hostel Josh Wyatt (2016), in which he believed that by utilizing social media, the company would use its own customers to promote its brand through the words of mouths. We thought we can leverage this idea further. Therefore, after further research and discussion, we decided to form a partnership between Pinterest and Generator; aiming to assist the brand to not only enter the North American market in an accelerated manner but also establish itself as the premium hostel brand across the globe.</p>
+    </div>
+    <div class="col-1of1 container top-margin-4">
+      <div class="col-2of3">
+        <p class="quotes">" ...we are getting 30 percent repeat business. We think we can expect a lot more repeat customers as we build more hostels...."</p>
+      </div>
+      <div class="col-1of3">
+        <p class="author">Carl Michel, Generator Executive Chairman, 2012.</p>
+      </div>
+    </div>
+    <div class="col-1of1 container top-margin-4">
+      <div class="col-2of3 text-center">
+          <img src="images/PBOOK/proposed-solution.png" alt="proposed solution" style="width:220px;height:100%">
+        </div>
+      <div class="col-1of3"><p class="sidenote-noborder">Pinterest Book</p></div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2">
+        <h2 class="red">WHY PINTEREST?</h2>
+        <p>We compared and evaluated dozen of social platforms and in the end, we selected Pinterest as the final partership based on four major factors: Pinterest's visual content, its discoverability for new brands, the existing travel audience on Pinterest, and lastly, the viability of this partnership for both parties.</p>
+    </div>
+
+    <div class="col-1of1 container" style="padding-top:20px;">
+      <h2>1) Visual Appeal</h2>
+      <div class="col-1of1 padding-right-flex-60px">
+          <p>We chose Pinterest because of its prominent nature in displaying photography which allows individual brands to position their product and service in a visually appealing way. Consumer then will be able to see Generator’s hostel lifestyle that showcases the following: interior, events, people, food and beverages.</p>
+      </div>
+    </div>
+    <div class="col-1of1 container">
+      <div class="col-2of3" style="margin-bottom:-20px;">
+        <p class="quotes">“[Human beings] are visual animals. Sight is the predominant way that we relate to the world around us”</p>
+      </div>
+      <div class="col-1of3">
+        <p class="author">- Newbery and Farnham, 2013.</p>
+      </div>
+    </div>
+
+    <div class="col-1of1 container" style="padding-top:20px;">
+      <div class="col-1of1">
+          <h2>2) Discoverability</h2>
+          <p>We chose Pinterest because of its discoverability of new brands since “according to a recent survey, 72% of Pinterest users have found a new brand through pinterest.” (Forbes, 2016)</p>
+      </div>
+    </div>
+
+    <div class="col-1of1 container" style="padding-top:20px;">
+      <h2 class='col-1of1'>3) Existing Travel Audience</h2>
+      <div class="col-1of1">
+          <p>According to Skift, "Pinterest has more than 660 million pins within the travel cateogry alone, and many use Pinterest as a travel planning tool." (Dennis, 2013) This provides Generator a opportunity to connect with the audiences that are seeking to travel.</p>
+      </div>
+    </div>
+
+    <div class="col-1of1 container" style="padding-top:20px;">
+      <div class="col-2of3">
+          <h2>4) Viability</h2>
+          <p>Since Generator’s unique selling proposition involves a wide range of categories/appeals, the company can also connect to the audiences outside of the travel category such as in food and art. This makes our proposal more unique to Generator, although other brands will also be able to participate as well.</p>
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-2">
+        <h2 class="red">DEFINING THE AUDIENCE</h2>
+        <p>There are countless types of travelers in the world. Therefore, defining our audiences became an essential key in creating our final design.</p>
+    </div>
+    <div class="col-1of1 container">
+      <div class="col-3of4 desktop-img">
+        <img src="images/PBOOK/audience.png" alt="target population: seekers seeking experience and social interaction.">
+      </div>
+      <div class="col-1of4 sidenote">
+        "We refer to our guests as the seekers seeking experience and social interaction, from art, music, and culture to meeting people." - Fredrik Korallus, CEO Generator Hostels, 2016.
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-3">
+        <h2 class="red">DETERMINING THE EXPERIENCE</h2>
+        <p>Through research on different types of traveling experience, it allowed me to utilize cognitive empathy to gain a better understanding of both the materialistic and emotional need of the seekers. What I realized is the fact that although traveling itself is an emotional need, the actual process of traveling can be dissected into many different areas and required a wide range of demands to be fulfilled in order to achieve a memorable traveling experience.</p>
+        <p>Therefore, by adapting Maslow’s Hierarchy of Needs along with the Brand Experience Pyramid, I developed a model dedicated to our target audience. The experience model summarized all types of needs within the process of traveling into three main levels of traveling experience including enjoyable, immersive, and transformational. In particular, I wanted to focus on designing for a prominent immersive traveling experience for our project; catering to our audiences' need to connect and have social interaction with the local culture.</p>
+    </div>
+    <div class="col-1of1 top-margin-4">
+          <img src="images/PBOOK/process-02.jpg" alt="process photo" style="width:49%;height:auto">
+          <img src="images/PBOOK/process-01.jpg" alt="process photo" style="width:49%;height:auto">
+    </div>
+    <div class="col-1of1 bottomnote">We ran through a sprint session to define the user experience.</div>
+
+    <div class="col-1of1 container top-margin-3">
+        <h2 class="red">OUTLINING THE USER’S JOURNEY</h2>
+        <p>As a team, we’ve decided to transition the three traveling experiences into the browsing experience on Pinterest. In particular, we focus on designing for a high level of immersive traveling experience since that's what the seekers desire after all. They want to be able to connect and have social interaction with the locals. Thus, I collaborated with our team’s visual design lead to come up with our customer journey framework based on the experience model we've made. And this helped us in creating an effective user interface and interaction that would best showcase the visual content provided by Generator in an authentic and immersive fashion.</p>
+    </div>
+    <div class="col-1of1">
+          <img src="images/PBOOK/cjf.png" alt="customer journey framework" style="width:100%;height:auto">
+    </div>
+    <div class="col-1of1 bottomnote">Customer journey framework allowed us to ideate for UI and features that provides the best suited experience for the users.</div>
+  </section>
+
+  <!-- EXECUTION -->
+  <section class="container project-body top-margin-3">
+      <h1 class="col-1of1" id="execution"><strong>EXECUTION</strong></h1>
+  </section>
+
+  <!-- FINAL THOUGHT -->
+  <section class="container project-body top-margin-3">
+    <h1 class="col-1of1" id="final-thought"><strong>FINAL THOUGHT</strong></h1>
+  </section>
+
+  <footer class="container">
+    <div class="footer-button"><a href="mailto:aronc@sfu.ca">Contact - aronc@sfu.ca</a></div>
+    <div class="footer-button"><a href="style_guide.html">Style Guide</a></div>
+    <div class="footer-button"><a href="https://github.com/aron27967460/My-Portfolio.git">Git Repo</a></div>
+    <div class="footer-button"><div>&copy; 2018 Aron Chen</div></div>
+  </footer>
+  </body>
+</html>
