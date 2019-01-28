@@ -92,7 +92,7 @@ h2{
 h3{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:500;
-  font-size:1.5em;
+  font-size:1.25em;
   line-height:1.4em;
   letter-spacing:1px;
   margin-top:0.3em;
@@ -164,8 +164,8 @@ h3{
 p{
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:200;
-  line-height:1.5em;
-  letter-spacing: 1.2px;
+  line-height:1.4em;
+  letter-spacing: 1.1px;
   font-size:1em;
   margin-top:0.5em;
 }
@@ -753,7 +753,7 @@ footer{
   margin:0px 2px;
   font-family:'GaramondPremierProDisplay', serif;
   font-weight:600;
-  transition: background-size 1s;
+  transition: background-size 0.6s;
 }
 
 .intext-link:hover, .intext-link:focus{
@@ -1045,7 +1045,7 @@ footer{
     margin-top:0.3em;
     margin-bottom:0.3em;
     font-size:1.8em;
-    font-weight:300;
+    font-weight:500;
   }
 
   #description-feature{
@@ -1071,7 +1071,7 @@ footer{
     margin-top:0.3em;
     margin-bottom:0.3em;
     font-size:1.1em;
-    font-weight:300;
+    font-weight:500;
   }
 
   .project-thumbnail img{
@@ -1139,8 +1139,8 @@ footer{
   #h3-feature{
     margin-top:0.3em;
     margin-bottom:0.3em;
-    font-size:2.2em;
-    font-weight:300;
+    font-size:2.1em;
+    font-weight:500;
   }
 
   .tag{
