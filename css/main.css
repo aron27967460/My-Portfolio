@@ -298,8 +298,9 @@ ol li{
   font-size:0.8em;
   letter-spacing: 1.6px;
   color:#B9B9B9;
-  border-top:1px solid #EBEBEB;
+  border-bottom:0px solid #EBEBEB;
   padding-top:30px;
+  display:none;
 }
 
 /*general img setting */
@@ -987,6 +988,7 @@ footer{
   .tag{
     border-top:2px solid transparent;
     padding-top:0px;
+    display:block;
   }
 
   footer{
