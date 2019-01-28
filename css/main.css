@@ -363,6 +363,11 @@ ol li{
   background-size:contain;
 }
 
+.pbook-title-img{
+  background: url("../images/PBOOK/PBOOK-title-image-x2.png") no-repeat center;
+  background-size:contain;
+}
+
 /* resizable video from vimeo */
 .video{
   margin-top:20px;
@@ -945,6 +950,11 @@ footer{
     background-size: contain;
   }
 
+  .pbook-title-img{
+    background: url("../images/PBOOK/PBOOK-title-image.png") no-repeat center;
+    background-size: contain;
+  }
+
   .about-slogan{
     font-size:1.3em;
     line-height:1.2em;
@@ -1087,7 +1097,7 @@ footer{
 
   .quotes{
     font-size:1.5em;
-    margin:0.3em 0 1.5em 0;
+    margin:0.3em 0 1em 0;
   }
 
   #slogan{
