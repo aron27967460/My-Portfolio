@@ -149,11 +149,8 @@
   /*------- navigation ------ */
   #logo{
     position:absolute;
-    top:30px;
-    /*left:20px;
-    top: 50%;*/
-    left: 50%;
-    margin-left: -30px;
+    top:35px;
+    left:20px;
   }
 
   #toggle{
@@ -272,10 +269,6 @@
 
     .footer-button{
       flex-basis:auto;
-    }
-
-    #logo{
-      left:60px;
     }
   }
 
