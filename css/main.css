@@ -117,7 +117,7 @@ h3{
 
 #logo-motion{
   width:160px;
-  margin: 25px 0 0 0;
+  margin: 25px 0;
   transition:0.5s;
 }
 
@@ -126,9 +126,9 @@ h3{
 }
 
 .logo-block{
-  margin:50px 0;
-  padding-top:20px;
-  border-top:1px solid #EAEAEA;
+  margin:0px 0;
+  padding-top:0px;
+  border-top:0px solid #EAEAEA;
 }
 
 /*work statement*/
@@ -663,7 +663,7 @@ iframe{
 
 /* ------ footer bar ------- */
 footer{
-  margin:50px 0px 70px 0;
+  margin:50px 2% 70px 2%;
   border-top:1px solid #EBEBEB;
   padding-top:25px;
 }
@@ -680,7 +680,7 @@ footer{
 
 .footer-button a{
   font-family:'GaramondPremierProDisplay', serif;
-  font-weight:200;
+  font-weight:400;
   color:black;
 }
 
@@ -771,6 +771,28 @@ footer{
   font-weight:600;
   line-height:1em;
   background-size: 100% 80%;
+  text-decoration: none;
+  border-bottom:1px solid transparent;
+}
+
+.intext-link2, .intext-link2:visited, .intext-link2:active{
+  font-size:1.0em;
+  background-image: linear-gradient(to right, #fcf113 0, #fcf113 100%);
+  background-position: 0em 0.5em;
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  margin:0px 2px;
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:400;
+  transition: background-size 0.6s;
+}
+
+.intext-link2:hover, .intext-link2:focus{
+  font-family:'GaramondPremierProDisplay', serif;
+  font-weight:400;
+  margin:0px 2px;
+  color:#5A5A5B;
+  background-size: 100% 100%;
   text-decoration: none;
   border-bottom:1px solid transparent;
 }
@@ -1174,10 +1196,6 @@ footer{
     letter-spacing: 4px;
   }
 
-  .footer{
-    margin:0 30px 0 0;
-  }
-
   .about-title{
     font-size:1.7em;
     font-weight:600;
@@ -1229,6 +1247,11 @@ footer{
   .style-guide-item{
     text-decoration:none;
     padding-left:0px;
+  }
+
+  footer{
+      margin:50px 12% 70px 12%;
+      padding-top:25px;
   }
 }
 

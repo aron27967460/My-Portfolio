@@ -112,6 +112,14 @@
     margin-top:20px;
   }
 
+  .top-padding-mobile{
+    padding-top:30px;
+  }
+
+  .top-margin-mobile{
+    margin-top:30px;
+  }
+
   .padding-left-flex{
     padding-left:0px;
   }
@@ -200,6 +208,10 @@
   }
 
   .col-1of2{
+    flex-basis:100%;
+  }
+
+  .col-1of2a{
     flex-basis:100%;
   }
 
@@ -313,6 +325,17 @@
 
 
   @media (min-width:64.06em){
+    .col-1of2a{
+      flex-basis:50%;
+    }
+
+    .top-padding-mobile{
+      padding-top: 0px;
+    }
+
+    .top-margin-mobile{
+      margin-top:1rem;
+    }
 
     #toggle{
       visibility:hidden;
