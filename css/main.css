@@ -106,8 +106,8 @@ h3{
 #slogan{
   font-family:'Sentinel', serif;
   font-weight:500;
-  line-height:1.4em;
-  font-size:1.9em;
+  line-height:1.0em;
+  font-size:5em;
   letter-spacing:0px;
   border-bottom:1px solid transparent;
 }
@@ -532,23 +532,14 @@ iframe{
   font-family:'GT-America', sans-serif;
   font-weight:normal;
   text-transform:uppercase;
-  margin-left:30px;
-  border-bottom:1px solid black;
-  padding: 7px 0 0 2px;
   letter-spacing:1px;
   font-size:0.8em;
-  text-align:center;
-  background-image: linear-gradient(to right, black 0, black 100%);
-  background-position: 0em 0em;
-  background-size: 0% 100%;
-  background-repeat: no-repeat;
-  transition: background-size 0.5s ;
+  transition: opacity 0.5s ;
 }
 
 .nav-button:hover, .nav-button:focus{
   font-family:'GT-America', sans-serif;
-  color: white;
-  background-size: 100% 100%;
+  opacity: 0.5;
 }
 
 #active{
@@ -569,7 +560,7 @@ iframe{
   text-align:center;
   opacity:0;
   visibility:hidden;
-  transition: 0.75s;
+  transition: 0.5s;
 }
 
 .overlay-content {
@@ -612,18 +603,13 @@ iframe{
   letter-spacing:0.5px;
   padding:14px 0;
   text-align:center;
-  background-image: linear-gradient(to right, white 0, white 100%);
-  background-position: 0em 0em;
-  background-size: 0% 100%;
-  background-repeat: no-repeat;
-  transition:0.75s ;
+  transition:0.5s ;
 }
 
 .overlay-nav-button:hover, .overlay-nav-button:focus{
   font-family:'GT-America', sans-serif;
   font-weight: 500;
-  background-size: 100% 100%;
-  color: black;
+  opacity:0.5;
 }
 
 #toggle{
@@ -879,7 +865,7 @@ footer{
 }
 
 .project-description{
-  padding:0px 8px 10px 8px;
+  padding:0px 0px 10px 0px;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
   background-size: 0% 100%;
@@ -893,7 +879,7 @@ footer{
 }
 
 #project-description-feature{
-  padding:0px 8px 10px 8px; /*for feature project description*/
+  padding:0px 0px 10px 0px; /*for feature project description*/
 }
 
 #project-thumbnail-feature img{
@@ -988,7 +974,7 @@ footer{
     position: absolute;
     left: 29%;
     right: 24.5%;
-    margin-top: 12px;
+    margin-top:12px;
     border-bottom: 1px solid #898989;
   }
 
@@ -1029,8 +1015,15 @@ footer{
   }
 
   #slogan{
-    line-height:1.5em;
-    font-size:1.8em;
+    line-height:1.3em;
+    font-size:6em;
+    margin:0;
+  }
+
+  .border-left{
+    border-left:3px solid black;
+    border-left-width:3px;
+    padding-left:20px;
   }
 
   #about-slogan{
@@ -1173,8 +1166,9 @@ footer{
   }
 
   #slogan{
-    line-height:1.5em;
-    font-size:3em;
+    line-height:1.2em;
+    font-size:8em;
+    margin:0;
   }
 
   #about-slogan{
@@ -1297,7 +1291,8 @@ footer{
 @media (min-width:88em){
   #slogan{
     line-height:1.3em;
-    font-size:3.3em;
+    font-size:8em;
+    margin:0;
   }
 
   .sidenote{

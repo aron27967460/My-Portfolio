@@ -256,6 +256,14 @@
     flex-basis:100%;
   }
 
+  .col-rightpanel{
+    flex-basis:100%;
+  }
+
+  .col-leftpanel{
+    flex-basis:100%;
+  }
+
   /*------------------------------------- MEDIA QUERY ----------------------------------------*/
 
   @media (min-width:42em){
@@ -298,6 +306,14 @@
 
     .col-2of3{
       flex-basis:66%;
+    }
+
+    .col-rightpanel{
+      flex-basis:25%;
+    }
+
+    .col-leftpanel{
+      flex-basis:75%;
     }
 
     .padding-left-flex-30px{
