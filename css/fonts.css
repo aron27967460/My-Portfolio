@@ -16,7 +16,15 @@
 
 @font-face {
 	font-family: 'GT-America';
-	font-weight: bold;
+	font-weight: 500;
+	font-style: normal;
+	src: url('../fonts/GT-America-Medium.otf');
+	src: url('../fonts/GT-America-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'GT-America';
+	font-weight: 700;
 	font-style: normal;
 	src: url('../fonts/GT_America_Bold.otf');
 	src: url('../fonts/GT_America_Bold.otf') format('opentype');
@@ -101,4 +109,37 @@
 	font-style:normal;
 	src: url('../fonts/Garamond-Premier-Pro-Bold-Caption.otf');
 	src: url('../fonts/Garamond-Premier-Pro-Bold-Caption.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'Sentinel';
+	font-weight: 300;
+	font-style:normal;
+	src: url('../fonts/Sentinel-Book.otf');
+	src: url('../fonts/Sentinel-Book.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'Sentinel';
+	font-weight: 100;
+	font-style:normal;
+	src: url('../fonts/Sentinel-Light.otf');
+	src: url('../fonts/Sentinel-Light.otf')format('opentype')
+}
+
+
+@font-face{
+	font-family: 'Sentinel';
+	font-weight: 500;
+	font-style:normal;
+	src: url('../fonts/Sentinel-Medium.otf');
+	src: url('../fonts/Sentinel-Medium.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'Sentinel';
+	font-weight: 700;
+	font-style:normal;
+	src: url('../fonts/Sentinel-Bold.otf');
+	src: url('../fonts/Sentinel-Bold.otf')format('opentype')
 }

@@ -2,21 +2,22 @@
 a, a:visited, a:focus{
   text-decoration:none;
   color:black;
-  font-family:'FiraSans',Helvetica, sans-serif;
-  font-weight:300;
+  font-family:'Sentinel', serif;
+  font-weight:normal;
 }
 
 /* h1 style */
 h1{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:300;
+  font-family:'Sentinel', serif;
+  font-weight:500;
   font-size:1.5em;
   letter-spacing: 0.15em;
 }
 
 h1 strong{
+  font-family:'Sentinel', serif;
   position: relative;
-  font-weight:600;
+  font-weight:500;
   z-index: 2;
   display: inline-block;
   max-width: 100%;
@@ -30,7 +31,7 @@ h1::before {
   position: absolute;
   left: 4.5%;
   right: 4.5%;
-  margin-top: 30px;
+  margin-top: 35px;
   border-bottom: 2px solid black;
 }
 
@@ -48,7 +49,7 @@ h1::before {
 }
 /* about slogan*/
 .about-slogan{
-  font-family:'GaramondPremierProDisplay', serif;
+  font-family:'Sentinel', serif;
   font-weight:300;
   font-size:1em;
   line-height:1.4em;
@@ -58,8 +59,8 @@ h1::before {
 
 /* about page header*/
 .about-title{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
+  font-family:'Sentinel', serif;
+  font-weight:700;
   font-size:1.3em;
   letter-spacing:1px;
   color:black;
@@ -78,10 +79,10 @@ h1::before {
 
 /* h2 style */
 h2{
-  font-family:'FiraSans',Helvetica, sans-serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   font-weight:500;
   font-size:0.85em;
-  color:#B9B9B9;
+  color:#A2AEB6;
   line-height:2.0em;
   letter-spacing: 0.1em;
   margin-bottom:0.1em;
@@ -90,8 +91,8 @@ h2{
 
 /* h3 style */
 h3{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
+  font-family:'Sentinel', serif;
+  font-weight:300;
   font-size:1.5em;
   line-height:1.4em;
   letter-spacing:1px;
@@ -103,17 +104,17 @@ h3{
 
 /* slogan, used for index */
 #slogan{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
+  font-family:'Sentinel', serif;
+  font-weight:500;
   line-height:1.4em;
-  font-size:1.8em;
+  font-size:1.9em;
   letter-spacing:0px;
   border-bottom:1px solid transparent;
 }
 
 /* logo img size */
 #logo img{
-  width:50px;
+  width:100px;
 }
 
 #logo-motion{
@@ -139,8 +140,8 @@ h3{
 
 /* project title used for project pages */
 #project-title{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
+  font-family:'Sentinel', serif;
+  font-weight:500;
   line-height:1.2em;
   font-size:3.2em;
   letter-spacing:1.3px;
@@ -152,10 +153,10 @@ h3{
 
 /* about page title */
 #about-slogan{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
+  font-family:'Sentinel', serif;
+  font-weight:500;
   line-height:1.2em;
-  font-size:2em;
+  font-size:2.6em;
   letter-spacing:0px;
   border-bottom:0px solid transparent;
   padding-right:80px;
@@ -163,28 +164,29 @@ h3{
 
 /* default paragraph style */
 p{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:200;
-  line-height:1.4em;
+  font-family:'Sentinel', serif;
+  font-weight:100;
+  line-height:1.5em;
   letter-spacing: 1.1px;
-  font-size:1.05em;
+  font-size:1em;
   margin-top:0.5em;
+  color:#515E65;
 }
 
 /* paragraph for about-me page*/
 .about-p{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:300;
+  font-family:'Sentinel', serif;
+  font-weight:100;
   line-height:1.5em;
   letter-spacing: 1px;
-  font-size:1.05em;
+  font-size:1em;
   margin-top:0.1em;
 }
 
 /* for quote usage in project pages*/
 .quotes{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
+  font-family:'Sentinel', serif;
+  font-weight:500;
   font-size:1.3em;
   color:black;
   line-height:1.4em;
@@ -195,35 +197,36 @@ p{
 
 /* for author usage in project pages*/
 .author{
-  font-family:'FiraSans', sans-serif;
-  font-weight:400;
-  font-size:0.7em;
-  letter-spacing: 1.3px;
+  font-family:'GT-America', sans-serif;
+  font-weight:500;
+  font-size:0.8em;
+  letter-spacing: 1px;
   line-height:1.7em;
   margin:-1em 0 1.5em 3rem;
   text-align: right;
   padding-left:20px;
-  color:#B9B9B9;
-  border-left:0px solid #B9B9B9;
+  text-transform:uppercase;
+  color:#A2AEB6;
+  border-left:0px solid #A2AEB6;
 }
 
 /* sidenotes */
 .sidenote{
-  font-family:'FiraSans', sans-serif;
-  font-weight:300;
+  font-family:'GT-America', sans-serif;
+  font-weight:normal;
   font-size:0.7em;
   letter-spacing: 1px;
   line-height:1.7em;
   text-align: left;
   margin-top:2em;
   padding-left:15px;
-  color:#898989;
-  border-left:1px solid #B9B9B9;
+  color:#A2AEB6;
+  border-left:1px solid #A2AEB6;
 }
 
 .sidenote-noborder{
-  font-family:'FiraSans', sans-serif;
-  font-weight:300;
+  font-family:'GT-America', sans-serif;
+  font-weight:normal;
   font-size:0.7em;
   letter-spacing: 1px;
   line-height:1.7em;
@@ -231,30 +234,30 @@ p{
   margin-left:0rem;
   padding-left:0px;
   padding-top:1.5em;
-  color:#898989;
+  color:#A2AEB6;
   border-left:0px solid transparent;
 }
 
 /* sidenote but always remain at bottom */
 .bottomnote{
-  font-family:'FiraSans', sans-serif;
-  font-weight:300;
+  font-family:'GT-America', sans-serif;
+  font-weight:normal;
   font-size:0.7em;
   letter-spacing: 1px;
   line-height:1.7em;
-  color:#898989;
+  color:#A2AEB6;
   margin-top:2em;
   padding-left:0px;
-  border-left:0px solid #B9B9B9;
+  border-left:0px solid #A2AEB6;
 }
 
 .bottomnote-noborder{
-  font-family:'FiraSans', sans-serif;
-  font-weight:300;
+  font-family:'GT-America', sans-serif;
+  font-weight:normal;
   font-size:0.7em;
   letter-spacing: 1px;
   line-height:1.7em;
-  color:#898989;
+  color:#A2AEB6;
   margin-top:1em;
 }
 
@@ -268,8 +271,8 @@ p{
 
 /* bulleted lists style */
 ul li{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:200;
+  font-family:'Sentinel', serif;
+  font-weight:100;
   font-size:1em;
   line-height:1.3em;
   letter-spacing: 1.2px;
@@ -283,8 +286,8 @@ ol{
 }
 
 ol li{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
+  font-family:'Sentinel', serif;
+  font-weight:500;
   font-size:1em;
   line-height:1.3em;
   letter-spacing: 1.2px;
@@ -294,14 +297,13 @@ ol li{
 
 /* tag for categorizing project */
 .tag{
-  font-family:'FiraSans',Helvetica, sans-serif;
-  font-weight:100;
-  font-size:0.8em;
-  letter-spacing: 1.6px;
+  font-family:'GT-America',Helvetica, sans-serif;
+  font-weight:700;
+  font-size:0.7em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
   color:#B9B9B9;
   border-bottom:0px solid #EBEBEB;
-  padding-top:30px;
-  display:none;
 }
 
 /*general img setting */
@@ -319,7 +321,8 @@ ol li{
 }
 
 .space-block{
-  border-bottom:1px solid black;
+  margin-top:8px;
+  border-bottom:3px solid black;
 }
 
 /* mobile gif for projects */
@@ -406,8 +409,8 @@ iframe{
 /* ------ style guide setting --------*/
 .element-list{
   color:black;
-  font-family:'FiraSans', sans-serif;
-  font-weight:600;
+  font-family:'GT-America', sans-serif;
+  font-weight:500;
   font-size:0.8em;
   letter-spacing:1px;
   border:1px solid #EBEBEB;
@@ -425,7 +428,7 @@ iframe{
 }
 
 .style-guide-item{
-  font-family:'FiraSans',Helvetica,sans-serif;
+  font-family:'GT-America',Helvetica,sans-serif;
   font-weight:300;
   text-decoration:underline;
   font-size: 1em;
@@ -501,8 +504,16 @@ iframe{
 
 /* navigation bar */
 .nav-bar{
-  margin-top:45px;
-  margin-bottom:4em;
+  width:95%;
+  height:80px;
+  padding:30px 0;
+  top:0;
+  left:2.5%;
+  background-color:white;
+  z-index:98;
+  position:fixed;
+  overflow:hidden;
+  margin:0;
 }
 
 #logo{
@@ -515,13 +526,17 @@ iframe{
 
 /* navigation button style */
 .nav-button{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:400;
-  margin-right:40px;
-  border-bottom:0.5px solid black;
-  padding: 5px 0 0px 5px;
+  float: right;
+  display: block;
+  text-align:right;
+  font-family:'GT-America', sans-serif;
+  font-weight:normal;
+  text-transform:uppercase;
+  margin-left:30px;
+  border-bottom:1px solid black;
+  padding: 7px 0 0 2px;
   letter-spacing:1px;
-  font-size:1.05em;
+  font-size:0.8em;
   text-align:center;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
@@ -531,8 +546,7 @@ iframe{
 }
 
 .nav-button:hover, .nav-button:focus{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:400;
+  font-family:'GT-America', sans-serif;
   color: white;
   background-size: 100% 100%;
 }
@@ -549,11 +563,12 @@ iframe{
   position: fixed;
   z-index: 99;
   top: 0;
-  left: 100%;
+  left: 0;
   background-color: black;
   overflow: hidden;
   text-align:center;
-  opacity:0.95;
+  opacity:0;
+  visibility:hidden;
   transition: 0.75s;
 }
 
@@ -573,9 +588,9 @@ iframe{
   font-weight:200;
   color: white;
   cursor: pointer;
-  position: absolute;
-  right: 7%;
-  top: 30px;
+  position: fixed;
+  right: 4.2%;
+  top: 15px;
   opacity:0;
 }
 
@@ -590,8 +605,10 @@ iframe{
 
 /*overlay navigation button style */
 .overlay-nav-button{
-  font-weight: 400;
-  font-size:1.3em;
+  font-family:'GT-America', sans-serif;
+  font-weight: 500;
+  text-transform:uppercase;
+  font-size:1.1em;
   letter-spacing:0.5px;
   padding:14px 0;
   text-align:center;
@@ -603,7 +620,8 @@ iframe{
 }
 
 .overlay-nav-button:hover, .overlay-nav-button:focus{
-  font-weight: 400;
+  font-family:'GT-America', sans-serif;
+  font-weight: 500;
   background-size: 100% 100%;
   color: black;
 }
@@ -619,13 +637,13 @@ iframe{
 
 /* -------------- sidebar styling for project pages ---------------- */
 .sidebar{
-  font-family:'FiraSans',Helvetica, sans-serif;
-  font-weight:300;
+  font-family:'GT-America',Helvetica, sans-serif;
+  font-weight:100;
   font-size: 0.75em;
   border-bottom:1px solid black;
-  letter-spacing:0.2px;
+  letter-spacing:1px;
   padding: 5px 0px 5px 2px;
-  width:105px;
+  width:110px;
   opacity: 0;
   transition: opacity 0.5s;
   text-align:left;
@@ -664,25 +682,28 @@ iframe{
 
 /* ------ footer bar ------- */
 footer{
-  margin:50px 2% 70px 2%;
+  padding:50px 2% 70px 2%;
+  margin-top:50px;
   border-top:1px solid #EBEBEB;
-  padding-top:25px;
+  background-color:black;
 }
 
 .footer-button{
-  margin:5px 25px 10px 5px;
+  margin:5px 50px 10px 5px;
   text-align:left;
-  color:black;
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:400;
-  letter-spacing:1px;
-  font-size:1.05em;
+  color:white;
+  font-family:'GT-America', sans-serif;
+  font-weight:normal;
+  letter-spacing:2px;
+  font-size:0.7em;
+  text-transform: uppercase;
 }
 
 .footer-button a{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:400;
-  color:black;
+  font-family:'GT-America', sans-serif;
+  font-weight:normal;
+  color:white;
+  text-transform: uppercase;
 }
 
 .footer-button a:hover, .footer-button a:focus{
@@ -692,12 +713,13 @@ footer{
 
 /* Default Button */
 .d-button{
+  font-family:'GT-America', sans-serif;
+  font-weight:100;
   margin:0;
   padding:8px 20px;
   font-size:12px;
   letter-spacing:0.8px;
   border:1px solid black;
-  font-weight:300;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
   background-size: 0% 100%;
@@ -706,11 +728,13 @@ footer{
 }
 
 .d-button strong{
-  font-weight:600;
+  font-weight:700;
   letter-spacing:1.7px;
 }
 
-.d-button:hover{
+.d-button:hover, .d-button:focus{
+  font-family:'GT-America', sans-serif;
+  font-weight:100;
   cursor:pointer;
   color:white;
   background-size:100% 100%;
@@ -722,7 +746,8 @@ footer{
   position: fixed;
   padding:8px 0px;
   letter-spacing:0.8px;
-  font-family:'FiraSans',Helvetica, sans-serif;
+  font-family:'GT-America',Helvetica, sans-serif;
+  text-transform:uppercase;
   font-weight:500;
   font-size:0.9em;
   color:black;
@@ -762,14 +787,14 @@ footer{
   background-repeat: no-repeat;
   text-decoration: underline;
   margin:0px 2px;
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
+  font-family:'Sentinel', serif;
+  font-weight:500;
   transition: background-size 0.6s;
 }
 
 .intext-link:hover, .intext-link:focus{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:600;
+  font-family:'Sentinel', serif;
+  font-weight:500;
   line-height:1em;
   background-size: 100% 80%;
   text-decoration: none;
@@ -780,19 +805,18 @@ footer{
   font-size:1.0em;
   background-image: linear-gradient(to right, #fcf113 0, #fcf113 100%);
   background-position: 0em 0.5em;
-  background-size: 100% 80%;
+  background-size: 0% 50%;
   background-repeat: no-repeat;
+  text-decoration: underline;
   margin:0px 2px;
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:400;
+  font-family:'GT-America', sans-serif;
+  font-weight:500;
   transition: background-size 0.6s;
 }
 
 .intext-link2:hover, .intext-link2:focus{
-  font-family:'GaramondPremierProDisplay', serif;
-  font-weight:400;
+  font-weight:500;
   margin:0px 2px;
-  color:#5A5A5B;
   background-size: 100% 100%;
   text-decoration: none;
   border-bottom:1px solid transparent;
@@ -856,7 +880,6 @@ footer{
 
 .project-description{
   padding:0px 8px 10px 8px;
-  margin-top:40px;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
   background-size: 0% 100%;
@@ -884,9 +907,8 @@ footer{
 
 
 .project-thumbnail{
-  border:1px solid #B5B5B5;
+  border:1px solid #EBEBEB;
   padding:15px;
-  border-radius:8px;
 }
 
 .project-thumbnail img{
@@ -931,7 +953,7 @@ footer{
     padding-top:0em;
     margin-left:3rem;
     text-align: left;
-    color:#898989;
+    color:#A2AEB6;
   }
 
   ol{
@@ -939,8 +961,8 @@ footer{
   }
 
   #project-title{
-    font-size:4.5em;
-    font-weight:600;
+    font-size:4em;
+    font-weight:500;
     letter-spacing:1.5px;
     width:100%;
     word-spacing:0px;
@@ -948,12 +970,12 @@ footer{
   }
 
   h1{
-    font-family:'GaramondPremierProDisplay', serif;
+    font-family:'Sentinel', serif;
     font-size:1.6em;
   }
 
   h1 strong{
-    font-weight:600;
+    font-weight:500;
     position: relative;
     z-index: 2;
     display: inline-block;
@@ -964,7 +986,7 @@ footer{
   h1::before {
     content: '';
     position: absolute;
-    left: 24%;
+    left: 29%;
     right: 24.5%;
     margin-top: 12px;
     border-bottom: 1px solid #898989;
@@ -1001,9 +1023,9 @@ footer{
   }
 
   .about-p{
-    line-height:1.7em;
+    line-height:1.5em;
     letter-spacing: 1.2px;
-    font-size:1.2em;
+    font-size:1em;
   }
 
   #slogan{
@@ -1047,11 +1069,19 @@ footer{
   }
 
   .project-description{
-    padding:30px 0px 50px 0px;
+    padding:30px 30px 20px 50px;
     background-size: 0% 100%;
   }
 
-  .project-item a:hover .project-description, .project-item a:focus .project-description, .project-item a:hover .project-description h3{
+  .project-description p{
+    font-size:1em;
+  }
+
+  .project-description .tag{
+    font-size:0.7em;
+  }
+
+  .project-item a:hover .project-description, .project-item a:focus .project-description, .project-item a:hover .project-description h3, .project-item a:hover .project-description p, .project-item a:focus .project-description{
     background-size: 100% 100%;
     color: white;
     opacity:1;
@@ -1085,6 +1115,7 @@ footer{
 
   .project-item a:hover .project-description{
     box-shadow: 0px 0px 0px transparent;
+    color:white;
   }
 
   .project-item a:hover .project-thumbnail img, .project-item a:focus .project-thumbnail img{
@@ -1095,7 +1126,7 @@ footer{
     margin-top:0.3em;
     margin-bottom:0.3em;
     font-size:1.8em;
-    font-weight:600;
+    font-weight:500;
   }
 
   #description-feature{
@@ -1120,9 +1151,9 @@ footer{
   h3{
     margin-top:0.3em;
     margin-bottom:0.3em;
-    font-size:1.1em;
-    font-weight:600;
-    color:#333333;
+    font-size:1.2em;
+    font-weight:300;
+    color:black;
   }
 
   .project-thumbnail img{
@@ -1143,7 +1174,7 @@ footer{
 
   #slogan{
     line-height:1.5em;
-    font-size:2.5em;
+    font-size:3em;
   }
 
   #about-slogan{
@@ -1167,16 +1198,11 @@ footer{
   }
 
   .project-description{
-    padding:15px 50px 35px 50px;
-  }
-
-
-  .project-description p{
-    font-size:0.9em;
+    padding:40px 50px 0px 50px;
   }
 
   #project-description-feature{
-    padding:110px 5% 110px 90px;
+    padding:160px 5% 110px 60px;
   }
 
   #description-feature{
@@ -1191,24 +1217,24 @@ footer{
   #h3-feature{
     margin-top:0.3em;
     margin-bottom:0.3em;
-    font-size:2.1em;
-    font-weight:600;
+    font-size:2.3em;
+    font-weight:500;
   }
 
   .tag{
     font-size:0.7em;
-    color:#B9B9B9;
+    color:#A2AEB6;
+    letter-spacing: 4px;
   }
 
   #tag-feature{
-    font-size:0.9em;
-    margin:0em 0 3em 0;
+    font-size:0.7em;
     letter-spacing: 4px;
   }
 
   .about-title{
     font-size:1.7em;
-    font-weight:600;
+    font-weight:500;
     padding:5px 0px 0px 0px;
     letter-spacing:1px;
     line-height: 1.3em;
@@ -1260,16 +1286,18 @@ footer{
   }
 
   footer{
-      margin:50px 12% 70px 12%;
-      padding-top:25px;
+      padding:50px 12% 70px 12%;
+      width:100%;
+      margin-top:30px;
+      position:relative;
   }
 }
 
 
 @media (min-width:88em){
   #slogan{
-    line-height:1.5em;
-    font-size:3em;
+    line-height:1.3em;
+    font-size:3.3em;
   }
 
   .sidenote{
@@ -1322,18 +1350,18 @@ footer{
   }
 
   #logo img{
-    width:70px;
+    width:120px;
   }
   #topBtn{
     font-size:0.9em;
   }
   .sidebar{
     font-size:0.9em;
-    width:125px;
+    width:140px;
   }
 
   .footer-button{
-    font-size:1.1em;
+    font-size:1em;
   }
   .style-guide-item{
     font-size:1.1em;

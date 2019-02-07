@@ -2,11 +2,11 @@
     box-sizing: border-box;
   }
 
-  body{
+  /* body{
     width:95%;
     margin-left:2.5%;
     margin-right:2.5%;
-  }
+  } */
 
   section{
     margin:0 2% 2em 2%;
@@ -112,6 +112,10 @@
     margin-top:20px;
   }
 
+  .top-margin-5{
+    margin-top:4.7rem;
+  }
+
   .top-padding-mobile{
     padding-top:30px;
   }
@@ -156,14 +160,16 @@
 
   /*------- navigation ------ */
   #logo{
-    position:absolute;
+    position:fixed;
+    z-index: 98;
     top:35px;
     left:20px;
   }
 
   #toggle{
     position:fixed;
-    top:45px;
+    z-index: 99;
+    top:25px;
     right:4.4%;
     visibility:visible;
   }
@@ -282,6 +288,7 @@
     .footer-button{
       flex-basis:auto;
     }
+
   }
 
   @media (min-width:43.75em){
@@ -371,6 +378,10 @@
     .padding-right-flex-about{
       padding-right:1rem;
     }
+
+    .project-body{
+      margin:0 25% 0em 25%;
+    }
   }
 
   @media (min-width:75em){
@@ -393,12 +404,8 @@
       flex-basis: 100%;
     }
 
-    .project-body{
-      margin:0 22.5% 0em 22.5%;
-    }
-
     .project-title-body{
-      margin:0 22.5% 0em 22.5%;
+      margin:8em 22.5% 0em 22.5%;
     }
 
     .top-margin-2{
