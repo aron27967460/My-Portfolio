@@ -29,8 +29,8 @@ h1 strong{
 h1::before {
   content: '';
   position: absolute;
-  left: 4.5%;
-  right: 4.5%;
+  left: 2.5%;
+  right: 2.5%;
   margin-top: 35px;
   border-bottom: 2px solid black;
 }
@@ -706,7 +706,7 @@ footer{
 /* Default Button */
 .d-button{
   font-family:'GT-America', sans-serif;
-  font-weight:100;
+  font-weight:normal;
   margin:10px 20px;
   padding:8px 15px;
   font-size:12px;
