@@ -118,13 +118,21 @@ h3{
 }
 
 #logo-motion{
-  width:160px;
-  margin: 25px 0;
+  width:90px;
   transition:0.5s;
 }
 
 #logo-motion:hover{
   transform: scale(1.1,1.1);
+}
+
+#award-tagline{
+  font-family:'GT-America', sans-serif;
+  font-weight:normal;
+  text-transform:uppercase;
+  color:black;
+  letter-spacing:1px;
+  font-size:0.8em;
 }
 
 .logo-block{
@@ -1055,6 +1063,12 @@ footer{
     padding-top:0px;
     padding:50px 12% 70px 12%;
   }
+
+  #logo-motion{
+    width:160px;
+    margin-top:50px;
+    transition:0.5s;
+  }
 }
 
 @media (min-width:43.75em){
@@ -1084,6 +1098,10 @@ footer{
     background-size: 100% 100%;
     color: white;
     opacity:1;
+  }
+
+  .project-item a:hover .project-description #award-tagline{
+    color: #A2AEB6;
   }
 
   .project-item a{
