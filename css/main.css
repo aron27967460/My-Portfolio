@@ -1330,8 +1330,7 @@ footer{
 @media (min-width:110em){
 
   #slogan{
-    font-size:5em;
-    letter-spacing:0px;
+    font-size:10em;
   }
 
   h1{
@@ -1353,17 +1352,7 @@ footer{
   #logo img{
     width:120px;
   }
-  #topBtn{
-    font-size:0.9em;
-  }
-  .sidebar{
-    font-size:0.9em;
-    width:140px;
-  }
 
-  .footer-button{
-    font-size:1em;
-  }
   .style-guide-item{
     font-size:1.1em;
   }
