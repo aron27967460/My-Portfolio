@@ -295,9 +295,6 @@
       flex-basis:auto;
     }
 
-  }
-
-  @media (min-width:43.75em){
     .col-1of3{
       flex-basis:33%;
     }

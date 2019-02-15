@@ -1083,9 +1083,11 @@ footer{
   .project-item a:hover .project-description .mobile, .project-item a:focus .project-description .mobile{
     display:block;
   }
-}
 
-@media (min-width:43.75em){
+  .project-thumbnail{
+    border: 0px;
+    padding:40px 0px;
+  }
 
   .project-list{
     border-color:#EBEBEB #EBEBEB #EBEBEB #EBEBEB;
@@ -1120,11 +1122,6 @@ footer{
 
   .project-item a{
     box-shadow:1px 1px 5px rgba(0,0,0,0);
-  }
-
-  .project-thumbnail{
-    border: 0px;
-    padding:40px 0px;
   }
 
   .text-center-flex{
