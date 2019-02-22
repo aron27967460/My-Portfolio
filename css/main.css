@@ -642,6 +642,13 @@ iframe{
   opacity:0.2 !important;
 }
 
+.sidebar:active, .sidebar:focus{
+  font-family:'GT-America',Helvetica, sans-serif;
+  font-weight:100;
+  font-size: 0.75em;
+}
+
+
 #sidebar-1{
   bottom: 65%;
   left:-90px;
@@ -741,7 +748,6 @@ footer{
   padding:8px 0px;
   letter-spacing:0.8px;
   font-family:'GT-America',Helvetica, sans-serif;
-  text-transform:uppercase;
   font-weight:500;
   font-size:0.9em;
   color:black;
@@ -750,7 +756,7 @@ footer{
   background-size: 0% 100%;
   background-repeat: no-repeat;
   bottom:2%;
-  left:4.5%;
+  left:3%;
   width:91%;
   text-align:center;
   z-index: 98;
@@ -1280,9 +1286,9 @@ footer{
 
   #topBtn{
   bottom: 70%;
-  left:0%;
-  padding:5px 2px 5px 50px;
-  width:auto;
+  left:2.5%;
+  padding:5px 0px 5px 0px;
+  width:110px;
   letter-spacing:0.8px;
   font-size:0.8em;
   border-style: none none solid none;

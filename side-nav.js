@@ -7,10 +7,10 @@ function scrollFunction() {
         document.getElementById("sidebar-2").style.opacity = "1";
         document.getElementById("sidebar-3").style.opacity = "1";
         document.getElementById("sidebar-4").style.opacity = "1";
-        document.getElementById("sidebar-1").style.left = "45px";
-        document.getElementById("sidebar-2").style.left = "45px";
-        document.getElementById("sidebar-3").style.left = "45px";
-        document.getElementById("sidebar-4").style.left = "45px";
+        document.getElementById("sidebar-1").style.left = "2.5%";
+        document.getElementById("sidebar-2").style.left = "2.5%";
+        document.getElementById("sidebar-3").style.left = "2.5%";
+        document.getElementById("sidebar-4").style.left = "2.5%";
     }else {
         document.getElementById("topBtn").style.opacity = "0";
         document.getElementById("sidebar-1").style.opacity = "0";
