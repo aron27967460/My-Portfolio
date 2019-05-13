@@ -44,33 +44,6 @@ h1::before {
   border-bottom: 0px solid transparent;
 }
 
-.about-slogan::before{
-  border-bottom: 0px solid transparent;
-}
-/* about slogan*/
-.about-slogan{
-  font-family:'Sentinel', serif;
-  font-weight:300;
-  font-size:1em;
-  line-height:1.4em;
-  letter-spacing:1px;
-  word-spacing:2px;
-}
-
-/* about page header*/
-.about-title{
-  font-family:'Sentinel', serif;
-  font-weight:700;
-  font-size:1.3em;
-  letter-spacing:1px;
-  color:black;
-  margin-bottom:20px;
-  border-bottom:1px solid #EAEAEA;
-}
-
-.about-title::before{
-  border-bottom: 1px solid transparent;
-}
 
 @keyframes highlight-underline{
   0% {background-size:0 40%;}
