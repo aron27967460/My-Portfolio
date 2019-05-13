@@ -304,11 +304,11 @@
     }
 
     .col-rightpanel{
-      flex-basis:25%;
+      flex-basis:35%;
     }
 
     .col-leftpanel{
-      flex-basis:75%;
+      flex-basis:65%;
     }
 
     .padding-left-flex-30px{
@@ -393,6 +393,15 @@
     .project-body{
       margin:0 25% 0em 25%;
     }
+
+    .col-rightpanel{
+      flex-basis:25%;
+    }
+
+    .col-leftpanel{
+      flex-basis:75%;
+    }
+
   }
 
   @media (min-width:75em){
@@ -442,6 +451,15 @@
 
     .col-3of5{
       flex-basis:60%;
+    }
+
+    .col-leftpanel{
+      flex-basis:75%;
+    }
+
+    .col-rightpanel{
+      flex-basis:25%;
+      padding-right:5%;
     }
   }
 
