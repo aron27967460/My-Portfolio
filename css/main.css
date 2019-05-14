@@ -596,19 +596,26 @@ iframe{
 }
 
 /* -------------- sidebar styling for project pages ---------------- */
+.sidebar-container{
+  position: fixed;
+  top:25%;
+  left:3%;
+}
+
 .sidebar{
   font-family:'GT-America',Helvetica, sans-serif;
   font-weight:100;
   font-size: 0.75em;
   border-bottom:1px solid black;
   letter-spacing:1px;
+  margin-top:15px;
   padding: 5px 0px 5px 2px;
-  width:110px;
   opacity: 0;
   transition: opacity 0.5s;
   text-align:left;
-  position:fixed;
+  position:relative;
   display:none;
+  transition: opacity 0.5s;
 }
 
 .sidebar:hover{
@@ -619,31 +626,6 @@ iframe{
   font-family:'GT-America',Helvetica, sans-serif;
   font-weight:100;
   font-size: 0.75em;
-}
-
-
-#sidebar-1{
-  bottom: 65%;
-  left:-90px;
-  transition: left 0.3s;
-}
-
-#sidebar-2{
-  bottom: 61%;
-  left:-90px;
-  transition: left 0.7s;
-}
-
-#sidebar-3{
-  bottom: 57%;
-  left:-90px;
-  transition: left 1.1s;
-}
-
-#sidebar-4{
-  bottom: 53%;
-  left:-110px;
-  transition: left 1.5s;
 }
 
 
@@ -708,7 +690,7 @@ footer{
 
 .d-button:hover, .d-button:focus{
   font-family:'GT-America', sans-serif;
-  font-weight:100;
+  font-weight:normal;
   cursor:pointer;
   color:white;
   background-size:100% 100%;
@@ -717,20 +699,16 @@ footer{
 /* back to top button */
 
 #topBtn{
-  position: fixed;
   padding:8px 0px;
   letter-spacing:0.8px;
   font-family:'GT-America',Helvetica, sans-serif;
-  font-weight:500;
+  font-weight:300;
   font-size:0.9em;
   color:black;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
   background-size: 0% 100%;
   background-repeat: no-repeat;
-  bottom:2%;
-  left:3%;
-  width:91%;
   text-align:center;
   z-index: 98;
   opacity:0;
@@ -1245,6 +1223,20 @@ footer{
     border-bottom:1px solid #EAEAEA;
     background-position: -0.5em 0.80em;
   }
+
+  #topBtn{
+  padding:5px 30px 5px 5px;
+  letter-spacing:0.8px;
+  font-size:0.8em;
+  border-width: 2px;
+  border-style: none none solid none;
+  box-shadow: 0px -1px 5px transparent;
+  display:block;
+  }
+
+  .sidebar{
+    display:block;
+  }
 }
 
 @media (min-width:75em){
@@ -1257,22 +1249,6 @@ footer{
     margin-left:5rem;
   }
 
-  #topBtn{
-  bottom: 70%;
-  left:2.5%;
-  padding:5px 0px 5px 0px;
-  width:110px;
-  letter-spacing:0.8px;
-  font-size:0.8em;
-  border-style: none none solid none;
-  border-color: transparent transparent black transparent;
-  box-shadow: 0px -1px 5px transparent;
-  display:block;
-  }
-
-  .sidebar{
-    display:block;
-  }
 
   .element-list{
     border:1px solid transparent;
@@ -1290,7 +1266,7 @@ footer{
   }
 
   footer{
-      padding:50px 12% 70px 12%;
+      padding:50px 12% 90px 12%;
       width:100%;
       margin-top:30px;
       position:relative;
