@@ -78,7 +78,7 @@ h3{
 /* slogan, used for index */
 #slogan{
   font-family:'Sentinel', serif;
-  font-weight:500;
+  font-weight:300;
   line-height:1.0em;
   font-size:5em;
   letter-spacing:0px;
@@ -660,8 +660,8 @@ footer{
 
 #let-chat{
   font-family:'Sentinel', serif;
-  font-size:3em;
-  font-weight:300;
+  font-size:4em;
+  font-weight:100;
   color:white;
   margin:0 0 25px 0;
 }
@@ -917,7 +917,7 @@ footer{
 
   #project-title{
     font-size:4em;
-    font-weight:500;
+    font-weight:300;
     letter-spacing:1.5px;
     width:100%;
     word-spacing:0px;
@@ -1107,7 +1107,7 @@ footer{
     margin-top:0.3em;
     margin-bottom:0.3em;
     font-size:1.8em;
-    font-weight:500;
+    font-weight:300;
   }
 
   #description-feature{
@@ -1133,7 +1133,7 @@ footer{
     margin-top:0.3em;
     margin-bottom:0.3em;
     font-size:1.2em;
-    font-weight:500;
+    font-weight:300;
     color:black;
   }
 
@@ -1200,7 +1200,7 @@ footer{
     margin-top:0.3em;
     margin-bottom:0.3em;
     font-size:2.3em;
-    font-weight:500;
+    font-weight:300;
   }
 
   .tag{
