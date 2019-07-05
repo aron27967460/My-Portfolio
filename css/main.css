@@ -80,7 +80,7 @@ h3{
   font-family:'Sentinel', serif;
   font-weight:300;
   line-height:1.0em;
-  font-size:5em;
+  font-size:4em;
   letter-spacing:0px;
   border-bottom:1px solid transparent;
 }
@@ -808,11 +808,6 @@ footer{
   border-color: transparent transparent transparent transparent;
 }
 
-.project-item{
-  padding: 0 0;
-  margin-top: 2.5em;
-}
-
 .project-item:first-child{
   margin-top: 1em;
 }
@@ -829,8 +824,15 @@ footer{
   border-top:0px solid #EBEBEB;
 }
 
+.project-item{
+  padding: 0 0;
+  margin-top: 2.5em;
+  border: 1px solid #EBEBEB;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.03);
+}
+
 .project-description{
-  padding:0px 0px 10px 0px;
+  padding:40px 25px 0px 25px;
   background-image: linear-gradient(to right, black 0, black 100%);
   background-position: 0em 0em;
   background-size: 0% 100%;
@@ -848,7 +850,7 @@ footer{
 }
 
 #project-description-feature{
-  padding:0px 0px 10px 0px; /*for feature project description*/
+  padding:40px 25px 0px 25px; /*for feature project description*/
 }
 
 #project-thumbnail-feature img{
@@ -862,8 +864,8 @@ footer{
 
 
 .project-thumbnail{
-  border:1px solid #EBEBEB;
-  padding:15px;
+  border:0px solid #EBEBEB;
+  padding:0px 40px 40px 40px;
 }
 
 .project-thumbnail img{
@@ -871,9 +873,6 @@ footer{
   transition:0.5s;
 }
 
-.project-item a{
-  box-shadow:1px 1px 5px rgba(0,0,0,0);
-}
 
 .project-item a:hover .project-thumbnail img, .project-item a:focus .project-thumbnail img{
   transform:scale(1.1,1.1);
@@ -985,7 +984,7 @@ footer{
 
   #slogan{
     line-height:1.3em;
-    font-size:6em;
+    font-size:5em;
     margin:0;
   }
 
@@ -1002,6 +1001,13 @@ footer{
 
   .work{
     font-size: 1em;
+  }
+
+  .project-item{
+    padding: 0 0;
+    margin-top: 2.5em;
+    border: 0px solid #EBEBEB;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0);
   }
 
   .project-border-top{
@@ -1043,7 +1049,7 @@ footer{
 
   .project-thumbnail{
     border: 0px;
-    padding:40px 0px;
+    padding:30px 0px;
   }
 
   .project-list{
@@ -1077,10 +1083,6 @@ footer{
     color: #A2AEB6;
   }
 
-  .project-item a{
-    box-shadow:1px 1px 5px rgba(0,0,0,0);
-  }
-
   .text-center-flex{
     text-align: center;
   }
@@ -1100,7 +1102,7 @@ footer{
   }
 
   .project-item a:hover .project-thumbnail img, .project-item a:focus .project-thumbnail img{
-    transform:scale(1.25,1.25);
+    transform:scale(1.4,1.4);
   }
 
   #h3-feature{
@@ -1115,7 +1117,7 @@ footer{
   }
 
   #project-description-feature{
-    padding:110px 50px 110px 50px;
+    padding:80px 50px 80px 50px;
   }
 
   #project-thumbnail-feature{
@@ -1155,7 +1157,7 @@ footer{
 
   #slogan{
     line-height:1.2em;
-    font-size:8em;
+    font-size:6em;
     margin:0;
   }
 
@@ -1184,7 +1186,7 @@ footer{
   }
 
   #project-description-feature{
-    padding:160px 5% 110px 60px;
+    padding:130px 5% 110px 60px;
   }
 
   #description-feature{
@@ -1277,7 +1279,7 @@ footer{
 @media (min-width:88em){
   #slogan{
     line-height:1.3em;
-    font-size:8em;
+    font-size:7em;
     margin:0;
   }
 
@@ -1298,6 +1300,10 @@ footer{
 
   #project-list-title{
     margin-bottom:2em;
+  }
+
+  .project-item a:hover .project-thumbnail img, .project-item a:focus .project-thumbnail img{
+    transform:scale(1.25,1.25);
   }
 }
 
