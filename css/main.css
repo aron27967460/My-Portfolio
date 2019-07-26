@@ -92,7 +92,7 @@ h3{
 }
 
 #logo-motion{
-  width:100px;
+  width:60px;
   transition:0.5s;
 }
 
@@ -1039,7 +1039,7 @@ footer{
   }
 
   #logo-motion{
-    width:130px;
+    width:100px;
     margin-top:30px;
     transition:0.5s;
   }
