@@ -613,7 +613,7 @@ iframe{
   margin-top:15px;
   padding: 5px 0px 5px 2px;
   transition: opacity 0.5s;
-  display:block
+  display:none;
   text-align:left;
   position:relative;
   transition: opacity 0.5s;
