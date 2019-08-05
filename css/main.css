@@ -352,6 +352,11 @@ ol li{
   background-size:contain;
 }
 
+.visier-title-img{
+  background: url("../images/VISIER/VISIER-title-image-x2.png") no-repeat 180px center;
+  background-size:contain;
+}
+
 /* resizable video from vimeo */
 .video{
   margin-top:20px;
@@ -476,6 +481,10 @@ iframe{
 
 .red{
   color:#DF2127; /*Pinterest Book It*/
+}
+
+.vblue{
+  color:#5CB5E5; /* Visier */
 }
 
 /* navigation bar */
@@ -981,6 +990,11 @@ footer{
 
   .pbook-title-img{
     background: url("../images/PBOOK/PBOOK-title-image.png") no-repeat center;
+    background-size: contain;
+  }
+
+  .visier-title-img{
+    background: url("../images/VISIER/VISIER-title-image.png") no-repeat center;
     background-size: contain;
   }
 
