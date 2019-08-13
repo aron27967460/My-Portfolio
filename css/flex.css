@@ -111,7 +111,7 @@
   }
 
   .top-margin-5{
-    margin-top:4.7rem;
+    margin-top:60px;
   }
 
   .top-padding-mobile{
@@ -400,6 +400,10 @@
 
     .col-leftpanel{
       flex-basis:75%;
+    }
+
+    .top-margin-5{
+      margin-top:120px;
     }
 
   }

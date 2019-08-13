@@ -30,7 +30,7 @@
 
   <!-- Main Navigation -->
   <a id="toggle" onclick="openNav()">	&#9776;</a>
-  <nav class="container nav-bar right">
+    <nav class="container nav-bar right">
       <a href="index.html" id="logo"><img src="images/word-logo.png" alt="logo"></a>
       <a href="index.html#project-list" class="nav-button">Work</a>
       <a href="about-me.html" class="nav-button">About</a>
@@ -41,11 +41,11 @@
   <div class="sidebar-container">
   <button onclick="topFunction()" id="topBtn" title="Go to top">Back to top &uarr;</button>
   <div id="project-nav">
-  <a href="#internship-overview" id="sidebar-1" class="sidebar">Overview</a>
-  <a href="#interaction-design" id="sidebar-2" class="sidebar">Context Overflow</a>
-  <a href="#motion-design" id="sidebar-3" class="sidebar">Granularity Change</a>
-  <a href="#visual-design" id="sidebar-4" class="sidebar">What-If</a>
-  <a href="#design-system" id="sidebar-5" class="sidebar">Button Usage</a>
+  <a href="#overview" id="sidebar-1" class="sidebar">Overview</a>
+  <a href="#context-overflow" id="sidebar-2" class="sidebar">Context Overflow</a>
+  <a href="#granularity-change" id="sidebar-3" class="sidebar">Granularity Change</a>
+  <a href="#what-if" id="sidebar-4" class="sidebar">What-If</a>
+  <a href="#button-usage" id="sidebar-5" class="sidebar">Button Usage</a>
   <a href="#final-thought" id="sidebar-6" class="sidebar">Final Thought</a>
 </div>
   </div>
@@ -57,18 +57,16 @@
 
   <!-- INTERNSHIP OVERVIEW -->
   <section class="container project-body">
-    <h1 class="col-1of1" id="internship-overview"><strong>OVERVIEW</strong></h1>
+    <h1 class="col-1of1" id="overview"><strong>OVERVIEW</strong></h1>
     <div class="col-2of3">
-      <p>Visier People transforms workforce data into insights in an easy-to-digest format so that businesses can make critical decision in managing and planning development for their employees. Throughout the 8-month internship, I worked on various projects ranging from interaction, visual, and motion design as well as some work around design system.
+      <p>Visier transforms workforce data into insights in an easy-to-digest format so that businesses can make critical decision in managing and planning development for their employees. Throughout the 8-month internship, I worked on various projects ranging from interaction, visual, and motion design as well as some work around design system.
       </p>
       <p>
       Some of the notable features/components I helped to design for includes Context Row, Time Window, What-If, and Button Usage. </p>
-      <h2 class="vblue">ROLE</h2>
-      <p>For the majority part of the projects, I was responsible to come up with creative design iterations to address UX, usability or technical complication. I utilized basic research methods such as environmental scans, UI component audit, and usability research for insight and data collection. I created mockups and interactive prototypes across a range of fidelities. Also, I provided visual and motion specs to certain features of Visier People.</p>
-    </div>
-    <div class="col-1of3 padding-left-flex">
       <h2 class="vblue">TITLE</h2>
       <p>User Experience Designer Co-op</p>
+    </div>
+    <div class="col-1of3 padding-left-flex">
       <h2 class="vblue">TOOLS</h2>
       <p>Sketch, Illustrator, Principle, Zeplin, Jira</p>
       <h2 class="vblue">TYPE</h2>
@@ -80,27 +78,176 @@
 
   <!-- INTERACTION DESIGN -->
   <section class="container project-body top-margin-3">
-    <h1 class="col-1of1" id="interaction-design"><strong>INTERACTION DESIGN</strong></h1>
+    <h1 class="col-1of1" id="context-overflow"><strong>CONTEXT OVERFLOW</strong></h1>
+    <div class="col-1of1 container">
+      <p>The term ‘Context’ refers to a collection of one or more attributes that helps define a population for the users to analyze. What sparkled the project was due to the absent mechanism to prevent context from overflowing. Despite being a edge case, if left unattended, users could face a serious challenge to view and interact with their chart. The rework aimed to improve the overall analyzing experience by providing improved readability through flexible viewing option and concise informational display.</p>
+      <div class="col-1of1 container top-margin-4">
+          <div class="col-2of3">
+          <img src="images/VISIER/problem.png" alt="context overflow problem screenshot" style="width:100%;height:auto;">
+        </div>
+        <div class="col-1of3">
+          <p class="sidenote-noborder">As context overflows, users lose visibility of the visualization.</p>
+        </div>
+      </div>
+      <div class="col-1of1 container center top-margin-2">
+          <img src="images/VISIER/product.png" alt="Product terminology" style="width:100%;height:100%;">
+      </div>
+      <div class="col-1of1">
+        <p class="bottomnote">In the example, we’re looking at a Breakdown chart showing the total Headcount of Female employees in Jan 2019 grouped by Job Name. </p>
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-3">
+      <p>Through the ongoing mentorship with multiple senior designers, and my manager, I’d developed three options for the proposal with each of them providing different balance between viewing the visualization and the context defining the chart.</p>
+      <div class="col-1of1 container center over-img">
+          <img src="images/VISIER/workflow.png" alt="context work flow">
+      </div>
+      <div class="col-1of1 container top-margin-3">
+          <div class="col-2of3">
+          <img src="images/VISIER/Approach-1.gif" alt="context overflow approach 1s prototype" style="width:100%;height:auto;">
+        </div>
+        <div class="col-1of3">
+          <p class="sidenote-noborder">Context Overflow Approach 1</p>
+        </div>
+      </div>
+      <div class="col-1of1 container top-margin-4">
+          <div class="col-2of3">
+          <img src="images/VISIER/Approach-2.gif" alt="context overflow approach 2 prototype" style="width:100%;height:auto;">
+        </div>
+        <div class="col-1of3">
+          <p class="sidenote-noborder">Context Overflow Approach 2</p>
+        </div>
+      </div>
+      <div class="col-1of1 container top-margin-4">
+          <div class="col-2of3">
+          <img src="images/VISIER/Approach-3.gif  " alt="context overflow approach 3 prototype" style="width:100%;height:auto;">
+        </div>
+        <div class="col-1of3">
+          <p class="sidenote-noborder">Context Overflow Approach 3</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-3">
+      <p>While having minimal viable product is important, the vision proposal is provided for a diverse potential for future product development.</p>
+      <div class="col-1of1 container top-margin-4">
+          <div class="col-2of3">
+          <img src="images/VISIER/vision.gif  " alt="context overflow vision prototype" style="width:100%;height:auto;">
+        </div>
+        <div class="col-1of3">
+          <p class="sidenote-noborder">Vision proposal</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-1of1 container top-margin-3">
+      <p>Each design decision comes with different micro-interaction change. It is incredibly important to account for all the elements and scenarios to maintain the usability and the quality of the product.</p>
+      <div class="col-1of1 container center over-img">
+          <img src="images/VISIER/stress-test.png" alt="Test approaches screenshot">
+      </div>
+    </div>
+
   </section>
 
   <!-- MOTION DESIGN -->
   <section class="container project-body top-margin-3">
-      <h1 class="col-1of1" id="motion-design"><strong>MOTION DESIGN</strong></h1>
+      <h1 class="col-1of1" id="granularity-change"><strong>GRNULARITY CHAGNE</strong></h1>
+      <div class="col-1of1 container">
+        <p>The term ‘Context’ refers to a collection of one or more attributes that helps define a population for the users to analyze. What sparkled the project was due to the absent mechanism to prevent context from overflowing. Despite being a edge case, if left unattended, users could face a serious challenge to view and interact with their chart. The rework aimed to improve the overall analyzing experience by providing improved readability through flexible viewing option and concise informational display.</p>
+      </div>
+      <div class="col-1of1 container center top-margin-4">
+          <video width="100%" height="auto" controls>
+            <source src="videos/VISIER/weeks-to-months.mov" alt="Granularity change problem video" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+      <div class="col-1of1">
+        <p class="bottomnote">In the above example, the transition between from weeks to months is too quick and too confusing for the users to understand.</p>
+      </div>
+
+      <div class="col-1of1 container top-margin-3">
+        <p>The problem before was that changes were happening altogether. After collaborating with my engineer, we were able to develop the transition into several micro-segments. That way, users can perceive and make sense of the change in sequence.</p>
+        <div class="col-1of1 container top-margin-4">
+            <div class="col-2of3">
+              <video width="100%" height="auto" controls>
+                <source src="videos/VISIER/Granularity-change-w-to-m.mp4" alt="Granularity change from weeks to months" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+          <div class="col-1of3">
+            <p class="sidenote-noborder">Granularity change from weeks to months.</p>
+          </div>
+        </div>
+        <div class="col-1of1 container top-margin-2">
+            <div class="col-2of3">
+              <video width="100%" height="auto" controls>
+                <source src="videos/VISIER/Granularity-change-m-to-q.mp4" alt="Granularity change from months to quaters" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+          <div class="col-1of3">
+            <p class="sidenote-noborder">Granularity change from months to quaters.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1of1 container top-margin-3">
+        <p>To provide references, I’d made motion design spec outlining the details of the transition, including the components that are taking actions, the type of visual change, and their timing and duration. Here is the complete <a class="intext-link" href="files/VISIER/Time-window motion-spec.pdf" target="_blank">file</a>.</p>
+        <div class="col-1of1 container center over-img">
+            <img src="images/VISIER/motion-spec.png" alt="Motion spec">
+        </div>
+      </div>
+
   </section>
 
   <!-- VISUAL DESIGN -->
   <section class="container project-body top-margin-3">
-      <h1 class="col-1of1" id="visual-design"><strong>VISUAL DESIGN</strong></h1>
+      <h1 class="col-1of1" id="what-if"><strong>WHAT-IF</strong></h1>
+      <div class="col-1of1 container">
+        <p>The term ‘Context’ refers to a collection of one or more attributes that helps define a population for the users to analyze. What sparkled the project was due to the absent mechanism to prevent context from overflowing. Despite being a edge case, if left unattended, users could face a serious challenge to view and interact with their chart. The rework aimed to improve the overall analyzing experience by providing improved readability through flexible viewing option and concise informational display.</p>
+        <div class="col-1of1 container center over-img">
+            <img src="images/VISIER/what-if.png" alt="What if work sample">
+        </div>
+      </div>
+
+      <div class="col-1of1 container top-margin-3">
+        <p>After meeting with the UX design lead, a visual designer, and three engineers, a brief was formulated with a list of UI components to be made. Most of them reused the preexisting UI without creating net new pieces. Others were made through abiding the standard style guide. My mentor and I hosted a weekly meeting with the rest of the team to discuss and update on missing components.</p>
+        <p>For deliverables, net new components were uploaded from Sketch to Zeplin and shared with the responsible engineers. I’d also made a <a class="intext-link" href="files/VISIER/What-if-visual-design.pdf" target="_blank">document</a> consisting of all the UI elements used for the feature; including different interactive states and responsive sizing.</p>
+        <div class="col-1of1 container">
+            <img src="images/VISIER/zeplin-sample.png" alt="zeplin sample" style="width:100%; height:auto;">
+        </div>
+      </div>
+
+      <div class="col-1of1 container top-margin-3">
+        <p>Despite What-if being a powerful tool for workforce planning and management, it comes with certain limitations. For instance, when the assumption is on a time that is not contained in the chart. The assumption becomes ‘not applied.’ For this purpose, a visual treatment for these “Not Applied” state is vital in informing the users of which context token is, in fact, affecting the chart and which one is not. <a class="intext-link" href="files/VISIER/What-if-not applied-state.pdf" target="_blank">[PDF]</a></p>
+        <div class="col-1of1 container center over-img">
+            <img src="images/VISIER/not-applied-state.png" alt="not-applied-state work sample">
+        </div>
+      </div>
   </section>
 
   <!-- DESIGN SYSTEM -->
   <section class="container project-body top-margin-3">
-      <h1 class="col-1of1" id="design-system"><strong>DESIGN SYSTEM</strong></h1>
+      <h1 class="col-1of1" id="button-usage"><strong>BUTTON USAGE</strong></h1>
+      <div class="col-1of1 container">
+        <p>Despite What-if being a powerful tool for workforce planning and management, it comes with certain limitations. For instance, when the assumption is on a time that is not contained in the chart. The assumption becomes ‘not applied.’ For this purpose, a visual treatment for these “Not Applied” state is vital in informing the users of which context token is, in fact, affecting the chart and which one is not. In the current experience, Visier has many UI inconsistencies (colour, spacing, usage...etc.). This was caused by <strong>1)</strong> designers providing visual spec that was not aligned/off from the style guide, <strong>2)</strong> developers coded the UI that was not up to spec or <strong>3)</strong> transitional issue from the old platform to the new one — Visier People.
+        </p>
+        <p>
+        To effectively solve the issue, a development for a design system is essential. For this assignment, I’d conducted a thorough interface audit on the company product, primarily focusing on the button usage. From synthesizing with other secondary research, I’d outlined on how Visier could approach and design using variations of buttons. 
+        </p>
+        <p>
+        For more reference, here is an <a class="intext-link" href="files/VISIER/Button-usage.pdf" target="_blank">initial draft</a> I made.
+        </p>
+        <div class="col-1of1 container center over-img">
+            <img src="images/VISIER/button-usage.png" alt="button usage work sample">
+        </div>
+      </div>
   </section>
 
   <!-- FINAL THOUGHT -->
   <section class="container project-body top-margin-3">
     <h1 class="col-1of1" id="final-thought"><strong>FINAL THOUGHT</strong></h1>
+    <p>One of the most important lessons I learned at Visier is the importance of communication. Each assignment, I collaborated with a new team filled with talented individuals with diverse backgrounds. Everyone has different working philosophy and were enthusiastic about sharing their expertise and knowledge of the project. With a team dynamic that was continually changing, coordination between the team members became essential to maintain working efficiency. When running into obstacles to innovate, I learned to reach out to my colleagues and my mentors instead of tunnelling myself into a loophole. I now try to involve co-creation as part of my working process regardless of different stages of design.</p>
     <div class="col-1of1 container right-to-center top-margin-1">
       <a href="pbook.html" class="d-button"><strong>NEXT PROJECT |</strong> Pinterest Bookable Pins &rarr;</a>
     </div>
