@@ -561,11 +561,6 @@ iframe{
   opacity: 0.5;
 }
 
-#active{
-  color: white;
-  background-size: 100% 100%;
-}
-
 /* Hamburger Menu Styling */
 .overlay {
   height: 100%;
@@ -906,11 +901,11 @@ footer{
 }
 
 .project-description a{
-  transition: opacity 0.5s;
+  transition: opacity 0.3s;
 }
 
-.project-description a:hover{
-  opacity:0.2;
+.project-description a:hover {
+  opacity: 0.6;
   cursor:pointer;
 }
 

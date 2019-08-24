@@ -34,7 +34,7 @@
   <a id="toggle" onclick="openNav()">	&#9776;</a>
     <nav class="container nav-bar right">
       <a href="https://aronchen.com/" id="logo"><img src="images/word-logo.png" alt="logo"></a>
-      <a href="index.html#project-list" class="nav-button">Work</a>
+      <a href="https://aronchen.com/" class="nav-button">Work</a>
       <a href="about-me.html" class="nav-button">About</a>
       <a href="files/Resume.pdf" target="_blank" class="nav-button last-nav-button">Resume</a>
   </nav>
@@ -58,13 +58,13 @@
   </section>
 
   <!-- INTERNSHIP OVERVIEW -->
-  <section class="container project-body">
-    <h1 class="col-1of1" id="overview"><strong>OVERVIEW</strong></h1>
+  <section class="container project-body" id="overview">
+    <h1 class="col-1of1"><strong>OVERVIEW</strong></h1>
     <div class="col-2of3">
       <p>Visier transforms workforce data into insights in an easy-to-digest format so that businesses can make critical decision in managing and planning development for their employees. Throughout the 8-month internship, I worked on various projects ranging from interaction, visual, and motion design as well as some work around design system.
       </p>
       <p>
-      Some of the notable features/components I helped to design for includes Context Row, Time Window, What-If, and Button Usage. </p>
+      Some of the notable features/components I helped to design for includes <a href="#context-overflow" class="intext-link">Context Overflow</a>, <a href="#granularity-change" class="intext-link">Granularity Change</a>, <a href="#what-if" class="intext-link">What-If</a>, and <a href="#button-usage" class="intext-link">Button Usage.</a> </p>
       <h2 class="vblue">TITLE</h2>
       <p>User Experience Designer Co-op</p>
     </div>
@@ -79,10 +79,10 @@
   </section>
 
   <!-- INTERACTION DESIGN -->
-  <section class="container project-body top-margin-3">
-    <h1 class="col-1of1" id="context-overflow"><strong>CONTEXT OVERFLOW</strong></h1>
+  <section class="container project-body top-margin-3" id="context-overflow">
+    <h1 class="col-1of1"><strong>CONTEXT OVERFLOW</strong></h1>
     <div class="col-1of1 container">
-      <p>The term ‘Context’ refers to a collection of one or more attributes that helps define a population for the users to analyze. What sparkled the project was due to the absent mechanism to prevent context from overflowing. Despite being a edge case, if left unattended, users could face a serious challenge to view and interact with their chart. The rework aimed to improve the overall analyzing experience by providing improved readability through flexible viewing option and concise informational display.</p>
+      <p>The term ‘Context’ refers to a collection of one or more attributes that helps the users to analyze a specific popoulation of their companies workforce. The incentive of the project was due to the lack of mean to cope with the excessive number of context filters being added to the chart. Despite being a edge case, if left unattended, users could face a serious challenge to view and interact with their chart. The rework aimed to improve the analyzing experience by providing improved readability through flexible viewing option and concise informational display.</p>
       <div class="col-1of1 container top-margin-4">
           <div class="col-2of3">
           <img src="images/VISIER/problem.png" alt="context overflow problem screenshot" style="width:100%;height:auto;">
@@ -152,10 +152,10 @@
   </section>
 
   <!-- MOTION DESIGN -->
-  <section class="container project-body top-margin-3">
-      <h1 class="col-1of1" id="granularity-change"><strong>GRNULARITY CHAGNE</strong></h1>
+  <section class="container project-body top-margin-3" id="granularity-change">
+      <h1 class="col-1of1"><strong>GRANULARITY CHANGE</strong></h1>
       <div class="col-1of1 container">
-        <p>The term ‘Context’ refers to a collection of one or more attributes that helps define a population for the users to analyze. What sparkled the project was due to the absent mechanism to prevent context from overflowing. Despite being a edge case, if left unattended, users could face a serious challenge to view and interact with their chart. The rework aimed to improve the overall analyzing experience by providing improved readability through flexible viewing option and concise informational display.</p>
+        <p>Time window is a feature which allows users to control the number of time periods in a time-based chart (i.e. a trend chart). Due to technical limitations, when switching time granularity (i.e., months to weeks), users weren’t able to retain the selected range. Instead, the new range was reset to a predetermined value by Visier. My task was to solve the confusing transition during granularity change; by utilizing motion design and allow users to understand the change.</p>
       </div>
       <div class="col-1of1 container center top-margin-4">
           <video width="100%" height="auto" controls>
@@ -164,7 +164,7 @@
           </video>
       </div>
       <div class="col-1of1">
-        <p class="bottomnote">In the above example, the transition between from weeks to months is too quick and too confusing for the users to understand.</p>
+        <p class="bottomnote">The above example is the implemented experience at the time. The transition between from weeks to months is too quick and too confusing for the users to understand.</p>
       </div>
 
       <div class="col-1of1 container top-margin-3">
@@ -203,8 +203,8 @@
   </section>
 
   <!-- VISUAL DESIGN -->
-  <section class="container project-body top-margin-3">
-      <h1 class="col-1of1" id="what-if"><strong>WHAT-IF</strong></h1>
+  <section class="container project-body top-margin-3" id="what-if">
+      <h1 class="col-1of1"><strong>WHAT-IF</strong></h1>
       <div class="col-1of1 container">
         <p>The term ‘Context’ refers to a collection of one or more attributes that helps define a population for the users to analyze. What sparkled the project was due to the absent mechanism to prevent context from overflowing. Despite being a edge case, if left unattended, users could face a serious challenge to view and interact with their chart. The rework aimed to improve the overall analyzing experience by providing improved readability through flexible viewing option and concise informational display.</p>
         <div class="col-1of1 container center over-img">
@@ -229,8 +229,8 @@
   </section>
 
   <!-- DESIGN SYSTEM -->
-  <section class="container project-body top-margin-3">
-      <h1 class="col-1of1" id="button-usage"><strong>BUTTON USAGE</strong></h1>
+  <section class="container project-body top-margin-3" id="button-usage">
+      <h1 class="col-1of1"><strong>BUTTON USAGE</strong></h1>
       <div class="col-1of1 container">
         <p>Despite What-if being a powerful tool for workforce planning and management, it comes with certain limitations. For instance, when the assumption is on a time that is not contained in the chart. The assumption becomes ‘not applied.’ For this purpose, a visual treatment for these “Not Applied” state is vital in informing the users of which context token is, in fact, affecting the chart and which one is not. In the current experience, Visier has many UI inconsistencies (colour, spacing, usage...etc.). This was caused by <strong>1)</strong> designers providing visual spec that was not aligned/off from the style guide, <strong>2)</strong> developers coded the UI that was not up to spec or <strong>3)</strong> transitional issue from the old platform to the new one — Visier People.
         </p>
@@ -247,8 +247,8 @@
   </section>
 
   <!-- FINAL THOUGHT -->
-  <section class="container project-body top-margin-3">
-    <h1 class="col-1of1" id="final-thought"><strong>FINAL THOUGHT</strong></h1>
+  <section class="container project-body top-margin-3" id="final-thought">
+    <h1 class="col-1of1"><strong>FINAL THOUGHT</strong></h1>
     <p>One of the most important lessons I learned at Visier is the importance of communication. For each assignment, I collaborated with many talented individuals with each of them having a diverse background. Everyone has different approaches to work and were enthusiastic about sharing their expertise and knowledge to the project. With a team dynamic that was constantly changing, coordination between the team members became essential to maintain performance and efficiency. When running into obstacles to innovate, instead of tunnelling myself into a loophole, I learned to reach out to my colleagues and my mentors for help. To my delight, collaboration not only sparkled inspiration, but it also helped reassuring project quality. As a result, I have now embraced co-creation as part of my working process regardless of different stages of design.</p>
     <div class="col-1of1 container right-to-center top-margin-1">
       <a href="pbook.html" class="d-button"><strong>NEXT |</strong> Pinterest &rarr;</a>
