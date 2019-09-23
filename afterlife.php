@@ -1,9 +1,8 @@
 <?php
   date_default_timezone_set('America/Vancouver');
   include 'dbh.inc.php';
-  // include 'comments.inc.php';
 
-  if (isset($_POST['commentSubmit'])) {
+  if (isset($_POST['commentSubmit']) && !empty($_POST['message'])) {
       $uid = $_POST['uid'];
       $date = $_POST['date'];
       $message = $_POST['message'];
@@ -12,9 +11,11 @@
       VALUES ('$uid','$date','$message')";
       $result = $conn->query($sql);
 
-      header("Location: https://aronchen.com/afterlife.php");
+      header("Location: https://aronchen.com/afterlife#final-thought.php");
       exit;
-  }
+    }else{
+
+    }
 ?>
 
 <!DOCTYPE html>
@@ -79,17 +80,17 @@
     <div class="col-1of1 container">
       <div class="col-2of3">
         <p>Facebook Afterlife is an integrated experience that empowers the users who want to continue to support their loved one in case of a fatal incident. Upon their accounts being memorialized, users can deliver farewell letters to individuals, create a secret support group for their friends and families, and pass down their values and love through a pinned post on their Facebook profile. It is a personal project that was inspired and driven by my childhood memory.</p>
-        <h2 class="teal">CHALLENGE</h2>
+        <h2 class="ablue">CHALLENGE</h2>
         <p>How might we continue to support our loved ones even after a fatal incident?</p>
       </div>
       <div class="col-1of3 padding-left-flex">
-        <h2 class="teal">TEAM</h2>
+        <h2 class="ablue">TEAM</h2>
         <p>Just Me!</p>
-        <h2 class="teal">TOOLS</h2>
+        <h2 class="ablue">TOOLS</h2>
         <p>Sketch, Principle</p>
-        <h2 class="teal">TYPE</h2>
+        <h2 class="ablue">TYPE</h2>
         <p>Case Study</p>
-        <h2 class="teal">PROJECT LENGTH</h2>
+        <h2 class="ablue">PROJECT LENGTH</h2>
         <p>3 Weeks (Summer 2019)</p>
       </div>
     </div>
@@ -253,7 +254,7 @@
         </form>";
         ?>
         <div class="col-1of1 container right-to-center top-margin-2">
-          <a href="ppd.html" class="d-button"><strong>NEXT PROJECT |</strong> Inclusive Postpartum Care &rarr;</a>
+          <a href="visier.html" class="d-button"><strong>NEXT PROJECT |</strong> Visier &rarr;</a>
         </div>
         <?php
         echo "<div class='top-margin-3 col-1of1 container'>";
