@@ -270,6 +270,14 @@ section{
     flex-basis:50%;
   }
 
+  .col-1of2:first-child{
+    padding-right: 15px;
+  }
+
+  .col-1of2:last-child{
+    padding-left: 15px;
+  }
+
   .top-margin-2{
     margin-top:60px;
   }
