@@ -11,7 +11,7 @@
       VALUES ('$uid','$date','$message')";
       $result = $conn->query($sql);
 
-      header("Location: https://aronchen.com/afterlife#final-thought.php");
+      header("Location: https://aronchen.com/afterlife.php#final-thought");
       exit;
     }else{
 
@@ -23,6 +23,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Aron Chen - Facebook Afterlife">
+  <meta property="og:description" content="Facebook Afterlife is an integrated experience that empowers the users who want to continue to support their loved one in case of a fatal incident. Upon their accounts being memorialized, users can deliver farewell letters to individuals, create a secret support group for their friends and families, and pass down their values and love through a pinned post on their Facebook profile. It is a personal project that was inspired and driven by my childhood memory.">
+  <meta property="og:image" content="images/thumbnails/AFTERLIFE.png">
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="192x192">
   <link rel="stylesheet" href="css/fonts.css">
@@ -264,7 +267,6 @@
           while($row = $result->fetch_assoc()){
             echo "<div class='comment-box'><p>";
             echo "<span class='uid'>".$row['uid']."</span><br>";
-            // echo $row['date']."<br>";
             echo nl2br($row['message']);
             echo "</p></div>";
           }
