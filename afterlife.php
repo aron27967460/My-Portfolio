@@ -102,13 +102,13 @@
   <!-- BACKGROUND -->
   <section class="container project-body top-margin-3" id="background">
     <h1 class="col-1of1"><strong>BACKGROUND</strong></h1>
-    <p>As a product designer, I have devoted myself to bringing joy and happiness to people’s lives. I believe in achieving my goal, we must first reduce the unnecessary suffering that each individual experiences. When I was 12, I got into an accident and was sent to the emergency room. To me, that was my first near-death experience. However, instead of being terrified of the pain, what left me a life long memory was my father’s worrying and crying face. Watching his shivering hands tried to hold my broken arm while waiting for the doctor was one of my biggest struggles. It was then, I asked myself, what if I died today, what will happen to the people I love? </p>
+    <p>As a product designer, I have devoted myself to bringing joy and happiness to people’s lives. I believe in achieving my goal, we must first reduce the unnecessary suffering that each individual experiences. The story began when I was at 12, I got into an accident and was sent to the emergency room. To me, that was my first near-death experience. However, instead of being terrified of the pain, what left me a life long memory was my father’s worrying and crying face. Watching his shivering hands tried to hold my broken arm while waiting for the doctor was one of my biggest struggles. It was then, I asked myself, what if I died today, what will happen to the people I love? </p>
 
     <div class="col-1of1  top-margin-4">
       <img src="images/AFTERLIFE/hospital.jpg" alt="hospital stock photo" style="width:100%;height:100%">
     </div>
 
-    <p class="top-margin-2">Since the incident, I have been living healthily and in no shape or form was I close to death. Nevertheless, I continued to wonder the same question. Death is simply part of our lives and accident happens. While I try to my life to the fullest, I worry what would happen to my loved ones if an adverse event was ever to happen to me. Particularly my father, who tend to be more emotionally vulnerable than my other family members.</p>
+    <p class="top-margin-2">Since the incident, I have been living healthily and in no shape or form am I close to death. Yet, I can't help but continue to wonder what could've happened to my parents and my brother if I were to die on that day. Death is a natural part of our lives. While I try to live my life to the fullest, I worry what would happen to my loved ones if an adverse event was ever to happen to me. Particularly my father, who tend to be more emotionally vulnerable than my other family members.</p>
 
     <p>According to the article on CNN(2014), people who experience sudden losses face an extraordinary challenge to grief and mourn. The lack of time and warning to accept the incident have caused an inability to move forward with their lives. While other end-of-life experiences get to bring closure to the deceased by saying words such as ‘I love you,’ survivors with sudden losses do not.</p>
 
