@@ -142,14 +142,14 @@
 
         <div class="col-1of1 container top-margin-4">
           <div class="col-2of3 project-gif">
-            <img src="images/AFTERLIFE/legacy-contact.png" alt="legacy contact screenshot">
+            <img src="images/AFTERLIFE/legacy-contact.jpg" alt="legacy contact screenshot">
           </div>
           <div class="col-1of3">
             <p class="sidenote-noborder">Legacy contact can perform actions such as manage tribute posts, request account removal, and swithc profile photo.</p>
           </div>
         </div>
 
-        <p>Recognizing the usefulness of the feature; however, the memorialized setting experience lacks empathy for the users to take initiatives in supporting their loved ones upon their death. By leveraging the existing tools on Facebook, such as Groups, Messenger and Pinned Post, I want to empower the people who hold similar concern like mine. So, even in the case of an unfortunate accident, we could still continue to support our loved ones to move forward in their lives.
+        <p class="top-margin-2">Recognizing the usefulness of the feature; however, the memorialized setting experience lacks empathy for the users to take initiatives in supporting their loved ones upon their death. By leveraging the existing tools on Facebook, such as Groups, Messenger and Pinned Post, I want to empower the people who hold similar concern like mine. So, even in the case of an unfortunate accident, we could still continue to support our loved ones to move forward in their lives.
         </p>
 
         <div class="col-1of1 top-margin-4 container center over-img">
