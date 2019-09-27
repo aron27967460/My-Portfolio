@@ -140,6 +140,15 @@
 
         <p class="top-margin-2">Memorialization is a powerful feature that turns Facebook into a place for people to honour the memory of their loved ones. Users can assign legacy contact to allow their families to manage tribute posts, request to remove the account, and respond to new friend requests. Ultimately, these memorialized profiles have become a place for people to support one and the other.</p>
 
+        <div class="col-1of1 container top-margin-4">
+          <div class="col-2of3 project-gif">
+            <img src="images/AFTERLIFE/legacy-contact.png" alt="legacy contact screenshot">
+          </div>
+          <div class="col-1of3">
+            <p class="sidenote-noborder">Legacy contact can perform actions such as manage tribute posts, request account removal, and swithc profile photo.</p>
+          </div>
+        </div>
+
         <p>Recognizing the usefulness of the feature; however, the memorialized setting experience lacks empathy for the users to take initiatives in supporting their loved ones upon their death. By leveraging the existing tools on Facebook, such as Groups, Messenger and Pinned Post, I want to empower the people who hold similar concern like mine. So, even in the case of an unfortunate accident, we could still continue to support our loved ones to move forward in their lives.
         </p>
 
