@@ -23,8 +23,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Aron Chen - Facebook Afterlife">
-  <meta property="og:description" content="Facebook Afterlife is an integrated experience that empowers the users who want to continue to support their loved one in case of a fatal incident. Upon their accounts being memorialized, users can deliver farewell letters to individuals, create a secret support group for their friends and families, and pass down their values and love through a pinned post on their Facebook profile. It is a personal project that was inspired and driven by my childhood memory.">
+  <meta property="og:title" content="Aron Chen - Facebook Post-Memorialization">
+  <meta property="og:description" content="Facebook Post-Memorialization is an integrated experience that empowers the users who want to continue to support their loved one in case of a fatal incident. Upon their accounts being memorialized, users can deliver farewell letters to individuals, create a secret support group for their friends and families, and pass down their values and love through a pinned post on their Facebook profile. It is a personal project that was inspired and driven by my childhood memory.">
   <meta property="og:image" content="images/thumbnails/AFTERLIFE.png">
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="192x192">
@@ -74,7 +74,7 @@
 
   <!-- PROJECT TITLE -->
   <section class="container project-title-body afterlife-title-img top-margin-5">
-    <h1 id="project-title">Facebook Afterlife</h1>
+    <h1 id="project-title">Facebook Post-Memorialization</h1>
   </section>
 
   <!-- PROJECT OVERVIEW -->
@@ -82,9 +82,9 @@
     <h1 class="col-1of1"><strong>PROJECT OVERVIEW</strong></h1>
     <div class="col-1of1 container">
       <div class="col-2of3">
-        <p>Facebook Afterlife is an integrated experience that empowers the users who want to continue to support their loved one in case of a fatal incident. Upon their accounts being memorialized, users can deliver farewell letters to individuals, create a secret support group for their friends and families, and pass down their values and love through a pinned post on their Facebook profile. It is a personal project that was inspired and driven by my childhood memory.</p>
+        <p>Facebook Post-Memorialization is an integrated experience that empowers the users who want to continue to support their loved one in case of their death. Upon their accounts being memorialized, users can deliver farewell letters to individuals, create a secret support group for their friends and families, and pass down their values and love through a pinned announcement on their Facebook profile. It is a personal project that was inspired and driven by my childhood memory.</p>
         <h2 class="ablue">CHALLENGE</h2>
-        <p>How might we continue to support our loved ones even after a fatal incident?</p>
+        <p>How might we continue to support our loved ones even after our death?</p>
       </div>
       <div class="col-1of3 padding-left-flex">
         <h2 class="ablue">TEAM</h2>
@@ -119,7 +119,7 @@
       CNN news article about going on after sudden loss of a loved one.
     </div>
 
-    <p class="top-margin-2">With Prolonged Grief Disorder being added into the ICD-11 — the International Classification of Diseases, I wanted to help support people who encounter sudden losses of their loved ones. Grief is a natural process that occurs to everyone, but disorders such as the PGD should not be part of the necessary suffering. If design can help to improve the end-of-life experience of the dying, could it also help to support the survivors to grieve and mourn?</p>
+    <p class="top-margin-2">With Prolonged Grief Disorder being added into the ICD-11 — the International Classification of Diseases, I wanted to help support people who encounter sudden losses of their loved ones. Grief is a natural process that occurs to everyone, but disorders such as the PGD should not be part of the necessary suffering. <strong class="ablue">If design can help to improve the end-of-life experience of the dying, could it also help to support the survivors to grieve and mourn?</strong></p>
   </section>
 
   <!-- PROPOSAL -->
@@ -161,32 +161,37 @@
       </div>
 
       <div class="col-1of1 container top-margin-3">
-        <h2 class="ablue">FACEBOOK AFTERLIFE</h2>
-        <p>Adapting to the existing pattern on Facebook, I have created Facebook Afterlife within the Memorialization setting. By capturing moments when users wanted to assign their legacy contact, we would introduce features that could further allow them to continue to support their loved ones upon their accounts' memorialization.</p>
+        <h2 class="ablue">FACEBOOK POST-MEMORIALIZATION</h2>
+        <p>Adapting to the existing pattern on Facebook, I have created Facebook Post-Memorialization within the Memorialization control setting. By capturing moments when users wanted to assign their legacy contact, we would introduce features that could further allow them to continue to support their loved ones upon their accounts' memorialization.</p>
         <div class="col-1of1 container top-margin-4">
-          <div class="col-2of3 project-gif">
-            <img src="images/AFTERLIFE/entry.gif" alt="Entry point for Facebook Afterlife">
+          <div class="col-2of3 container center">
+              <video width="250px" height="auto" controls>
+                <source src="videos/PM/entry.mp4" alt="Entry point for Facebook Post-Memorialization" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
           </div>
           <div class="col-1of3">
-            <p class="sidenote-noborder">Entry point to discover Facebook Afterlife.</p>
+            <p class="sidenote-noborder">Entry point to discover Facebook Post-Memorialization.</p>
           </div>
         </div>
       </div>
 
       <div class="col-1of1 container top-margin-3">
         <h2 class="ablue">FAREWELL LETTERS</h2>
-        <p>The core purpose of Afterlife is to deliver words and messages to the users’ beloved families and friends. Farewell Letter was created precisely for that by making use of the Messenger app. It allows users to form their personal message using all the existing functions such as voice and video recording. The saved message then will be sent upon user’s account memorialization. Instead of displaying the letter in the conventional messenger UI, Farewell Letter simulate the physical act of opening a letter to convey a sense of formalness. The recipients can also save and store the message on their own devices so that they could still access it even when they are offline.</p>
+        <p>The core purpose of Post-Memorialization is to deliver words and messages to the users’ beloved families and friends. Farewell Letter was created precisely for that by making use of the Messenger app. It allows users to form their personal message using all the existing functions such as voice and video recording. The saved message then will be sent upon user’s account memorialization. Instead of displaying the letter in the conventional messenger UI, Farewell Letter simulate the physical act of opening a letter to convey a sense of formalness. The recipients can also save and store the message on their own devices so that they could still access it even when they are offline.</p>
         <div class="col-1of1 container">
-          <div class="col-1of2 top-margin-2">
-            <div class="project-gif">
-              <img src="images/AFTERLIFE/farewell-letters.gif" alt="Farewell Letters prototype for Facebook Afterlife">
-            </div>
+          <div class="col-1of2 container center top-margin-2">
+            <video width="250px" height="auto" controls>
+              <source src="videos/PM/farewell-letter.mp4" alt="Farewell Letters prototype for Facebook Post-Memorialization" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <p class="bottomnote-center">Form a Farewell Letter for your loved ones.</p>
           </div>
-          <div class="col-1of2 top-margin-2">
-            <div class="project-gif">
-              <img src="images/AFTERLIFE/farewell-letter-preview.gif" alt="Farewell Letters Preview prototype for Facebook Afterlife">
-            </div>
+          <div class="col-1of2 container center top-margin-2">
+            <video width="250px" height="auto" controls>
+              <source src="videos/PM/farewell-letter-preview.mp4" alt="Farewell Letters Preview prototype for Facebook Post-Memorialization" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <p class="bottomnote-center">Preview of receiving a Farewell Letter.</p>
           </div>
         </div>
@@ -194,38 +199,42 @@
 
       <div class="col-1of1 container top-margin-3">
         <h2 class="ablue">SUPPORT GROUPS</h2>
-        <p>Part of my biggest worries to the “What if I'm gone” scenario was the potential lack of social and emotional supports for my family. This is especially crucial since some people could isolate themselves during the process of grieving. Support Groups were designed so that users could gather the people they care so dearly about and create an environment to allow them to support one and each other. Users would assign their legacy contacts to become the group admin and can post an announcement to share her/his/their value and love to the group. To differentiate Support Group from other regular groups, figures of plant and heart are placed overlaying the cover image.</p>
+        <p>Part of my biggest worries to the "What if I'm gone" scenario was the potential lack of social and emotional supports for my family. This is especially crucial since some people could isolate themselves during the process of grieving. Support Groups were designed so that users could gather the people they care so dearly about and create a private environment to allow them to support one and each other. Users would assign their legacy contacts to become the group admin and can post an announcement to share her/his/their value and love to the group. To differentiate Support Group from other regular groups, figures of plant and heart are placed overlaying the cover image. Due to the nature of the support groups, the privacy setting is restricted to "Secret" to prevent others from discovering them.</p>
         <div class="col-1of1 container">
-          <div class="col-1of2 top-margin-2">
-            <div class="project-gif">
-              <img src="images/AFTERLIFE/support-group.gif" alt="Support Groups prototype for Facebook Afterlife">
-            </div>
+          <div class="col-1of2 container center top-margin-2">
+            <video width="250px" height="auto" controls>
+              <source src="videos/PM/support-group.mp4" alt="Support Groups prototype for Facebook Post-Memorialization" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <p class="bottomnote-center">Create a Support Group for your loved ones.</p>
           </div>
-          <div class="col-1of2 top-margin-2">
-            <div class="project-gif">
-              <img src="images/AFTERLIFE/support-group-preview.gif" alt="Support Groups Preview prototype for Facebook Afterlife">
-            </div>
+          <div class="col-1of2 container center top-margin-2">
+            <video width="250px" height="auto" controls>
+              <source src="videos/PM/support-group-preview.mp4" alt="Support Groups Preview prototype for Facebook Post-Memorialization" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <p class="bottomnote-center">Preview of a Support Group.</p>
           </div>
         </div>
       </div>
 
       <div class="col-1of1 container top-margin-3">
-        <h2 class="ablue">PINNED POST</h2>
-        <p>Unlike the announcement users could make in Support Groups, Pinned Posts are made to be shared on the user’s profile upon their accounts being memorialized. These posts act as the digital version of an ethical will — a way to communicate your values, experiences, and life lessons to your friends and families. Also, they provide a chance for the user to say goodbye to the ones he/she/they love once and for all. Instead of having the families to go through a possible painful experience of announcing their deaths, pinned post allowed the users to make that announcement for them. Users’ legacy contact could still make regular pinned posts, but they cannot remove pinned posts that were made by the original account owners.</p>
+        <h2 class="ablue">PINNED ANNOUNCEMENT</h2>
+        <p>Unlike the announcement users could make in Support Groups, Pinned Announcement is made to be shared in public. These announcement posts will appear on the user's memorialized profile with a section named "Words from [User's name]." They act as the digital version of an ethical will — a way to communicate your values, experiences, and life lessons to your friends and families. Also, they provide a chance for the user to say goodbye to the ones he/she/they love once and for all. Instead of having the families to go through a possible challenging experience of announcing their deaths, pinned announcement allowed the users to deliver that message for them.</p>
         <div class="col-1of1 container top-margin-2">
-          <div class="col-1of2 top-margin-2">
-            <div class="project-gif">
-              <img src="images/AFTERLIFE/pinned-post.gif" alt="Pinned Post prototype for Facebook Afterlife">
-            </div>
-            <p class="bottomnote-center">Save a Pinned Post to share your values and love.</p>
+          <div class="col-1of2 container center top-margin-2">
+            <video width="250px" height="auto" controls>
+              <source src="videos/PM/pinned-announcement.mp4" alt="Pinned Announcement prototype for Facebook Post-Memorialization" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="bottomnote-center">Save a Pinned Announcement to share your values and love.</p>
           </div>
-          <div class="col-1of2 top-margin-2">
-            <div class="project-gif">
-              <img src="images/AFTERLIFE/pinned-post-preview.gif" alt="Pinned Post Preview prototype for Facebook Afterlife">
-            </div>
-            <p class="bottomnote-center">Preview of a Pinned Post on a memorialized account.</p>
+          <div class="col-1of2 container center top-margin-2">
+            <video width="250px" height="auto" controls>
+              <source src="videos/PM/pinned-announcement-preview.mp4" alt="Pinned Announcement preview prototype for Facebook Post-Memorialization" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="bottomnote-center">Preview of a Pinned Announcement on a memorialized account.</p>
           </div>
         </div>
       </div>
@@ -244,9 +253,9 @@
       </div>
     </div>
     <div class="col-1of1 container">
-      <p>Grieving is a natural process of life. Yet, due to the unexpected sudden incidents, the bereaved are forced to experience unnecessary sufferings. Understanding each individual mourn differently from one to another, I wanted people to be the ones to create what could help to support their loved ones. From talking to the people around me, I learned that most of them tend to avoid the topic of death. While it is certainly a challenging experience, I genuinely hope that people would take initiatives to plan for both their end-of-life and afterlife experiences. Whether it's getting insurance, designing your own funeral, or making a voice recording of you saying, "I love you." Every small step can make a significant impact in supporting your loved ones. That's the motive behind Facebook Afterlife— to provide a place so people could take little steps and bridge the connections between the people and their loved ones.</p>
+      <p>Grieving is a natural process of life. Yet, due to the unexpected sudden incidents, the bereaved are forced to experience unnecessary sufferings. Understanding each individual mourn differently from one to another, I wanted people to be the ones to create what could help to support their loved ones. From talking to the people around me, I learned that most of them tend to avoid the topic of death. While it is certainly a challenging experience, I genuinely hope that people would take initiatives to plan for both their end-of-life and afterlife experiences. Whether it's getting insurance, designing your own funeral, or making a voice recording of you saying, "I love you." Every small step can make a significant impact in supporting your loved ones. That's the motive behind Facebook Post-Memorialization— to provide a place so people could take little steps and bridge the connections between the people and their loved ones.</p>
 
-      <p>It will be much appreciated if you could leave your thoughts and feedback on this project for future improvement. Also, as an ending thought, I would like to take this opportunity and ask you this other question I posted in the Grief Support Group. <strong>If you were to pass away at this moment, what is the one thing you would like to do for your loved ones?</strong></p>
+      <p>My next iteration will incorporate the Facebook Fundraising feature since many had wished for their deceased loved ones to leave them money or insurance. This particularly impactful when the person who passes away is the family's major financial income. I also want to hear other people's ideas and would love to build them out! So, as an ending thought, I like to take this opportunity and ask you this other question I posted in the Grief Support Group. <strong class="ablue">If you were to pass away at this moment, what is the one thing you would like to do for your loved ones?</strong></p>
 
       <p>Thank you!</p>
     </div>
