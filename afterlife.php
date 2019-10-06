@@ -119,7 +119,7 @@
       CNN news article about going on after sudden loss of a loved one.
     </div>
 
-    <p class="top-margin-2">With Prolonged Grief Disorder being added into the ICD-11 — the International Classification of Diseases, I wanted to help support people who encounter sudden losses of their loved ones. Grief is a natural process that occurs to everyone, but disorders such as the PGD should not be part of the necessary suffering. <strong class="ablue">If design can help to improve the end-of-life experience of the dying, could it also help to support the survivors to grieve and mourn?</strong></p>
+    <p class="top-margin-2">With Prolonged Grief Disorder being added into the <a class="intext-link" href="mailto:https://icd.who.int/browse11/l-m/en#/http://id.who.int/icd/entity/1183832314">ICD-11</a> — the International Classification of Diseases, I wanted to help support people who encounter sudden losses of their loved ones. Grief is a natural process that occurs to everyone, but disorders such as the PGD should not be part of the necessary suffering. <strong style="color:black;">If design can help to improve the end-of-life experience of the dying, could it also help to support the survivors to grieve and mourn?</strong></p>
   </section>
 
   <!-- PROPOSAL -->
@@ -255,7 +255,7 @@
     <div class="col-1of1 container">
       <p>Grieving is a natural process of life. Yet, due to the unexpected sudden incidents, the bereaved are forced to experience unnecessary sufferings. Understanding each individual mourn differently from one to another, I wanted people to be the ones to create what could help to support their loved ones. From talking to the people around me, I learned that most of them tend to avoid the topic of death. While it is certainly a challenging experience, I genuinely hope that people would take initiatives to plan for both their end-of-life and afterlife experiences. Whether it's getting insurance, designing your own funeral, or making a voice recording of you saying, "I love you." Every small step can make a significant impact in supporting your loved ones. That's the motive behind Facebook Post-Memorialization— to provide a place so people could take little steps and bridge the connections between the people and their loved ones.</p>
 
-      <p>My next iteration will incorporate the Facebook Fundraising feature since many had wished for their deceased loved ones to leave them money or insurance. This particularly impactful when the person who passes away is the family's major financial income. I also want to hear other people's ideas and would love to build them out! So, as an ending thought, I like to take this opportunity and ask you this other question I posted in the Grief Support Group. <strong class="ablue">If you were to pass away at this moment, what is the one thing you would like to do for your loved ones?</strong></p>
+      <p>My next iteration will incorporate the Facebook Fundraising feature since many had wished for their deceased loved ones to leave them money or insurance. This particularly impactful when the person who passes away is the family's major financial income. I also want to hear other people's ideas and would love to build them out! So, as an ending thought, I like to take this opportunity and ask you this other question I posted in the Grief Support Group. <strong style="color:black;">If you were to pass away at this moment, what is the one thing you would like to do for your loved ones?</strong></p>
 
       <p>Thank you!</p>
     </div>
