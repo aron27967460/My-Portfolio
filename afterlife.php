@@ -209,10 +209,12 @@
             <p class="bottomnote-center">Create a Support Group for your loved ones.</p>
           </div>
           <div class="col-1of2 container center top-margin-2">
+            <div class="col-1of1 container center">
             <video width="250px" height="auto" controls>
               <source src="videos/PM/support-group-preview.mp4" alt="Support Groups Preview prototype for Facebook Post-Memorialization" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+            </div>
             <p class="bottomnote-center">Preview of a Support Group.</p>
           </div>
         </div>
