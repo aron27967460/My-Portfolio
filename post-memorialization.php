@@ -11,7 +11,7 @@
       VALUES ('$uid','$date','$message')";
       $result = $conn->query($sql);
 
-      header("Location: https://aronchen.com/afterlife.php#final-thought");
+      header("Location: https://aronchen.com/post-memorialization.php#final-thought");
       exit;
     }else{
 
