@@ -87,70 +87,53 @@
     <div class="col-1of1 container">
       <p>The term ‘Context’ refers to a collection of one or more attributes that helps the users to analyze a specific population of their companies workforce. The incentive of the project was the lack of means to deal with the excessive number of context filters from distorting the chart. Despite being an edge case, if left unattended, users could face a serious challenge to understand the analyzing population. The rework aimed to improve the experience by providing readable contexts and visualization.</p>
       <div class="col-1of1 container top-margin-4">
-          <div class="col-2of3">
-          <img src="images/VISIER/problem.png" alt="context overflow problem screenshot" style="width:100%;height:auto;">
-        </div>
-        <div class="col-1of3">
-          <p class="sidenote-noborder">As context overflows, users lose visibility of the visualization.</p>
-        </div>
-      </div>
-      <div class="col-1of1 container center top-margin-2">
-          <img src="images/VISIER/product.png" alt="Product terminology" style="width:100%;height:100%;">
-      </div>
-      <div class="col-1of1">
-        <p class="bottomnote">In the example, we’re looking at a Breakdown chart showing the total Headcount of Female employees in Jan 2019 grouped by Job Name. </p>
+          <div class="col-1of1 container center over-img">
+          <img src="images/VISIER/problem.png" alt="context overflow problem screenshot">
+          </div>
+          <div class="col-1of1">
+            <p class="bottomnote">As context overflows, users lose visibility of the visualization.</p>
+          </div>
       </div>
     </div>
 
     <div class="col-1of1 container top-margin-3">
-      <p>Through the ongoing mentorship with multiple senior designers, and my manager, I’d developed three options for the proposal with each of them providing different balance between viewing the visualization and the context defining the chart.</p>
-      <div class="col-1of1 container center over-img">
-          <img src="images/VISIER/workflow.png" alt="context work flow">
+      <h2 class="vblue">RESEARCH & EXPLORATION</h2>
+      <p>Before jumping into the actual design, I conducted secondary research and looked at common examples of how overflow/excessive content is handled across different platforms. Some examples include, horizontal scrolling space, read more/read less, and modal container. From there, I made multiple iterations in Sketch to share and to receive feedback from other designers and my mentors. In the end, we decided to employ the "show more/show less" approach, so that context and visualization fit on the same page. Since many of our customers export their analysis into other formats such as PDF and PowerPoint for presentation usage, we wanted to optimize for readability in a flat layout.</p>
+      <div class="col-1of1 container top-margin-4">
+          <div class="col-2of3">
+          <img src="images/VISIER/research.png" alt="research screenshot" style="width:100%;height:auto;">
+        </div>
+        <div class="col-1of3">
+          <p class="sidenote-noborder">I looked at how others deal with overflow content to find reusable pattern and design inspiration.</p>
+        </div>
       </div>
+
       <div class="col-1of1 container top-margin-3">
-          <div class="col-2of3">
-          <img src="images/VISIER/Approach-1.gif" alt="context overflow approach 1s prototype" style="width:100%;height:auto;">
-        </div>
-        <div class="col-1of3">
-          <p class="sidenote-noborder">Context Overflow Approach 1</p>
-        </div>
-      </div>
-      <div class="col-1of1 container top-margin-4">
-          <div class="col-2of3">
-          <img src="images/VISIER/Approach-2.gif" alt="context overflow approach 2 prototype" style="width:100%;height:auto;">
-        </div>
-        <div class="col-1of3">
-          <p class="sidenote-noborder">Context Overflow Approach 2</p>
+        <h2 class="vblue">STRESS TEST</h2>
+        <p>Although for this assignment, I was tasked to design for when filters become overflow. It is crucial to account for all the UI elements and user scenarios to ensure the usability and feasibility of the redesign. For that, I reached out to my mentor, designers, and developers to create a set of templates in Sketch to stress-test my design.</p>
+        <div class="col-1of1 container center over-img">
+            <img src="images/VISIER/stress-test.png" alt="Test approaches screenshot">
         </div>
       </div>
-      <div class="col-1of1 container top-margin-4">
-          <div class="col-2of3">
-          <img src="images/VISIER/Approach-3.gif  " alt="context overflow approach 3 prototype" style="width:100%;height:auto;">
-        </div>
-        <div class="col-1of3">
-          <p class="sidenote-noborder">Context Overflow Approach 3</p>
+
+      <div class="col-1of1 container top-margin-3">
+          <h2 class="vblue">PROPOSAL</h2>
+          <p>When context reaches over three rows, the remaining filters are hidden and represented as "x more." Clicking on to "x more" will push down the chart while revealing the rest of the filters. To reduce the chance of context from overflowing, I also redesigned token sizes. In Comparison to previously where filters get truncated at an arbitrary length, they now display the first attribute member and "+x more." This way, we make sure the users can still understand what each token filters while reducing the length of the token significantly.</p>
+          <div class="col-1of1">
+          <img src="images/VISIER/Approach-3.gif" alt="context overflow prototype" style="width:100%;height:auto;">
         </div>
       </div>
     </div>
 
     <div class="col-1of1 container top-margin-3">
-      <p>While having minimal viable product is important, the vision proposal is provided for a diverse potential for future product development.</p>
+      <p>In addition to providing minimal viable product, I also shared a vision proposal with my team to show opportunity for future product development.</p>
       <div class="col-1of1 container top-margin-4">
-          <div class="col-2of3">
+          <div class="col-1of1">
           <img src="images/VISIER/vision.gif  " alt="context overflow vision prototype" style="width:100%;height:auto;">
         </div>
-        <div class="col-1of3">
-          <p class="sidenote-noborder">Vision proposal</p>
-        </div>
       </div>
     </div>
 
-    <div class="col-1of1 container top-margin-3">
-      <p>Each design decision comes with different micro-interaction change. It is incredibly important to account for all the elements and scenarios to maintain the usability and the quality of the product.</p>
-      <div class="col-1of1 container center over-img">
-          <img src="images/VISIER/stress-test.png" alt="Test approaches screenshot">
-      </div>
-    </div>
 
   </section>
 
@@ -171,7 +154,7 @@
       </div>
 
       <div class="col-1of1 container top-margin-3">
-        <p>The problem before was that changes were happening altogether. After collaborating with my engineer, we were able to develop the transition into several micro-segments. That way, users can perceive and make sense of the change in sequence.</p>
+        <p>The problem before was that changes were happening altogether. After collaborating with my developer partner, we were able to develop the transition into several micro-segments. That way, users can perceive and make sense of the change in sequence.</p>
         <div class="col-1of1 container top-margin-4">
             <div class="col-2of3">
               <video width="100%" height="auto" controls>

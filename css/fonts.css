@@ -62,3 +62,44 @@
 	src: url('../fonts/Sentinel-Bold.otf');
 	src: url('../fonts/Sentinel-Bold.otf')format('opentype')
 }
+
+@font-face{
+	font-family: 'Tiempos';
+	font-weight: 100;
+	font-style:normal;
+	src: url('../fonts/Tiempos.otf');
+	src: url('../fonts/Tiempos.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'Tiempos';
+	font-weight: 300;
+	font-style:normal;
+	src: url('../fonts/TiemposText-Medium.ttf');
+	src: url('../fonts/TiemposText-Medium')format('truetype')
+}
+
+
+@font-face{
+	font-family: 'TiemposHeadline';
+	font-weight: 100;
+	font-style:normal;
+	src: url('../fonts/TiemposHeadline-Regular.otf');
+	src: url('../fonts/TiemposHeadline-Regular.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'TiemposHeadline';
+	font-weight: 500;
+	font-style:normal;
+	src: url('../fonts/TiemposHeadline-Semibold.otf');
+	src: url('../fonts/TiemposHeadline-Semibold.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'TiemposHeadline';
+	font-weight: 700;
+	font-style:normal;
+	src: url('../fonts/TiemposHeadline-Bold.otf');
+	src: url('../fonts/TiemposHeadline-Bold.otf')format('opentype')
+}
