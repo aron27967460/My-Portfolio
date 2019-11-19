@@ -244,7 +244,7 @@
       </div>
 
       <div class="col-1of1 container top-margin-3">
-        <h2 class="ablue">PLANNED FUNDRAISERS [Added on Nov 18th, 2019]</h2>
+        <h2 class="ablue">PLANNED FUNDRAISERS — Added on 11/18/2019</h2>
         <p>From my post in the private facebook group, I also saw a substantial number of people who wished for a form of financial support from their deceased loved ones. Whether it is for the funeral, memorial service, or childcare cost, the loss of a loved one would often cause an additional expense or some financial concerns. This is especially vital when the person who passed away plays a significant role in supporting the family’s finance. While purchasing life insurance would undoubtedly contribute to the cause, many existing barriers, such as different financial priorities or the lack of awareness, have prevented people from doing so. For that reason, I’d created Planned Fundraisers in hopes of providing an alternative way to allow Facebook users to support their loved ones financially.</p>
         <div class="col-1of1 container top-margin-2">
           <div class="col-1of2 container center top-margin-2">
