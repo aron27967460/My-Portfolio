@@ -242,6 +242,27 @@
           </div>
         </div>
       </div>
+
+      <div class="col-1of1 container top-margin-3">
+        <h2 class="ablue">PLANNED FUNDRAISERS</h2>
+        <p>From my post in the private facebook group, I also saw a substantial number of people who wished for a form of financial support from their deceased loved ones. Whether it is for the funeral, memorial service, or childcare cost, the loss of a loved one would often cause an additional expense or some financial concerns. This is especially vital when the person who passed away plays a significant role in supporting the family’s finance. While purchasing life insurance would undoubtedly contribute to the cause, many existing barriers, such as different financial priorities or the lack of awareness, have prevented people from doing so. For that reason, I’d created Planned Fundraisers in hopes of providing an alternative way to allow Facebook users to support their loved ones financially.</p>
+        <div class="col-1of1 container top-margin-2">
+          <div class="col-1of2 container center top-margin-2">
+            <video width="250px" height="auto" controls>
+              <source src="videos/PM/planned-fundraiser.mp4" alt="Planned Fundraiser prototype for Facebook Post-Memorialization" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="bottomnote-center">Plan a fundraiser to support your loved financially.</p>
+          </div>
+          <div class="col-1of2 container center top-margin-2">
+            <video width="250px" height="auto" controls>
+              <source src="videos/PM/planned-fundraiser-preview.mp4" alt="Planned Fundraiser preview prototype for Facebook Post-Memorialization" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="bottomnote-center">Preview of a Planned Fundraiser on a memorialized account.</p>
+          </div>
+        </div>
+      </div>
   </section>
 
   <!-- FINAL THOUGHT -->
@@ -259,7 +280,7 @@
     <div class="col-1of1 container">
       <p>Grieving is a natural process of life. Yet, due to the unexpected sudden incidents, the bereaved are forced to experience unnecessary sufferings. Understanding each individual mourn differently from one to another, I wanted people to be the ones to create what could help to support their loved ones. From talking to the people around me, I learned that most of them tend to avoid the topic of death. While it is certainly a challenging experience, I genuinely hope that people would take initiatives to plan for both their end-of-life and afterlife experiences. Whether it's getting insurance, designing your own funeral, or making a voice recording of you saying, "I love you." Every small step can make a significant impact in supporting your loved ones. That's the motive behind Facebook Post-Memorialization— to provide a place so people could take little steps and bridge the connections between the people and their loved ones.</p>
 
-      <p>My next iteration will incorporate the Facebook Fundraisers feature since many had wished for their deceased loved ones to leave them money or insurance. This is particularly impactful when the person who passes away is the family's major financial income. I also want to hear other people's ideas and would continue to evole Post-Memorialization. So, as an ending thought, I like to take this opportunity and ask you this other question I posted in the Grief Support Group. <strong style="color:black;">If you were to pass away at this moment, what is the one thing you would like to do for your loved ones?</strong></p>
+      <p>As I continue to develop this project, I also want to hear other people's ideas and would continue to evole Post-Memorialization. So, as an ending thought, I like to take this opportunity and ask you this other question I posted in the Grief Support Group. <strong style="color:black;">If you were to pass away at this moment, what is the one thing you would like to do for your loved ones?</strong></p>
 
       <p>Thank you!</p>
     </div>
