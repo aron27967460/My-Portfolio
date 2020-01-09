@@ -544,6 +544,7 @@ iframe{
   padding:30px 2.5%;
   top:0;
   background-color:white;
+  opacity:0.9;
   z-index:98;
   position:fixed;
   overflow:hidden;
