@@ -146,7 +146,7 @@ p{
   font-weight:100;
   line-height:1.6em;
   letter-spacing: 1.1px;
-  font-size:1em;
+  font-size:1.2em;
   color:#515E65;
   margin-top:0.3em;
   padding-bottom:0.6em;
@@ -953,7 +953,7 @@ textarea:focus{
 }
 
 .project-description p{
-  font-size: 0.95em;
+  font-size: 1em;
 }
 
 /* tag for categorizing project */
@@ -1029,7 +1029,7 @@ textarea:focus{
   }
 
   .project-description p{
-    font-size: 0.82em;
+    font-size: 1em;
   }
 
   .space-block{
@@ -1285,7 +1285,7 @@ textarea:focus{
   }
 
   .tag{
-    font-size:1em;
+    font-size:0.9em;
     color:#A2AEB6;
     letter-spacing: 2px;
   }
