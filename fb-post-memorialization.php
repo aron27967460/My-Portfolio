@@ -79,7 +79,7 @@
 
   <!-- PROJECT OVERVIEW -->
   <section class="container project-body" id="project-overview">
-    <h1 class="col-1of1"><strong>PROJECT OVERVIEW</strong></h1>
+    <h1 class="col-1of1"><strong>project overview</strong></h1>
     <div class="col-1of1 container">
       <div class="col-2of3">
         <p>Facebook Post-Memorialization is an integrated experience that empowers the users who want to continue to support their loved one in case of their death. Upon their accounts being memorialized, users can deliver farewell letters to individuals, create a secret support group for their friends and families, and pass down their values and love through a pinned announcement on their Facebook profile. It is a personal project that was inspired and driven by my childhood memory.</p>
@@ -101,7 +101,7 @@
 
   <!-- BACKGROUND -->
   <section class="container project-body top-margin-3" id="background">
-    <h1 class="col-1of1"><strong>BACKGROUND</strong></h1>
+    <h1 class="col-1of1"><strong>background</strong></h1>
     <p>As a product designer, I have devoted myself to bringing joy and happiness to people's lives. I believe in achieving my goal; we must first reduce the unnecessary suffering that each individual experiences. The story began when I was 12; I got into an accident which sent me to the emergency room. To me, that was my first near-death experience. However, instead of being terrified of the pain, what left me a life long memory was my father's worried face. As he held on to my fractured arm while waiting for the doctor, I asked myself, what if I died today, what would happen to the people I love?</p>
 
     <div class="col-1of1  top-margin-4">
@@ -124,7 +124,7 @@
 
   <!-- PROPOSAL -->
   <section class="container project-body top-margin-3" id="proposal">
-    <h1 class="col-1of1"><strong>PROPOSAL</strong></h1>
+    <h1 class="col-1of1"><strong>proposal</strong></h1>
     <div class="col-1of1">
         <h2 class="ablue">RESEARCH</h2>
         <p>From my secondary research, I learned that one of the significant factors that determine the survivor’s experiences is the ability to bring closure to the relationship with the deceased. People who lost their loved ones due to extended illness or advanced age are less likely to experience Prolonged Grief Disorder. They were given the time to grief along with the dyings. Together, they gradually embraced reality and were able to share their love and say goodbye to each other. On the other hand, people who encountered sudden losses of their loved ones did not have the same chance to reconcile with the deceased.</p>
@@ -268,7 +268,7 @@
 
   <!-- FINAL THOUGHT -->
   <section class="container project-body top-margin-3" id="final-thought">
-    <h1 class="col-1of1"><strong>FINAL THOUGHT</strong></h1>
+    <h1 class="col-1of1"><strong>final thought</strong></h1>
 
     <div class="col-1of1 container top-margin-4" style="margin-bottom:2em;">
       <div class="col-2of3 quotes">

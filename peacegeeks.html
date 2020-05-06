@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="192x192">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <script src="nav-dropdown.js"></script>
+  <script src="side-nav.js"></script>
+  <script src="tab.js"></script>
+  <title>
+    Aron Chen - Product Designer
+  </title>
+</head>
+
+<body>
+  <!-- Hamburger Navigation -->
+  <nav id="myNav" class="overlay">
+    <div class="container">
+      <a id="closeNav" onclick="closeNav()">&times;</a>
+      <div class="overlay-content col-1of1">
+      <a href="https://aronchen.com/" class="overlay-nav-button col-1of1">Work</a>
+      <a href="about-me.html" class="overlay-nav-button col-1of1">About</a>
+      <a href="files/Resume.pdf" target="_blank" class="overlay-nav-button col-1of1">Resume</a>
+      <a href="mailto:aron.pt.chen@gmail.com" class="overlay-nav-button col-1of1">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Navigation -->
+  <a id="toggle" onclick="openNav()">	&#9776;</a>
+  <nav class="container nav-bar right">
+      <a href="https://aronchen.com/" id="logo"><img src="images/word-logo.png" alt="logo"></a>
+      <a href="https://aronchen.com/" class="nav-button">Work</a>
+      <a href="about-me.html" class="nav-button">About</a>
+      <a href="files/Resume.pdf" target="_blank" class="nav-button last-nav-button">Resume</a>
+  </nav>
+
+  <!-- side navigation -->
+  <div class="sidebar-container">
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Back to top &uarr;</button>
+    <div id="project-nav">
+    <a href="#overview" id="sidebar-1" class="sidebar">Overview</a>
+    <a href="#intro" id="sidebar-2" class="sidebar">Introduction</a>
+    <a href="#reflection" id="sidebar-3" class="sidebar" onclick="openTab(event, 'reflection')">Reflection</a>
+    <a href="#case-study" id="sidebar-4" class="sidebar" onclick="openTab(event, 'case-study')">Case Study</a>
+  </div>
+  </div>
+
+  <!-- PROJECT TITLE -->
+  <section class="container project-title-body top-margin-5">
+    <h1 id="project-title">PeaceGeeks</h1>
+  </section>
+
+  <!-- PROJECT OVERVIEW -->
+  <section class="container project-body" id="overview">
+    <h1 class="col-1of1"><strong>OVERVIEW</strong></h1>
+    <div class="col-2of3">
+      <p>PeaceGeeks is a non-profit organization that empower communities and peacebuilder with life-changing digital tools. As a <strong class="pblue">Design Intern</strong>, my responsibility was identical to a full-stack product designer with the occasions of designing promotional materials for various events and products. For all if not most projects, I was responsible to form research plans and collect insights from our target population. For instance, for one of our core projects Arrival Adivsor, I evaluated the design by conducting usability tests with settlement frontline workers and newcomers in BC. In addition, I also worked closely with other designers, project managers and developers to ensure the feasibility of the product.
+      </p>
+    </div>
+    <div class="col-1of3 padding-left-flex">
+      <h2 class="pblue">TOOLS</h2>
+      <p>Sketch, Figma, Illustrator, Principle, Zeplin, GitHub</p>
+      <h2 class="pblue">TYPE</h2>
+      <p>Internship</p>
+      <h2 class="pblue">INTERNSHIP DURATION</h2>
+      <p>9 months (September 2019 — May 2020)</p>
+    </div>
+  </section>
+
+  <!-- DESIGN PROCESS -->
+  <section class="container project-body top-margin-3" id="intro">
+    <h1 class="col-1of1"><strong>INTRODUCTION</strong></h1>
+    <p>
+      I moved back from Taiwan to Canada for educational purposes when I was thirteen. At the time, my parents had provided me with everything they could to make my stay as comfortable as possible. They gave me allowances, bought me furniture and even had my aunt to take care of me. Thanks to that, I was able to adapt to this new living environment in almost no time.
+    </p>
+    <p>
+      Fast forward to last year(2019)'s September, I just began my role as a Design Intern at PeaceGeeks. Excited about the opportunity, I spent no time and dove right into all the research and design projects. It was then, I got to learn about one of PeaceGeeks' core projects named Arrival Advisor. A mobile application that provides accurate and relevant information for newcomers to settle in the province of British Columbia. Through designing for Arrival Advisor, I came to realize the effortless immigration experience I once had was merely an illusion, which my parents had set up so perfectly for me.
+    </p>
+
+    <div class="col-1of1  top-margin-4">
+      <img src="images/PEACEGEEKS/Arrival-Advisor.png" alt="Arrival Advisor product overview" style="width:100%;height:100%">
+    </div>
+
+    <p class="top-margin-2">
+      Working at PeaceGeeks is like playing with a nesting doll that never ends. New experiences, new challenges, and new lessons never seem to cease. While my time at PeaceGeeks had changed my perception of settlements, I also grew my technical skills exponentially through working closely with all the professionals and stakeholders. Besides doing what I already love, which is digital product design, I was also given the freedom to engage in user research with great flexibility. I got to listen to a wide range of newcomers and frontline workers sharing their stories of settling or helping others to move in Canada. My team, which included another designer, project manager, developers, and project coordinator were incredibly passionate, friendly and collaborative.
+    </p>
+
+    <div class="col-1of1 container top-margin-4">
+      <div class="col-2of3 desktop-img">
+        <img src="images/PEACEGEEKS/birthday.jpg" alt="birthday surprise">
+      </div>
+      <div class="col-1of3">
+        <p class="sidenote-noborder">When my team threw me a surprise birthday cake in the middle of a (made-up) meeting. &#128514;</p>
+      </div>
+    </div>
+
+    <p class="top-margin-2">
+      There are too many lessons to count throughout my internship with PeaceGeeks. That being said, I’ve written a piece of reflection and a case study with the aim to share some of the lessons and perspective I learned. While these lessons came from working in a non-profit work environment, they can certainly be applied to any other context as well.
+    </p>
+
+    <div class="tab top-margin-4">
+      <button class="tablinks" onclick="openTab(event, 'reflection')" id="defaultTab">Reflection</button>
+      <button class="tablinks" onclick="openTab(event, 'case-study')">Case Study</button>
+    </div>
+
+    <!-- Tab content -->
+    <div class="col-1of1">
+      <section id="reflection" class="tabcontent">
+        <h3>Reflection</h3>
+        <p>Content goes here.</p>
+      </section>
+
+      <section id="case-study" class="tabcontent">
+        <h3>Case Study</h3>
+        <p>Content goes here.</p>
+      </section>
+    </div>
+
+    <script>
+      // Get the element with id="defaultTab" and have it open by default
+      document.getElementById("defaultTab").click();
+    </script>
+  </section>
+
+
+
+
+
+  <footer class="container">
+    <div id="let-chat" class="container"><div class="col-1of1">Let's chat.</div></div>
+    <div class="col-1of1 container">
+    <div class="footer-button"><a href="mailto:aron.pt.chen@gmail.com">Contact</a></div>
+    <div class="footer-button"><a href="https://www.linkedin.com/in/aron-chen/">Linkedin</a></div>
+    <div class="footer-button"><a href="https://github.com/aron27967460/My-Portfolio.git">Git Repo</a></div>
+    <div class="footer-button"><a href="citation.html">Citation</a></div>
+    <div class="footer-button"><div>&copy; 2019 Aron Chen</div></div>
+  </footer>
+  </body>
+</html>

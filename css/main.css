@@ -8,14 +8,14 @@ a, a:visited, a:focus{
 
 /* h1 style */
 h1{
-  font-family:'Sentinel', serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   font-weight:500;
   font-size:1.5em;
-  letter-spacing: 0.15em;
+  text-transform:capitalize;
 }
 
 h1 strong{
-  font-family:'Sentinel', serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   position: relative;
   font-weight:500;
   z-index: -1;
@@ -65,7 +65,7 @@ h2{
 
 /* h3 style */
 h3{
-  font-family:'Sentinel', serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   font-weight:300;
   font-size:1.5em;
   line-height:1.4em;
@@ -78,8 +78,8 @@ h3{
 
 /* slogan, used for index */
 #slogan{
-  font-family:'Sentinel', serif;
-  font-weight:300;
+  font-family:'GT-America',Helvetica, sans-serif;
+  font-weight:500;
   line-height:1.0em;
   font-size:4em;
   letter-spacing:0px;
@@ -119,7 +119,7 @@ h3{
 
 /* project title used for project pages */
 #project-title{
-  font-family:'Sentinel', serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   font-weight:500;
   line-height:1.2em;
   font-size:3.2em;
@@ -142,13 +142,13 @@ h3{
 
 /* default paragraph style */
 p{
-  font-family:'Sentinel', serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   font-weight:100;
   line-height:1.6em;
   letter-spacing: 1.1px;
-  font-size:1.2em;
+  font-size:1em;
   color:#515E65;
-  margin-top:0.3em;
+  margin:0.3em 0em;
   padding-bottom:0.6em;
 }
 
@@ -159,7 +159,7 @@ strong{
 
 /* paragraph for about-me page*/
 .about-p{
-  font-family:'Sentinel', serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   font-weight:100;
   line-height:1.5em;
   letter-spacing: 1px;
@@ -466,6 +466,48 @@ iframe{
 
 /* ----------------------------------------- */
 
+/*Tab style*/
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-bottom: 0px solid black;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 24px;
+  transition: 0.3s;
+  font-family:'GT-America',Helvetica, sans-serif;
+  font-weight:700;
+  font-size:1em;
+  text-transform: capitalize;
+  color:black;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-bottom: 2px solid black;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 24px 0px;
+}
+
+/*------------------------------------------------*/
+
 /* color swatches */
 #colour_swatches{
   font-family:'FiraSans',Helvetica,sans-serif;
@@ -535,6 +577,10 @@ iframe{
 
 .ablue{
   color:#3F7EFD; /*Facebook Post-Memorialization*/
+}
+
+.pblue{
+  color:#59c2ed; /*PeaceGeeks*/
 }
 
 /* navigation bar */
@@ -718,9 +764,9 @@ footer{
 }
 
 #let-chat{
-  font-family:'Sentinel', serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   font-size:4em;
-  font-weight:100;
+  font-weight:500;
   color:white;
   margin:0 0 25px 0;
 }
@@ -855,15 +901,14 @@ textarea:focus{
   background-repeat: no-repeat;
   text-decoration: underline;
   margin:0px 2px;
-  font-family:'Sentinel', serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   font-weight:500;
   transition: background-size 0.6s;
 }
 
 .intext-link:hover, .intext-link:focus{
-  font-family:'Sentinel', serif;
+  font-family:'GT-America',Helvetica, sans-serif;
   font-weight:500;
-  line-height:1em;
   background-size: 100% 80%;
   text-decoration: none;
   border-bottom:1px solid transparent;
@@ -949,7 +994,7 @@ textarea:focus{
 }
 
 .project-description{
-  margin: 30px 0 5px 0;
+  margin: 30px 0 15px 0;
 }
 
 .project-description p{
@@ -1063,7 +1108,7 @@ textarea:focus{
 
   #project-title{
     font-size:4em;
-    font-weight:300;
+    font-weight:500;
     letter-spacing:1.5px;
     width:100%;
     word-spacing:0px;
@@ -1071,7 +1116,7 @@ textarea:focus{
   }
 
   h1{
-    font-family:'Sentinel', serif;
+    font-family:'GT-America',Helvetica, sans-serif;
     font-size:1.6em;
   }
 
@@ -1141,7 +1186,7 @@ textarea:focus{
 
   #slogan{
     line-height:1.3em;
-    font-size:5em;
+    font-size:4em;
     margin:0;
   }
 
@@ -1171,9 +1216,9 @@ textarea:focus{
   }
 
   #let-chat{
-    font-family:'Sentinel', serif;
+    font-family:'GT-America',Helvetica, sans-serif;
     font-size:6em;
-    font-weight:100;
+    font-weight:500;
     color:white;
     margin:0 0 25px 0;
   }
@@ -1246,7 +1291,7 @@ textarea:focus{
 
   #slogan{
     line-height:1.2em;
-    font-size:6em;
+    font-size:4.5em;
     margin:0;
   }
 
@@ -1367,7 +1412,7 @@ textarea:focus{
 @media (min-width:88em){
   #slogan{
     line-height:1.3em;
-    font-size:7em;
+    font-size:6em;
     margin:0;
   }
 
