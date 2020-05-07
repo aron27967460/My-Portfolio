@@ -407,6 +407,11 @@ video{
   background-size:contain;
 }
 
+.peacegeeks-title-img{
+  background: url("../images/PEACEGEEKS/PEACEGEEKS-title-image.png") no-repeat center;
+  background-size:contain;
+}
+
 /* resizable video from vimeo */
 .video{
   margin-top:20px;
