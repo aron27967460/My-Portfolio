@@ -1194,12 +1194,12 @@ textarea:focus{
   }
 
   .tab button {
-    padding: 32px 64px 16px 12px;
+    padding: 32px 0 16px 0;
     border-bottom: 3px solid rgba(0,0,0,0);
     transition: 0.3s;
     font-family:'GT-America',Helvetica, sans-serif;
     font-weight:500;
-    width:auto;
+    width:50%;
   }
 
   .ppd-title-img{
