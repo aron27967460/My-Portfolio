@@ -301,7 +301,7 @@
         </form>";
         ?>
         <div class="col-1of1 container right-to-center top-margin-2">
-          <a href="visier.html" class="d-button"><strong>NEXT PROJECT |</strong> Visier &rarr;</a>
+          <a href="peacegeeks.html" class="d-button"><strong>NEXT PROJECT |</strong> PeaceGeeks &rarr;</a>
         </div>
         <?php
         echo "<div class='top-margin-3 col-1of1 container'>";

@@ -6,6 +6,22 @@ a, a:visited, a:focus{
   font-weight:normal;
 }
 
+/* html{
+  scroll-behavior: smooth;
+} */
+
+/* initial slide animation*/
+/* .initial-slide {
+  position:relative;
+  animation:animatetop 1.5s;
+}
+
+@keyframes animatetop {
+  from{bottom:-64px;opacity:0;}
+  to{bottom:0;opacity:1;}
+} */
+
+
 /* h1 style */
 h1{
   font-family:'GT-America',Helvetica, sans-serif;
@@ -36,6 +52,15 @@ h1::before {
   z-index: -1;
 }
 
+.tabcontent h1::before{
+  content: '';
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin-top: 68px;
+  border-bottom: 2px solid black;
+}
+
 /*clear out :: before border style for specific title */
 #slogan::before{
   border-bottom: 0px solid transparent;
@@ -55,7 +80,7 @@ h1::before {
 h2{
   font-family:'GT-America',Helvetica, sans-serif;
   font-weight:500;
-  font-size:0.85em;
+  font-size:0.9em;
   color:#A2AEB6;
   line-height:2.0em;
   letter-spacing: 0.1em;
@@ -78,7 +103,7 @@ h3{
 
 /* slogan, used for index */
 #slogan{
-  font-family:'GT-America',Helvetica, sans-serif;
+  font-family:'Sentinel', serif;
   font-weight:500;
   line-height:1.0em;
   font-size:4em;
@@ -100,18 +125,6 @@ h3{
   transform: scale(1.1,1.1);
 }
 
-.award-tag{
-  font-family:'GT-America', sans-serif;
-  font-weight:normal;
-  text-transform:uppercase;
-  color:black;
-}
-
-.second-line-tag{
-  margin-top:15px;
-  margin-left:0px;
-}
-
 /*work statement*/
 .work{
   font-size: 0.9em;
@@ -119,7 +132,7 @@ h3{
 
 /* project title used for project pages */
 #project-title{
-  font-family:'GT-America',Helvetica, sans-serif;
+  font-family:'Sentinel', serif;
   font-weight:500;
   line-height:1.2em;
   font-size:3.2em;
@@ -129,16 +142,6 @@ h3{
   text-align:left;
 }
 
-/* about page title */
-#about-slogan{
-  font-family:'Sentinel', serif;
-  font-weight:500;
-  line-height:1.2em;
-  font-size:2.6em;
-  letter-spacing:0px;
-  border-bottom:0px solid transparent;
-  padding-right:80px;
-}
 
 /* default paragraph style */
 p{
@@ -470,7 +473,8 @@ iframe{
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border-bottom: 0px solid black;
+  border-bottom: 1px solid #f1f1f1;
+  box-shadow: 0px 8px 10px -12px rgba(0,0,0,0.4);
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -480,14 +484,20 @@ iframe{
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 24px;
+  width:50%;
+  padding: 32px 0 16px 0;
+  border-bottom: 3px solid rgba(0,0,0,0);
   transition: 0.3s;
   font-family:'GT-America',Helvetica, sans-serif;
-  font-weight:700;
+  font-weight:500;
   font-size:1em;
   text-transform: capitalize;
   color:black;
 }
+
+/* .tab button:first-child{
+  border-right: 2px solid black;
+} */
 
 /* Change background color of buttons on hover */
 .tab button:hover {
@@ -496,7 +506,7 @@ iframe{
 
 /* Create an active/current tablink class */
 .tab button.active {
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 
@@ -504,6 +514,27 @@ iframe{
 .tabcontent {
   display: none;
   padding: 24px 0px;
+  z-index: -1;
+}
+
+.tab-content-right {
+  position:relative;
+  animation:animateright 0.4s;
+}
+
+@keyframes animateright {
+  from{right:-64px;opacity:0;}
+  to{right:0;opacity:1;}
+}
+
+.tab-content-left {
+  position:relative;
+  animation:animateleft 0.4s;
+}
+
+@keyframes animateleft {
+  from{left:-64px;opacity:0;}
+  to{left:0;opacity:1;}
 }
 
 /*------------------------------------------------*/
@@ -764,7 +795,7 @@ footer{
 }
 
 #let-chat{
-  font-family:'GT-America',Helvetica, sans-serif;
+  font-family:'Sentinel', serif;
   font-size:4em;
   font-weight:500;
   color:white;
@@ -921,14 +952,16 @@ textarea:focus{
   background-size: 0% 50%;
   background-repeat: no-repeat;
   text-decoration: underline;
-  margin:0px 2px;
-  font-family:'GT-America', sans-serif;
+  margin:0px 0px;
+  font-family:'GT-America', Helvetica, sans-serif;
   font-weight:500;
   transition: background-size 0.4s;
 }
 
 .intext-link2:hover, .intext-link2:focus{
   background-size: 100% 50%;
+  font-family:'GT-America', Helvetica, sans-serif;
+  font-weight:500;
   text-decoration: none;
 }
 
@@ -981,8 +1014,13 @@ textarea:focus{
 }
 
 .project-item{
-  margin: 0 0 120px 0;
+  margin: 0px 0px 48px 0px;
   border-bottom: 3px solid black;
+}
+
+.project-wrapper{
+  margin: 0 0 0 0;
+  position: relative;
 }
 
 .mid-size-project{
@@ -994,11 +1032,11 @@ textarea:focus{
 }
 
 .project-description{
-  margin: 30px 0 15px 0;
+  margin: 24px 0 8px 0;
 }
 
 .project-description p{
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 /* tag for categorizing project */
@@ -1046,11 +1084,6 @@ textarea:focus{
 
 /* ------------------------------------- Media Query ----------------------------------------- */
 @media (min-width:42em){
-  .second-line-tag{
-    margin-top:0px;
-    margin-left:5px;
-  }
-
   .mid-size-project{
     flex:64%;
   }
@@ -1061,8 +1094,12 @@ textarea:focus{
   }
 
   .project-item{
-    margin: 0px 15px 180px 15px;
+    margin: 0px 15px 0px 15px;
     border-bottom: 3px solid black;
+  }
+
+  .project-wrapper{
+    margin: 0px 0px 180px 0px;
   }
 
   .project-item:first-child{
@@ -1082,7 +1119,7 @@ textarea:focus{
   }
 
   h2{
-    font-size:0.8em;
+    font-size:0.9em;
   }
 
   .author{
@@ -1134,8 +1171,35 @@ textarea:focus{
     position: absolute;
     left: 29%;
     right: 24.5%;
-    margin-top:12px;
+    margin-top:16px;
     border-bottom: 1px solid #898989;
+  }
+
+  .tabcontent h1 strong{
+    font-weight:500;
+    position: relative;
+    z-index: -1;
+    display: inline-block;
+    max-width: 80%;
+    padding: 0 20px 0 0;
+  }
+
+  .tabcontent h1::before{
+      content: '';
+      position: absolute;
+      left: 29%;
+      right: 0%;
+      margin-top:16px;
+      border-bottom: 1px solid #898989;
+  }
+
+  .tab button {
+    padding: 32px 64px 16px 12px;
+    border-bottom: 3px solid rgba(0,0,0,0);
+    transition: 0.3s;
+    font-family:'GT-America',Helvetica, sans-serif;
+    font-weight:500;
+    width:auto;
   }
 
   .ppd-title-img{
@@ -1173,10 +1237,6 @@ textarea:focus{
     background-size: contain;
   }
 
-  .about-slogan{
-    font-size:1.3em;
-    line-height:1.2em;
-  }
 
   .about-p{
     line-height:1.5em;
@@ -1196,10 +1256,6 @@ textarea:focus{
     padding-left:20px;
   }
 
-  #about-slogan{
-    line-height:1.2em;
-    font-size:2.3em;
-  }
 
   .work{
     font-size: 1em;
@@ -1216,7 +1272,7 @@ textarea:focus{
   }
 
   #let-chat{
-    font-family:'GT-America',Helvetica, sans-serif;
+    font-family:'Sentinel', serif;
     font-size:6em;
     font-weight:500;
     color:white;
@@ -1273,7 +1329,6 @@ textarea:focus{
   .project-img img{
     width:100%;
   }
-
 }
 
 @media (min-width:64.06em){
@@ -1295,21 +1350,11 @@ textarea:focus{
     margin:0;
   }
 
-  #about-slogan{
-    line-height:1.5em;
-    font-size:2.5em;
-  }
 
   .work{
     font-size: 1em;
   }
 
-  .about-slogan{
-    font-size:1.4em;
-    line-height:1.4em;
-    letter-spacing:1px;
-    word-spacing:2px;
-  }
 
   .border-top{
     border-top:1px solid #EBEBEB;
@@ -1327,22 +1372,6 @@ textarea:focus{
     margin-bottom:0.3em;
     font-size:2.3em;
     font-weight:300;
-  }
-
-  .tag{
-    font-size:0.9em;
-    color:#A2AEB6;
-    letter-spacing: 2px;
-  }
-
-  .about-title{
-    font-size:1.7em;
-    font-weight:500;
-    padding:5px 0px 0px 0px;
-    letter-spacing:1px;
-    line-height: 1.3em;
-    border-bottom:1px solid #EAEAEA;
-    background-position: -0.5em 0.80em;
   }
 
   #topBtn{
@@ -1372,8 +1401,12 @@ textarea:focus{
   }
 
   .project-item{
-    margin: 0px 25px 160px 25px;
-    border-bottom: 3px solid black;
+    margin: 0px 25px 0px 25px;
+    border-bottom: 5px solid black;
+  }
+
+  .project-wrapper{
+    margin: 0px 0px 160px 0px;
   }
 
   .author{
@@ -1448,7 +1481,7 @@ textarea:focus{
     font-size:2em;
   }
   h2{
-    font-size:0.9em;
+    font-size:1em;
   }
   h3{
     font-size:1.6em;
