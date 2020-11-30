@@ -1,24 +1,4 @@
-<?php
-  date_default_timezone_set('America/Vancouver');
-  include 'dbh.inc.php';
-
-  if (isset($_POST['commentSubmit']) && !empty($_POST['message'])) {
-      $uid = $_POST['uid'];
-      $date = $_POST['date'];
-      $message = $_POST['message'];
-
-      $sql = "INSERT INTO comments (uid, date, message)
-      VALUES ('$uid','$date','$message')";
-      $result = $conn->query($sql);
-
-      header("Location: https://aronchen.com/fb-post-memorialization.php#final-thought");
-      exit;
-    }else{
-
-    }
-?>
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -281,43 +261,9 @@
     <div class="col-1of1 container">
       <p>Grieving is a natural process of life. Yet, due to the unexpected sudden incidents, the bereaved are forced to experience unnecessary sufferings. Understanding each individual mourn differently from one to another, I wanted people to be the ones to create what could help to support their loved ones. From talking to the people around me, I learned that most of them tend to avoid the topic of death. While it is certainly a challenging experience, I genuinely hope that people would take initiatives to plan for both their end-of-life and afterlife experiences. Whether it's getting insurance, designing your own funeral, or making a voice recording of you saying, "I love you." Every small step can make a significant impact in supporting your loved ones. That's the motive behind Facebook Post-Memorialization— to provide a place so people could take little steps and bridge the connections between the people and their loved ones.</p>
 
-      <p>As I continue to develop this project, I also want to hear other people's ideas and would continue to evole Post-Memorialization. So, as an ending thought, I like to take this opportunity and ask you this other question I posted in the Grief Support Group. <strong style="color:black;">If you were to pass away at this moment, what is the one thing you would like to do for your loved ones?</strong></p>
+      <p>As an ending note, here's another question I posted in the Grief Support Group. <strong style="color:black;">If you were to pass away at this moment, what is the one thing you would like to do for your loved ones?</strong></p>
 
       <p>Thank you!</p>
-    </div>
-
-    <div class="col-1of1 container top-margin-2">
-      <?php
-        echo
-        "<form method='POST''>
-          <input type='hidden' name='uid' value='Anonymous'>
-          <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
-          <div class='container'>
-            <textarea name='message' placeholder='Leave a comment.'></textarea>
-            </div><br>
-            <div class='col-1of1 container' style='justify-content: flex-end;'>
-            <button class='d-button' type='submit' name='commentSubmit'>Submit Comment</button>
-          </div>
-        </form>";
-        ?>
-        <div class="col-1of1 container right-to-center top-margin-2">
-          <a href="peacegeeks.html" class="d-button"><strong>NEXT PROJECT |</strong> PeaceGeeks &rarr;</a>
-        </div>
-        <?php
-        echo "<div class='top-margin-3 col-1of1 container'>";
-        function getComments($conn){
-          $sql = "SELECT * FROM comments";
-          $result = $conn->query($sql);
-          while($row = $result->fetch_assoc()){
-            echo "<div class='comment-box'><p>";
-            echo "<span class='uid'>".$row['uid']."</span><br>";
-            echo nl2br($row['message']);
-            echo "</p></div>";
-          }
-        }
-        getComments($conn);
-        echo "</div>";
-       ?>
     </div>
 
   </section>
