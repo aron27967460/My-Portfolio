@@ -839,7 +839,7 @@ footer{
   letter-spacing:1.7px;
 }
 
-.d-button:hover, .d-button:focus{
+.d-button:hover, .d-button:focus, .d-button:hover strong{
   font-family:'GT-America', sans-serif;
   font-weight:normal;
   cursor:pointer;
