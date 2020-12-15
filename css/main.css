@@ -839,13 +839,18 @@ footer{
   letter-spacing:1.7px;
 }
 
-.d-button:hover, .d-button:focus, .d-button:hover strong{
+.d-button:hover, .d-button:focus{
   font-family:'GT-America', sans-serif;
   font-weight:normal;
   cursor:pointer;
-  color:white;
   background-size:100% 100%;
   outline-style: none;
+}
+
+.d-button:hover strong{
+  color:white;
+  font-weight:700;
+  letter-spacing:1.7px;
 }
 
 /* back to top button */
