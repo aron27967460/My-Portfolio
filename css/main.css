@@ -619,6 +619,10 @@ iframe{
   color:#59c2ed; /*PeaceGeeks*/
 }
 
+.dblue{
+  color:#42b1f1; /*Daylight*/
+}
+
 /* navigation bar */
 .nav-bar{
   width:100%;
@@ -1214,6 +1218,7 @@ textarea:focus{
     width:50%;
   }
 
+/* Portfolio page image*/
   .ppd-title-img{
     background: url("../images/PPD/PPD-title-image.png") no-repeat center;
     background-size: contain;
@@ -1246,6 +1251,11 @@ textarea:focus{
 
   .afterlife-title-img{
     background: url("../images/AFTERLIFE/AFTERLIFE-title-image.png") no-repeat center;
+    background-size: contain;
+  }
+
+  .daylight-title-img{
+    background: url("../images/placeholder.jpg") no-repeat center;
     background-size: contain;
   }
 
