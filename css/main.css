@@ -113,7 +113,7 @@ h3{
 
 /* logo img size */
 #logo img{
-  width:100px;
+  width:160px;
 }
 
 #logo-motion{
@@ -148,7 +148,7 @@ p{
   font-family:'GT-America',Helvetica, sans-serif;
   font-weight:300;
   line-height:1.6em;
-  letter-spacing: 1.1px;
+  letter-spacing: 1px;
   font-size:1em;
   color:#515E65;
   margin:0.3em 0em;
@@ -412,6 +412,16 @@ video{
   background-size:contain;
 }
 
+.daylight-title-img{
+  background: url("../images/DAYLIGHT/DAYLIGHT-title-image.png") no-repeat center;
+  background-size: contain;
+}
+
+.facebook-title-img{
+  background: url("../images/FACEBOOK/FACEBOOK-title-image.png") no-repeat center;
+  background-size: contain;
+}
+
 /* resizable video from vimeo */
 .video{
   margin-top:20px;
@@ -621,6 +631,10 @@ iframe{
 
 .dblue{
   color:#42b1f1; /*Daylight*/
+}
+
+.fblue{
+  color:#0766FF; /*Facebook*/
 }
 
 /* navigation bar */
@@ -1047,6 +1061,10 @@ textarea:focus{
   flex:100%;
 }
 
+.large-size-project{
+  flex:100%;
+}
+
 .project-description{
   margin: 24px 0 8px 0;
 }
@@ -1109,13 +1127,17 @@ textarea:focus{
     max-width:340px;
   }
 
+  .large-size-project{
+    flex:100%;
+  }
+
   .project-item{
     margin: 0px 15px 0px 15px;
     border-bottom: 3px solid black;
   }
 
   .project-wrapper{
-    margin: 0px 0px 180px 0px;
+    margin: 0px 0px 60px 0px;
   }
 
   .project-item:first-child{
@@ -1174,6 +1196,7 @@ textarea:focus{
   }
 
   h1 strong{
+    font-family:'TiemposHeadline', serif;
     font-weight:500;
     position: relative;
     z-index: -1;
@@ -1255,7 +1278,12 @@ textarea:focus{
   }
 
   .daylight-title-img{
-    background: url("../images/placeholder.jpg") no-repeat center;
+    background: url("../images/DAYLIGHT/DAYLIGHT-title-image.png") no-repeat center;
+    background-size: contain;
+  }
+
+  .facebook-title-img{
+    background: url("../images/FACEBOOK/FACEBOOK-title-image.png") no-repeat center;
     background-size: contain;
   }
 
@@ -1428,7 +1456,7 @@ textarea:focus{
   }
 
   .project-wrapper{
-    margin: 0px 0px 160px 0px;
+    margin: 0px 0px 96px 0px;
   }
 
   .author{
@@ -1513,7 +1541,7 @@ textarea:focus{
   }
 
   #logo img{
-    width:120px;
+    width:570px;
   }
 
   .style-guide-item{
