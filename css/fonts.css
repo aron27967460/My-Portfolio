@@ -64,6 +64,46 @@
 }
 
 @font-face{
+	font-family: 'Stanley';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Stanley-Regular.otf');
+	src: url('../fonts/Stanley-Regular.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'Stanley';
+	font-weight: normal;
+	font-style: italic;
+	src: url('../fonts/Stanley-RegularIta.otf');
+	src: url('../fonts/Stanley-RegularIta.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'Stanley';
+	font-weight: 500;
+	font-style: normal;
+	src: url('../fonts/Stanley-Bold.otf');
+	src: url('../fonts/Stanley-Bold.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'Stanley';
+	font-weight: 500;
+	font-style: italic;
+	src: url('../fonts/Stanley-BoldIta.otf');
+	src: url('../fonts/Stanley-BoldIta.otf')format('opentype')
+}
+
+@font-face{
+	font-family: 'Stanley';
+	font-weight: 700;
+	font-style: normal;
+	src: url('../fonts/Stanley-Poster.otf');
+	src: url('../fonts/Stanley-Poster.otf')format('opentype')
+}
+
+@font-face{
 	font-family: 'Tiempos';
 	font-weight: 100;
 	font-style:normal;
