@@ -112,6 +112,17 @@ h3{
   border-bottom:1px solid transparent;
 }
 
+/* about me paragraph style*/
+.about-p{
+  font-family:'Stanley', serif;
+  font-weight:normal;
+  line-height:1.0em;
+  font-size:2em;
+  letter-spacing:0px;
+  color:black;
+  border-bottom:1px solid transparent;
+}
+
 /* logo img size */
 #logo img{
   width:160px;
@@ -151,7 +162,7 @@ p{
   line-height:1.6em;
   letter-spacing: 1px;
   font-size:1em;
-  color:#515E65;
+  color:black;
   margin:0.3em 0em;
   padding-bottom:0.6em;
 }
@@ -159,16 +170,6 @@ p{
 strong{
   font-weight: 500;
   color: black;
-}
-
-/* paragraph for about-me page*/
-.about-p{
-  font-family:'GT-America',Helvetica, sans-serif;
-  font-weight:300;
-  line-height:1.5em;
-  letter-spacing: 1px;
-  font-size:1em;
-  margin-top:0.1em;
 }
 
 /* for quote usage in project pages*/
@@ -1064,6 +1065,10 @@ textarea:focus{
   flex:100%;
 }
 
+.project-on-about{
+  flex:100%;
+}
+
 .large-size-project{
   flex:100%;
 }
@@ -1120,14 +1125,18 @@ textarea:focus{
 
 
 /* ------------------------------------- Media Query ----------------------------------------- */
-@media (min-width:42em){
+@media (min-width:44em){
   .mid-size-project{
     flex:64%;
   }
 
   .small-size-project{
-    flex:29%;
+    flex:28%;
     max-width:340px;
+  }
+
+  .project-on-about{
+    flex:40%;
   }
 
   .large-size-project{
@@ -1135,7 +1144,7 @@ textarea:focus{
   }
 
   .project-item{
-    margin: 0px 15px 0px 15px;
+    margin: 0px 8px 0px 8px;
     border-bottom: 3px solid black;
   }
 
@@ -1291,16 +1300,15 @@ textarea:focus{
     background-size: contain;
   }
 
-
-  .about-p{
-    line-height:1.5em;
-    letter-spacing: 1.2px;
-    font-size:1em;
-  }
-
   #slogan{
     line-height:1.3em;
     font-size:4em;
+    margin:0;
+  }
+
+  .about-p{
+    line-height:1.3em;
+    font-size:2.5em;
     margin:0;
   }
 
@@ -1404,6 +1412,11 @@ textarea:focus{
     margin:0;
   }
 
+  .about-p{
+    line-height:1.2em;
+    font-size:2.7em;
+    margin:0;
+  }
 
   .work{
     font-size: 1em;
@@ -1452,6 +1465,10 @@ textarea:focus{
   .small-size-project{
     flex:30%;
     max-width:365px;
+  }
+
+  .project-on-about{
+    flex:45%;
   }
 
   .project-item{
@@ -1503,6 +1520,13 @@ textarea:focus{
     margin:0;
   }
 
+  .about-p{
+    line-height:1.3em;
+    font-size:3.5em;
+    margin:0;
+  }
+
+
   .sidenote{
     border-left:0px solid transparent;
     padding-left:0px;
@@ -1529,6 +1553,10 @@ textarea:focus{
 
   #slogan{
     font-size:7em;
+  }
+
+  .about-p{
+    font-size:4.5em;
   }
 
   h1{
