@@ -1066,7 +1066,8 @@ textarea:focus{
 }
 
 .project-on-about{
-  flex:100%;
+  flex:30%;
+  margin: 24px 8px 0px 8px;
 }
 
 .large-size-project{
