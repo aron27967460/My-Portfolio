@@ -346,7 +346,7 @@ video{
 .over-img img{
   width:100%;
   height:auto;
-  z-index:-1;
+  z-index:999;
 }
 
 /* mobile gif for projects */
@@ -1399,7 +1399,7 @@ textarea:focus{
   .over-img img{
     width:200%;
     height:auto;
-    z-index:1;
+    z-index:999;
   }
 
   .quotes{
