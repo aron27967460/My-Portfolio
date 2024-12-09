@@ -111,6 +111,11 @@ section{
   margin-top:20px;
 }
 
+.image-inbetween-text{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
 .top-margin-5{
   margin-top:60px;
 }
@@ -293,6 +298,11 @@ section{
 
   .top-margin-2{
     margin-top:60px;
+  }
+
+  .image-inbetween-text{
+    margin-top:32px;
+    margin-bottom:32px;
   }
 
   .single-item-button{
