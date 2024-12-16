@@ -21,6 +21,9 @@ a, a:visited, a:focus{
   to{bottom:0;opacity:1;}
 } */
 
+html{
+  scroll-behavior: smooth;
+}
 
 /* h1 style */
 h1{
