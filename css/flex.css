@@ -12,9 +12,9 @@ section{
 }
 
 .project-body{
-  margin:0 2.5% 0 2.5%;
+  margin:0 5% 0 5%;
   padding:5% 0;
-  width: 95%;
+  width: 90%;
 }
 
 .project-title-body{
@@ -30,10 +30,16 @@ section{
 }
 
 .carousel{
-  overflow: hidden;
+  overflow: auto;
   white-space: nowrap;
   display:flex;
   margin:0 0 120px 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
 }
 
 .carousel:hover .slide-content{
@@ -52,7 +58,8 @@ section{
 .slide-content{
   display:flex;
   flex:100%;
-  animation: 30s slide infinite linear;
+  animation: 25s slide infinite linear;
+  white-space: nowrap;
 }
 
 .center{
@@ -269,6 +276,10 @@ section{
   flex-basis:100%;
 }
 
+.col-1of6{
+  flex-basis:100%;
+}
+
 .col-2of3{
   flex-basis:100%;
   flex-grow:1;
@@ -281,6 +292,11 @@ section{
 .col-3of5{
   flex-basis:100%;
 }
+
+.col-5of6{
+  flex-basis:100%;
+}
+
 
 .col-rightpanel{
   flex-basis:100%;
@@ -397,6 +413,14 @@ section{
     order:1;
   }
 
+  .col-1of6{
+    flex-basis:10%;
+  }
+
+  .col-5of6{
+    flex-basis:90%;
+  }
+
 }
 
 
@@ -467,6 +491,14 @@ section{
 
   .col-1of4{
     flex-basis:25%;
+  }
+
+  .col-1of6{
+    flex-basis:15%;
+  }
+
+  .col-5of6{
+    flex-basis:85%;
   }
 
 }

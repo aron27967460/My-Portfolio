@@ -46,6 +46,13 @@ h2{
   margin-bottom:0.1em;
 }
 
+.section-header{
+  background:#000000;
+  color:white;
+  padding:8px 24px;
+  margin-bottom:24px;
+}
+
 
 /* h3 style */
 h3{
@@ -74,8 +81,8 @@ h3{
 .about-p{
   font-family:'Stanley', serif;
   font-weight:normal;
-  line-height:1.0em;
-  font-size:2em;
+  line-height:1.2em;
+  font-size:1.5em;
   letter-spacing:0px;
   color:black;
   border-bottom:1px solid transparent;
@@ -223,10 +230,10 @@ strong{
 ul li{
   font-family:'GT-America',Helvetica, sans-serif;
   font-weight:300;
-  line-height:1.6em;
+  line-height:1.4em;
   letter-spacing: 1px;
   font-size:1em;
-  color:#515E65;
+  color:black;
   margin:0.3em 0em;
   padding-bottom:0.6em;
   overflow-wrap: break-word; /*enforce line breaks*/
@@ -307,7 +314,7 @@ video{
 .over-img img{
   width:100%;
   height:auto;
-  z-index:999;
+  z-index:0;
 }
 
 /*image row*/
@@ -1383,7 +1390,7 @@ textarea:focus{
 
   .about-p{
     line-height:1.3em;
-    font-size:2.5em;
+    font-size:1.6em;
     margin:0;
   }
 
@@ -1473,7 +1480,7 @@ textarea:focus{
   .over-img img{
     width:200%;
     height:auto;
-    z-index:999;
+    z-index:0;
   }
 
   .image-row{
@@ -1486,7 +1493,7 @@ textarea:focus{
   }
 
   .quotes{
-    font-size:3em;
+    font-size:2.8em;
     margin:0.3em 0 0.3em 0;
   }
 
@@ -1501,8 +1508,8 @@ textarea:focus{
   }
 
   .about-p{
-    line-height:1.2em;
-    font-size:2.7em;
+    line-height:1.3em;
+    font-size:2em;
     margin:0;
   }
 
@@ -1632,7 +1639,7 @@ textarea:focus{
 
   .about-p{
     line-height:1.3em;
-    font-size:3.5em;
+    font-size:2em;
     margin:0;
   }
 
@@ -1670,7 +1677,7 @@ textarea:focus{
   }
 
   .about-p{
-    font-size:4.5em;
+    font-size:4em;
   }
 
   h1{
