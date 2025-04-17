@@ -42,23 +42,23 @@ section{
   display: none;
 }
 
-.carousel:hover .slide-content{
+/* .carousel:hover .slide-content{
   animation-play-state: paused;
-}
+} */
 
-@keyframes slide{
+/* @keyframes slide{
   from{
     transform: translateX(0);
   }
   to{
     transform: translateX(-100%);
   }
-}
+} */
 
 .slide-content{
   display:flex;
   flex:100%;
-  animation: 25s slide infinite linear;
+  /* animation: 25s slide infinite linear; */
   white-space: nowrap;
 }
 

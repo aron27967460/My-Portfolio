@@ -1084,9 +1084,14 @@ textarea:focus{
   margin: 0px 25px 0px 25px;
 }
 
-.slide-content{
-  margin: 0px 0px;
+.project-item-about:first-child{
+  margin-left: 0;
 }
+
+.project-item-about:last-child{
+  margin-right: 0;
+}
+
 
 .project-wrapper{
   margin: 0 0 0 0;
@@ -1211,10 +1216,6 @@ textarea:focus{
 
   .project-item-about{
     margin: 0px 25px 0px 25px;
-  }
-
-  .slide-content{
-    margin: 0px 8px;
   }
 
   .project-wrapper{
@@ -1586,9 +1587,6 @@ textarea:focus{
     margin: 0px 25px 0px 25px;
   }
 
-  .slide-content{
-    margin: 0px 25px;
-  }
 
   .project-wrapper{
     margin: 0px 0px 96px 0px;
@@ -1670,11 +1668,11 @@ textarea:focus{
 @media (min-width:110em){
 
   #slogan{
-    font-size:7em;
+    font-size:6em;
   }
 
   #let-chat{
-    font-size:7em;
+    font-size:6em;
   }
 
   .about-p{
