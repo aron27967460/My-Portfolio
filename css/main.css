@@ -1075,6 +1075,10 @@ textarea:focus{
   border-top:0px solid #EBEBEB;
 }
 
+.text-block{
+  margin: 0px 0px 48px 0px;
+}
+
 .project-item{
   margin: 0px 0px 48px 0px;
   border-bottom: 3px solid black;
@@ -1209,6 +1213,10 @@ textarea:focus{
     flex:100%;
   }
 
+  .text-block{
+    margin: 0px 8px 0px 8px;
+  }
+
   .project-item{
     margin: 0px 8px 0px 8px;
     border-bottom: 3px solid black;
@@ -1220,6 +1228,14 @@ textarea:focus{
 
   .project-wrapper{
     margin: 0px 0px 60px 0px;
+  }
+
+  .text-block:first-child{
+    margin-left: 0;
+  }
+
+  .text-block:last-child{
+    margin-right: 0;
   }
 
   .project-item:first-child{
@@ -1576,6 +1592,10 @@ textarea:focus{
   .about-size-project{
     flex:30%;
     max-width:365px;
+  }
+
+  .text-block{
+    margin: 0px 25px;
   }
 
   .project-item{
