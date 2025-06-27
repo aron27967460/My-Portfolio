@@ -8,6 +8,14 @@
   <meta property="og:image" content="images/thumbnails/FACEBOOK.png">
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="192x192">
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = (saved === 'dark' || saved === 'light') ? saved : (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/flex.css">
@@ -36,7 +44,16 @@
   <!-- Main Navigation -->
   <a id="toggle" onclick="openNav()">	&#9776;</a>
   <nav class="container nav-bar right">
-      <a href="https://aronchen.com/" id="logo"><img src="images/word-logo.png" alt="logo"></a>
+      <a href="https://aronchen.com/" id="logo"><svg width="171.6" height="24" viewBox="0 0 118 18" fill="" xmlns="http://www.w3.org/2000/svg" class="logo-fill">
+      <path d="M106.278 17V5H108.798V6.824C109.71 5.408 111.102 4.712 112.758 4.712C115.518 4.712 117.102 6.512 117.102 9.632V17H114.462V10.088C114.462 8.192 113.55 7.16 111.846 7.16C109.902 7.16 108.87 8.6 108.87 11.336V17H106.278Z"/>
+      <path d="M92.196 11.048C92.196 7.52 94.524 4.712 98.22 4.712C101.94 4.712 104.052 7.352 104.052 11.048V11.792H94.836V11.816C95.076 13.856 96.708 14.864 98.436 14.864C100.02 14.864 101.196 14.168 102.036 13.304L103.26 15.392C102.276 16.352 100.716 17.288 98.46 17.288C94.62 17.288 92.196 14.744 92.196 11.048ZM101.22 9.824C101.052 8.168 100.044 7.016 98.172 7.016C96.276 7.016 95.172 8.072 94.86 9.824H101.22Z"/>
+      <path d="M81.6827 0.199997V6.824C82.5947 5.36 83.9147 4.712 85.5467 4.712C88.3547 4.712 89.9147 6.536 89.9147 9.752V17H87.2747V10.088C87.2747 8.216 86.3627 7.16 84.7787 7.16C82.7147 7.16 81.6827 8.576 81.6827 11.336V17H79.0907V0.199997H81.6827Z"/>
+      <path d="M71.2545 17C66.6225 17 62.9505 13.376 62.9505 8.6C62.9505 3.8 66.5985 0.199997 71.3265 0.199997C73.6305 0.199997 75.7185 1.064 77.3265 2.528L76.0305 5.072C74.8065 3.8 73.1985 2.936 71.2545 2.936C68.0865 2.936 65.6865 5.24 65.6865 8.6C65.6865 11.96 68.0865 14.264 71.2545 14.264C72.2145 14.264 73.2465 14.096 74.4465 13.52L74.9745 16.232C73.6545 16.736 72.5265 17 71.2545 17Z"/>
+      <path d="M42.7626 17V5H45.2826V6.824C46.1946 5.408 47.5866 4.712 49.2426 4.712C52.0026 4.712 53.5866 6.512 53.5866 9.632V17H50.9466V10.088C50.9466 8.192 50.0346 7.16 48.3306 7.16C46.3866 7.16 45.3546 8.6 45.3546 11.336V17H42.7626Z"/>
+      <path d="M27.8132 11C27.8132 7.328 30.5252 4.712 34.1732 4.712C37.8212 4.712 40.5332 7.328 40.5332 11C40.5332 14.672 37.8212 17.288 34.1732 17.288C30.5252 17.288 27.8132 14.672 27.8132 11ZM37.8692 11C37.8692 8.768 36.3332 7.232 34.1732 7.232C32.0132 7.232 30.4772 8.768 30.4772 11C30.4772 13.232 32.0132 14.768 34.1732 14.768C36.3332 14.768 37.8692 13.232 37.8692 11Z"/>
+      <path d="M22.7351 6.896C23.4551 5.528 24.5831 4.712 26.2631 4.712C26.6951 4.712 27.0551 4.76 27.4391 4.856V7.616C27.0311 7.52 26.5991 7.448 26.1191 7.448C23.7191 7.448 22.8311 8.96 22.8311 11.504V17H20.2391V5H22.7351V6.896Z"/>
+      <path d="M15.48 17L14.112 14.072H4.56L3.216 17H0.216003L8.016 0.199997H10.68L18.48 17H15.48ZM5.832 11.336H12.84L9.336 3.776L5.832 11.336Z"/>
+      </svg></a>
       <a href="https://aronchen.com/" class="nav-button">Work</a>
       <a href="about-me.html" class="nav-button">About</a>
       <a href="files/Resume.pdf" target="_blank" class="nav-button last-nav-button">Resume</a>
@@ -207,5 +224,7 @@
     <div class="footer-button"><a href="citation.html">Citation</a></div>
     <div class="footer-button"><div>&copy; 2025 Aron Chen</div></div>
   </footer>
+
+  <script src="theme.js"></script>
   </body>
 </html>
